@@ -1,0 +1,15 @@
+.btn {
+background:$yellow;
+padding: $_16;
+border: 1px solid $yellow;
+font-weight: $fw_9;
+border:1px solid $yellow;
+border-radius: $_4;
+
+}
+
+.btn:hover {
+ background:$yellow-dark;
+ border:1px solid $yellow-dark;
+
+}

@@ -1,0 +1,33 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+}
+
+.jumbotron {
+  height: 100vh;
+  width:100%;
+  background: linear-gradient(131deg, #92fe9d, #00c9ff);
+background-size: 400% 400%;
+
+-webkit-animation: grade-e-ent 27s ease infinite;
+-moz-animation: grade-e-ent 27s ease infinite;
+animation: grade-e-ent 27s ease infinite;
+
+@-webkit-keyframes grade-e-ent {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@-moz-keyframes grade-e-ent {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@keyframes grade-e-ent {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+}

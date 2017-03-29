@@ -1,0 +1,50 @@
+/* Variables Created 2/27/2017 */
+
+// Font Variables
+
+$rail: 'Raleway', sans-serif;
+$robo: 'Roboto', sans-serif;
+$fw_3: 300;
+$fw_4:400;
+$fw_7: 700;
+$fw_9: 900;
+
+$fs_1: 1em;
+$fs_2: 2.4em;
+$fs_3: 3.2em;
+
+// Color Variables
+
+$yellow: #fbb040;
+$yellow-light: #FDCF8C;
+$yellow-dark: #E29E39;
+
+$blue: #00bce4;
+$blue-light: #66D6EE;
+$blue-dark: #00A7CB;
+
+$white:#fff;
+$white-light: #fafafa;
+$white-dark: #f4f4f4;
+
+$grey: #4d4d4d;
+$grey-light: #B9B9B9;
+$grey-dark: #2d2d2d;
+
+// Height/Width Variables
+
+$mobile:480px;
+$desktop:960px;
+$large:1920px;
+$huge:2880px;
+
+$_4: 4px;
+$_16: 16px;
+$_24: 24px;
+$_40: 40px;
+$_80: 80px;
+$_120: 120px;
+
+$border: 1px solid $white-dark;
+$shadow: 0px 0px 40px 0px rgba(77, 77, 77, 0.1);
+$shadow_small: 0px 0px 16px 0px rgba(77, 77, 77, 0.1);

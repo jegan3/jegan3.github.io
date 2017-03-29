@@ -1,0 +1,52 @@
+html {
+   -webkit-font-smoothing:antialiased;
+   text-rendering:optimizeLegibility;
+ }
+body {
+  font-family:$rail;
+  color:$grey;
+}
+
+//Headings
+
+h1, h2, h3, h4, .display-1, .display-2, .display-3, .display-4 {
+  font-weight: $fw_4;
+  font-family: $robo;
+
+}
+
+.display-1 {
+  color: #fff;
+letter-spacing: -.12em;
+font-size: 10em;
+text-shadow: -10px 10px 0px #00e6e6, -20px 20px 0px #01cccc, -30px 30px 0px #00bdbd;
+}
+
+//Paragraphs, Lists, etc
+
+p, ul.bulleted, ol.bulleted {
+  line-height:1.5; margin-bottom:1.5em;font-weight:$fw_4;
+}
+
+em {
+  font-style:italic;
+}
+
+ol.bulleted { list-style-type:decimal; }
+ul.bulleted { list-style-type:disc; }
+
+.nav {
+  font-weight: $fw_7;
+  line-height: 80px;
+}
+
+  //Custom Boostrap Classes
+
+  .lead {
+    font-weight: $fw_4;
+  }
+
+//Links
+a {
+color:$yellow;
+}

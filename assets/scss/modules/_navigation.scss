@@ -1,0 +1,31 @@
+nav {
+
+margin-bottom:-80px;
+
+
+}
+
+.white {
+  background:#fff;
+  margin-bottom:0px;
+  border-bottom: $border;
+}
+
+.nav {
+  line-height: 80px;
+
+  a {
+    color: $grey;
+  }
+
+  .navbar-brand {
+
+    img {
+      width:100%;
+      max-width:160px;
+      height:auto;
+    }
+
+  }
+
+  }
