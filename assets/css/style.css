@@ -6732,17 +6732,22 @@ ul.bulleted {
 a {
   color: #fbb040; }
 
-.btn {
-  background: #fbb040;
-  padding: 16px;
-  border: 1px solid #fbb040;
-  font-weight: 900;
-  border: 1px solid #fbb040;
+button {
   border-radius: 4px; }
+  button .yellow {
+    background: #fbb040;
+    border: 1px solid #fbb040;
+    color: #fff; }
+    button .yellow:hover {
+      background: #E29E39;
+      border: 1px solid #E29E39; }
 
-.btn:hover {
-  background: #E29E39;
-  border: 1px solid #E29E39; }
+.btn-outline {
+  border: 1px solid #fbb040;
+  color: #E29E39; }
+  .btn-outline:hover {
+    background: #fbb040;
+    color: #fff; }
 
 /* Navigation Styles Updated 20170329 */
 .white {
@@ -6763,7 +6768,7 @@ a {
   width: 100%;
   background: #fafafa;
   margin-top: -112px;
-  padding-top: 112px; }
+  padding-top: 192px; }
 
 .jellyhead {
   height: 120px;
