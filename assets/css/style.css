@@ -6724,8 +6724,7 @@ ul.bulleted {
   list-style-type: disc; }
 
 .nav {
-  font-weight: 700;
-  line-height: 80px; }
+  font-weight: 700; }
 
 .lead {
   font-weight: 400; }
@@ -6745,22 +6744,17 @@ a {
   background: #E29E39;
   border: 1px solid #E29E39; }
 
-nav {
-  margin-bottom: -80px; }
-
+/* Navigation Styles Updated 20170329 */
 .white {
   background: #fff;
-  margin-bottom: 0px;
   border-bottom: 1px solid #f4f4f4; }
 
-.nav {
-  line-height: 80px; }
-  .nav a {
-    color: #4d4d4d; }
-  .nav .navbar-brand img {
-    width: 100%;
-    max-width: 160px;
-    height: auto; }
+.nav a {
+  color: #4d4d4d; }
+.nav .navbar-brand img {
+  width: 100%;
+  max-width: 160px;
+  height: auto; }
 
 @media screen and (min-width: 1200px) {
   .container {
