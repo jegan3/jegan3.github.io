@@ -1,8 +1,9 @@
 /* Updated 20170329 */
 
-//Variables
+//Variables & Mixins
 
 @import "modules/vars";
+@import "modules/mixins";
 
 /* Bootstrap v4 Alpha */
 
@@ -14,7 +15,6 @@
 @import "modules/typography";
 @import "modules/buttons";
 @import "modules/forms";
-@import "modules/mixins";
 @import "modules/navigation";
 @import "modules/page-content";
 @import "modules/animation";

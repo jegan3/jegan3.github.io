@@ -1,5 +1,6 @@
 button {
-  border-radius: $_4;
+  @include bradius;
+  padding: 12px 24px;
 
 .yellow {
   background:$yellow;
@@ -14,6 +15,14 @@ button {
 }
 }
 
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn.focus {
+  box-shadow: none;
+}
+
 .btn-outline {
   border:1px solid $yellow;
   color:$yellow-dark;
@@ -24,3 +33,11 @@ button {
   }
 
 }
+
+
+.navbar-toggleable-md .navbar-collapse {
+ @media screen and (min-width: $desktop) {
+       justify-content: space-between;
+
+ }
+ }

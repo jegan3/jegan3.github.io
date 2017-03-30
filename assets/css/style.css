@@ -6731,9 +6731,12 @@ ul.bulleted {
 
 a {
   color: #fbb040; }
+  a:focus, a:hover {
+    color: #E29E39; }
 
 button {
-  border-radius: 4px; }
+  border-radius: 4px;
+  padding: 12px 24px; }
   button .yellow {
     background: #fbb040;
     border: 1px solid #fbb040;
@@ -6742,12 +6745,22 @@ button {
       background: #E29E39;
       border: 1px solid #E29E39; }
 
+.btn:focus {
+  box-shadow: none; }
+
+.btn.focus {
+  box-shadow: none; }
+
 .btn-outline {
   border: 1px solid #fbb040;
   color: #E29E39; }
   .btn-outline:hover {
     background: #fbb040;
     color: #fff; }
+
+@media screen and (min-width: 960px) {
+  .navbar-toggleable-md .navbar-collapse {
+    justify-content: space-between; } }
 
 /* Navigation Styles Updated 20170329 */
 .white {
@@ -6761,14 +6774,24 @@ button {
   max-width: 160px;
   height: auto; }
 
+.dropdown-menu {
+  border-radius: 4px;
+  border: 1px solid #f4f4f4;
+  color: #grey; }
+
+.dropdown-item .active, .dropdown-item:active {
+  background-color: #fafafa; }
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 960px; } }
 .jumbotron {
   width: 100%;
-  background: #fafafa;
-  margin-top: -112px;
-  padding-top: 192px; }
+  background: #fafafa; }
+  @media screen and (min-width: 960px) {
+    .jumbotron {
+      margin-top: -112px;
+      padding-top: 192px; } }
 
 .jellyhead {
   height: 120px;

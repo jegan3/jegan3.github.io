@@ -1,0 +1,35 @@
+// Mixins Created 20170330
+
+@mixin h_center {
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
+
+@mixin borda {
+  border:1px solid $white-dark;
+}
+
+@mixin bradius {
+  border-radius: $_4;
+}
+
+@mixin bradius_borda {
+  border-radius: $_4;
+  border:1px solid $white-dark;
+}
+
+@mixin hero_blank-nav {
+@media screen and (min-width: $desktop) {
+margin-top: -112px;
+padding-top: 192px;
+}
+
+}
+
+@mixin mobile-no {
+  @media screen and (min-width: $desktop) {
+    display:none;
+  }
+}

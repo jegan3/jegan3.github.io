@@ -46,4 +46,9 @@ ul.bulleted { list-style-type:disc; }
 //Links
 a {
 color:$yellow;
+
+
+&:focus, &:hover {
+    color: $yellow-dark;
+  }
 }

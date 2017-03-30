@@ -8,6 +8,7 @@
 .jumbotron {
   width:100%;
   background: $white-light;
-  margin-top: -112px;
-  padding-top: 192px;
+
+  @include hero_blank-nav;
+
 }

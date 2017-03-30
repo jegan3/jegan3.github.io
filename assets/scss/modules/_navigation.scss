@@ -1,7 +1,7 @@
 /* Navigation Styles Updated 20170329 */
 
 .white {
-  background:#fff;
+  background:$white;
   border-bottom: $border;
 }
 
@@ -17,4 +17,15 @@
       height:auto;
     }
   }
+}
+
+.dropdown-menu {
+@include bradius_borda;
+color: #grey;
+}
+
+.dropdown-item {
+.active, &:active {
+background-color:$white-light;
+}
 }
