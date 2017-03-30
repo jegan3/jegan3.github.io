@@ -1,5 +1,5 @@
-/* Created: 2/27/2017 */
-/* Variables Created 2/27/2017 */
+/* Updated 20170329 */
+/* Variables Updated 20170329 */
 /* Bootstrap v4 Alpha */
 /*!
  * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
@@ -6698,18 +6698,16 @@ html {
   text-rendering: optimizeLegibility; }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #4d4d4d; }
 
 h1, h2, h3, h4, .display-1, .display-2, .display-3, .display-4 {
-  font-weight: 400;
-  font-family: "Roboto", sans-serif; }
+  font-weight: 700;
+  font-family: "Lato", sans-serif; }
 
 .display-1 {
-  color: #fff;
-  letter-spacing: -.12em;
-  font-size: 10em;
-  text-shadow: -10px 10px 0px #00e6e6, -20px 20px 0px #01cccc, -30px 30px 0px #00bdbd; }
+  color: #4d4d4d;
+  font-size: 6em; }
 
 p, ul.bulleted, ol.bulleted {
   line-height: 1.5;
@@ -6770,32 +6768,8 @@ nav {
 .jumbotron {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(131deg, #92fe9d, #00c9ff);
-  background-size: 400% 400%;
-  -webkit-animation: grade-e-ent 27s ease infinite;
-  -moz-animation: grade-e-ent 27s ease infinite;
-  animation: grade-e-ent 27s ease infinite; }
-@-webkit-keyframes grade-e-ent {
-  0% {
-    background-position: 0% 11%; }
-  50% {
-    background-position: 100% 90%; }
-  100% {
-    background-position: 0% 11%; } }
-@-moz-keyframes grade-e-ent {
-  0% {
-    background-position: 0% 11%; }
-  50% {
-    background-position: 100% 90%; }
-  100% {
-    background-position: 0% 11%; } }
-@keyframes grade-e-ent {
-  0% {
-    background-position: 0% 11%; }
-  50% {
-    background-position: 100% 90%; }
-  100% {
-    background-position: 0% 11%; } }
+  background: #fafafa; }
+
 .jellyhead {
   height: 120px;
   overflow: hidden; }

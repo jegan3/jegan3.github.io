@@ -3,23 +3,21 @@ html {
    text-rendering:optimizeLegibility;
  }
 body {
-  font-family:$rail;
+  font-family:$lat;
   color:$grey;
 }
 
 //Headings
 
 h1, h2, h3, h4, .display-1, .display-2, .display-3, .display-4 {
-  font-weight: $fw_4;
-  font-family: $robo;
+  font-weight: $fw_7;
+  font-family:$lat;
 
 }
 
 .display-1 {
-  color: #fff;
-letter-spacing: -.12em;
-font-size: 10em;
-text-shadow: -10px 10px 0px #00e6e6, -20px 20px 0px #01cccc, -30px 30px 0px #00bdbd;
+  color: $grey;
+font-size: 6em;
 }
 
 //Paragraphs, Lists, etc
