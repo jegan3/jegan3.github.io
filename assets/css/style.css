@@ -6796,5 +6796,13 @@ nav {
     background-position: 100% 90%; }
   100% {
     background-position: 0% 11%; } }
+.jellyhead {
+  height: 120px;
+  overflow: hidden; }
+  .jellyhead h1 {
+    margin: 0;
+    height: 120px;
+    line-height: 120px;
+    transition: margin-top .3s ease; }
 
 /*# sourceMappingURL=style.css.map */
