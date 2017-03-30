@@ -6767,7 +6767,9 @@ nav {
     max-width: 960px; } }
 .jumbotron {
   width: 100%;
-  background: #fafafa; }
+  background: #fafafa;
+  margin-top: -112px;
+  padding-top: 112px; }
 
 .jellyhead {
   height: 120px;
