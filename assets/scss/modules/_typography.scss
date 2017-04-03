@@ -2,8 +2,13 @@ html {
    -webkit-font-smoothing:antialiased;
    text-rendering:optimizeLegibility;
  }
-body {
+
+*, button {
   font-family:$lat;
+}
+
+body {
+
   color:$grey;
 }
 
@@ -17,7 +22,7 @@ h1, h2, h3, h4, .display-1, .display-2, .display-3, .display-4 {
 
 .display-1 {
   color: $grey;
-font-size: 6em;
+font-size: 3em;
 }
 
 //Paragraphs, Lists, etc

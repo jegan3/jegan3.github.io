@@ -19,11 +19,23 @@
     {% endif %}
     <!-- /404 Redirect -->
 
+    <!-- JS to delay animations until page fully loads -->
+    <script>
+    document.body.className += " js-loading";
+window.addEventListener("load", removeLoadingClass, false);
+function removeLoadingClass() {
+  document.body.className = document.body.className.replace("js-loading","");
+}
+</script>
+
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
+    <link rel="stylesheet" href="{{ page.base_url }}assets/css/animate.css" />
     <link rel="stylesheet" href="{{ page.base_url }}assets/css/style.css" />
-    <link rel="stylesheet" href="{{ page.base_url }}assets/fonts/font-awesome.min.css" />
+    <script src="https://use.fontawesome.com/c26e54a765.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+
+
 
 
 
@@ -41,4 +53,4 @@
     <link rel="apple-touch-icon-precomposed" href="http://foundation-forum2.zurbstatic.com/assets/favicons/apple-touch-icon-precomposed-197a05ba144fa3c26d536f2295cc056e.png">
 
 </head>
-<body>
+<body class="wow fadeIn" data-wow-duration="2s">

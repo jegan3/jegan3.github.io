@@ -1,6 +1,6 @@
 button {
-  @include bradius;
-  padding: 12px 24px;
+
+
 
 .yellow {
   background:$yellow;
@@ -15,12 +15,18 @@ button {
 }
 }
 
-.btn:focus {
+.btn {
+@include bradius;
+padding: 12px 24px;
+
+&:focus {
   box-shadow: none;
 }
 
-.btn.focus {
+.focus {
   box-shadow: none;
+}
+
 }
 
 .btn-outline {
@@ -41,3 +47,19 @@ button {
 
  }
  }
+
+.nav_btn {
+
+  @media screen and (min-width: $desktop) {
+        padding-left: $_16;
+        padding-right:$_24;
+
+  }
+
+}
+
+.main-cta {
+  @media screen and (min-width: $desktop) {
+  font-size:20px;
+}
+}

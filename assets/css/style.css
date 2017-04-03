@@ -6697,8 +6697,10 @@ html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
+*, button {
+  font-family: "Lato", sans-serif; }
+
 body {
-  font-family: "Lato", sans-serif;
   color: #4d4d4d; }
 
 h1, h2, h3, h4, .display-1, .display-2, .display-3, .display-4 {
@@ -6707,7 +6709,7 @@ h1, h2, h3, h4, .display-1, .display-2, .display-3, .display-4 {
 
 .display-1 {
   color: #4d4d4d;
-  font-size: 6em; }
+  font-size: 3em; }
 
 p, ul.bulleted, ol.bulleted {
   line-height: 1.5;
@@ -6734,22 +6736,21 @@ a {
   a:focus, a:hover {
     color: #E29E39; }
 
-button {
+button .yellow {
+  background: #fbb040;
+  border: 1px solid #fbb040;
+  color: #fff; }
+  button .yellow:hover {
+    background: #E29E39;
+    border: 1px solid #E29E39; }
+
+.btn {
   border-radius: 4px;
   padding: 12px 24px; }
-  button .yellow {
-    background: #fbb040;
-    border: 1px solid #fbb040;
-    color: #fff; }
-    button .yellow:hover {
-      background: #E29E39;
-      border: 1px solid #E29E39; }
-
-.btn:focus {
-  box-shadow: none; }
-
-.btn.focus {
-  box-shadow: none; }
+  .btn:focus {
+    box-shadow: none; }
+  .btn .focus {
+    box-shadow: none; }
 
 .btn-outline {
   border: 1px solid #fbb040;
@@ -6761,6 +6762,15 @@ button {
 @media screen and (min-width: 960px) {
   .navbar-toggleable-md .navbar-collapse {
     justify-content: space-between; } }
+
+@media screen and (min-width: 960px) {
+  .nav_btn {
+    padding-left: 16px;
+    padding-right: 24px; } }
+
+@media screen and (min-width: 960px) {
+  .main-cta {
+    font-size: 20px; } }
 
 /* Navigation Styles Updated 20170329 */
 .white {
@@ -6793,6 +6803,11 @@ button {
       margin-top: -112px;
       padding-top: 192px; } }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important; }
+
 .jellyhead {
   height: 120px;
   overflow: hidden; }
@@ -6801,5 +6816,9 @@ button {
     height: 120px;
     line-height: 120px;
     transition: margin-top .3s ease; }
+
+#prod_hero {
+  margin-top: -15%;
+  padding: 0px; }
 
 /*# sourceMappingURL=style.css.map */
