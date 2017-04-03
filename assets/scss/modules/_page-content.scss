@@ -10,5 +10,12 @@
   background: $white-light;
 
   @include hero_blank-nav;
+  padding-bottom:0px;
 
+}
+
+
+.trio {
+  font-size:1.2rem;
+  max-width:80%;
 }

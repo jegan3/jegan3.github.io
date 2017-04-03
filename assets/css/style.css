@@ -6707,9 +6707,12 @@ h1, h2, h3, h4, .display-1, .display-2, .display-3, .display-4 {
   font-weight: 700;
   font-family: "Lato", sans-serif; }
 
+h2 {
+  font-size: 1.6rem; }
+
 .display-1 {
   color: #4d4d4d;
-  font-size: 3em; }
+  font-size: 4rem; }
 
 p, ul.bulleted, ol.bulleted {
   line-height: 1.5;
@@ -6797,11 +6800,16 @@ button .yellow {
     max-width: 960px; } }
 .jumbotron {
   width: 100%;
-  background: #fafafa; }
+  background: #fafafa;
+  padding-bottom: 0px; }
   @media screen and (min-width: 960px) {
     .jumbotron {
       margin-top: -112px;
       padding-top: 192px; } }
+
+.trio {
+  font-size: 1.2rem;
+  max-width: 80%; }
 
 .js-loading *,
 .js-loading *:before,

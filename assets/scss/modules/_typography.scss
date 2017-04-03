@@ -20,9 +20,14 @@ h1, h2, h3, h4, .display-1, .display-2, .display-3, .display-4 {
 
 }
 
+h2 {
+  font-size:1.6rem;
+
+}
+
 .display-1 {
   color: $grey;
-font-size: 3em;
+font-size: 4rem;
 }
 
 //Paragraphs, Lists, etc
@@ -46,6 +51,8 @@ ul.bulleted { list-style-type:disc; }
 
   .lead {
     font-weight: $fw_4;
+
+
   }
 
 //Links
