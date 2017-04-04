@@ -1,3 +1,7 @@
+html {
+  overflow-x:hidden;
+}
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 960px;
@@ -62,7 +66,7 @@
 
 .interlocked {
   @media screen and (min-width: $desktop) {
-  margin-bottom:-80px;
+  margin-bottom:-140px;
 }
 }
 
@@ -72,4 +76,13 @@
 
 .right {
   float:right;
+}
+
+.left-right-bord {
+  border-left:1px solid #d6d6d6;
+  border-right: 1px solid #d6d6d6;
+}
+
+.borda_bottom {
+  @include borda_bottom;
 }

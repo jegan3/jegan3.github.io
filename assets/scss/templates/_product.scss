@@ -1,15 +1,24 @@
 #prod_hero {
-  margin-top:-15%;
+  margin-top:-20%;
   padding:0px;
+
+  svg {
+    width:124%;
+    margin-left:-6%;
+  }
 }
 
 #prod_calendar {
 
-   max-width: 720px;
-   width: 80%;
+  max-width: 620px;
+  opacity: .88;
 }
 
 #prod_int {
   max-width:700px;
 
+}
+
+#clouds {
+  background: url(../img/prod_clouds.svg);
 }
