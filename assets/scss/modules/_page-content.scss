@@ -4,23 +4,31 @@ html {
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 960px;
+    max-width: 1040px;
   }
 
 }
 
 .jumbotron {
   width:100%;
-  background: $white-light;
+  background: $white;
 
   @include hero_blank-nav;
-  padding-bottom:40px;
+  padding-bottom:0px;
   margin-bottom:0px;
 
 }
 
+.p_left-0 {
+  padding-left:0px;
+}
+
 .grey {
   background-color: $white-light;
+}
+
+.white {
+  @include white;
 }
 
 .v_center {
@@ -43,8 +51,6 @@ html {
 
   h2 {
 
-  @include h_center;
-  border-bottom: 1px solid #d6d6d6;
   padding-bottom: 24px;
   width: 40%;
 
@@ -66,9 +72,10 @@ html {
 
 .interlocked {
   @media screen and (min-width: $desktop) {
-  margin-bottom:-140px;
+  margin-bottom:-120px;
 }
 }
+
 
 .left {
   float:left;
@@ -78,11 +85,28 @@ html {
   float:right;
 }
 
-.left-right-bord {
-  border-left:1px solid #d6d6d6;
-  border-right: 1px solid #d6d6d6;
-}
 
 .borda_bottom {
   @include borda_bottom;
+}
+
+.pill_container {
+  padding:16px 0;
+}
+
+.pill {
+  background: $blue-light;
+  padding: 8px 12px;
+  font-size: .9rem;
+  color: $white !important;
+  font-weight: 400;
+  border-radius: 50px;
+
+}
+
+.trio_container {
+  padding-top: 40px;
+  padding-bottom:40px;
+  @include borda_top;
+  background: $white;
 }

@@ -2,13 +2,17 @@
 
 .white {
   background:$white;
-  border-bottom: $border;
+  @include borda_bottom;
 }
 
 .nav {
   a {
     color: $grey;
   }
+
+  height:80px;
+  line-height:80px;
+  background: $white;
 
   .navbar-brand {
     img {

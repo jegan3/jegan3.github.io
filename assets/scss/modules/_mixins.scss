@@ -7,12 +7,17 @@
     }
 }
 
+
 @mixin borda {
-  border:1px solid $white-dark;
+  border: $default_borda;
 }
 
 @mixin borda_bottom {
-  border-bottom:1px solid $grey-light;
+  border-bottom: $default_borda;
+}
+
+@mixin borda_top {
+  border-top: $default_borda;
 }
 
 @mixin bradius {
@@ -21,7 +26,7 @@
 
 @mixin bradius_borda {
   border-radius: $_4;
-  border:1px solid $white-dark;
+  border: $default_borda;
 }
 
 @mixin hero_blank-nav {
@@ -48,6 +53,10 @@ padding-top: 192px;
   margin-left:auto;
   margin-right:auto;
   }
+
+@mixin white {
+  background: #fff;
+}
 
 @mixin v_center {
   -ms-flex-align: center;

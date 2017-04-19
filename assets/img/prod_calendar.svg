@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="638px" height="422px" viewBox="0 0 638 422" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 33</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Product" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy" transform="translate(-802.000000, -1572.000000)">
-            <g id="Group-33" transform="translate(802.000000, 1574.000000)">
-                <path d="M505,0 L505,416.51001" id="Line" stroke="#EAEAEA" stroke-width="4" stroke-linecap="square" stroke-dasharray="1,16,1"></path>
-                <path d="M305,1 L305,417.51001" id="Line-Copy-24" stroke="#EAEAEA" stroke-width="4" stroke-linecap="square" stroke-dasharray="1,16,1"></path>
-                <path d="M105,1 L105,417.51001" id="Line-Copy-25" stroke="#EAEAEA" stroke-width="4" stroke-linecap="square" stroke-dasharray="1,16,1"></path>
-                <rect id="Rectangle-20" fill="#FDCF8C" x="132" y="38" width="552" height="40" rx="20"></rect>
-                <rect id="Rectangle-20-Copy" fill="#FDCF8C" x="0" y="100" width="699" height="40" rx="20"></rect>
-                <rect id="Rectangle-20-Copy-2" fill="#FBB040" x="133" y="160" width="642" height="40" rx="20"></rect>
-                <rect id="Rectangle-20-Copy-3" fill="#FBB040" x="0" y="220" width="699" height="40" rx="20"></rect>
-                <rect id="Rectangle-20-Copy-4" fill="#E29E39" x="133" y="280" width="594" height="40" rx="20"></rect>
-                <rect id="Rectangle-20-Copy-5" fill="#E29E39" x="333" y="340" width="594" height="40" rx="20"></rect>
-            </g>
-        </g>
+
+<svg  id="test" class="wow fadeInUp" data-wow-delay="1s" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 638 420">
+  <g fill="none" fill-rule="evenodd">
+    <path class="wow bounceInUp" stroke="#EAEAEA" stroke-width="2" d="M504 1v416.51001M304 2v416.51001M104 2v416.51001" stroke-linecap="square" stroke-dasharray="1 16 1"/>
+    <g class="wow fadeIn" transform="translate(-802.000000, -1573.000000) translate(802.000000, 1574.000000) translate(0.000000, 38.000000)">
+      <rect width="552" height="40" x="132" fill="#E5F8FC" rx="20"/>
+      <rect width="699" height="40" y="62" fill="#E5F8FC" rx="20"/>
+      <rect width="642" height="40" x="133" y="122" fill="#66D6EE" rx="20"/>
+      <rect width="699" height="40" y="182" fill="#66D6EE" rx="20"/>
+      <rect width="594" height="40" x="133" y="242" fill="#00BCE4" rx="20"/>
+      <rect width="594" height="40" x="333" y="302" fill="#00BCE4" rx="20"/>
     </g>
+  </g>
 </svg>
