@@ -48,11 +48,10 @@ html {
 
 .trio_topics {
   @include padding_tb;
-
+  padding-left:0px;
   h2 {
 
-  padding-bottom: 24px;
-  width: 40%;
+  padding-bottom: 40px;
 
   }
 }
@@ -105,8 +104,11 @@ html {
 }
 
 .trio_container {
-  padding-top: 40px;
-  padding-bottom:40px;
+  @include padding_tb;
   @include borda_top;
   background: $white;
+}
+
+.o_hidden {
+  @include overflow;
 }

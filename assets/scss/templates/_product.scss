@@ -35,15 +35,32 @@ padding-top: 16px;
   float:left;
 }
 
-#prod_calendar {
-  max-width:600px !important;
-}
-
-#prod_integrations {
-  max-width:700px !important;
-}
-
 #prod_hero-object {
   max-width: 1800px !important;
   width: 96%;
+}
+
+#prod_calendar {
+  max-width:600px !important;
+  width: 90%;
+}
+
+#prod_integrations {
+  max-width: 760px !important;
+  width: 90%;
+}
+
+
+#prod_routing {
+  max-width: 600px !important;
+  width: 80%;
+  padding-top:40px;
+  padding-bottom:80px;
+}
+
+#prod_annotation {
+  max-width: 600px !important;
+  width: 80%;
+  padding-top:40px;
+  padding-bottom:80px;
 }

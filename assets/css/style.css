@@ -6776,10 +6776,6 @@ a {
     font-size: 20px; } }
 
 /* Navigation Styles Updated 20170329 */
-.white {
-  background: #fff;
-  border-bottom: 1px solid #f4f4f4; }
-
 .nav {
   height: 80px;
   line-height: 80px;
@@ -6840,10 +6836,10 @@ html {
 
 .trio_topics {
   padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  padding-left: 0px; }
   .trio_topics h2 {
-    padding-bottom: 24px;
-    width: 40%; }
+    padding-bottom: 40px; }
 
 @media screen and (max-width: 960px) {
   .offset-md-2 {
@@ -6882,6 +6878,9 @@ html {
   padding-bottom: 40px;
   border-top: 1px solid #f4f4f4;
   background: #fff; }
+
+.o_hidden {
+  overflow: hidden; }
 
 .js-loading *,
 .js-loading *:before,
@@ -6923,14 +6922,28 @@ html {
 .prod_graphics-left {
   float: left; }
 
-#prod_calendar {
-  max-width: 600px !important; }
-
-#prod_integrations {
-  max-width: 700px !important; }
-
 #prod_hero-object {
   max-width: 1800px !important;
   width: 96%; }
+
+#prod_calendar {
+  max-width: 600px !important;
+  width: 90%; }
+
+#prod_integrations {
+  max-width: 760px !important;
+  width: 90%; }
+
+#prod_routing {
+  max-width: 600px !important;
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 80px; }
+
+#prod_annotation {
+  max-width: 600px !important;
+  width: 80%;
+  padding-top: 40px;
+  padding-bottom: 80px; }
 
 /*# sourceMappingURL=style.css.map */

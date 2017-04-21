@@ -58,6 +58,10 @@ padding-top: 192px;
   background: #fff;
 }
 
+@mixin overflow {
+  overflow: hidden;
+}
+
 @mixin v_center {
   -ms-flex-align: center;
 	-webkit-align-items: center;

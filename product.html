@@ -50,12 +50,12 @@ layout: default
   </div>
 </section>
 
-<section class="grey wow fadeIn">
+<section class="grey wow fadeIn o_hidden">
   <div class="container-fluid">
-    <div class="col-md-4 offset-md-2 trio_topics">
+    <div class="text-center trio_topics">
       <h2>Prepare</h2>
     </div>
-    <div class="row v_center interlocked">
+    <div class="row v_center">
       <div class="col-md-4 offset-md-2 align-middle">
         <h2>Flexible On-Call Scheduling</h2>
         <p>Set up on-call users and teams in rotations and escalation policies based on time, alert severity, type of alert, or other custom factors. Choose from a range of contact methods (SMS, phone, push, email, chat). See who is on-call and active. Let users easily “tap out” of a scheduled shift. </p>
@@ -91,50 +91,60 @@ layout: default
 </div>
 </section>
 
-<section class="wow fadeIn">
+<section class="wow fadeIn o_hidden">
   <div class="container-fluid">
-    <div class="col-md-6 offset-md-3 text-center trio_topics">
+    <div class="text-center trio_topics">
       <h2>Respond</h2>
     </div>
     <div class="row v_center">
       <div class="col-md-4 offset-md-2 align-middle">
-        <h2>Powerful Incident Routing</h2>
+        <h2>Intelligent Incident Routing</h2>
         <p>Silence unactionable alerts, rank them by severity, and automatically route them to the right responder. VictorOps offers alert transformations that ensure that the right expert get on the case, and that nobody wakes up in the middle of the night unless there is a very good reason.</p>
       </div>
-      <div class="col-md-6 img_col">
+      <div class="col-md-6 text-center img_col">
+        <object id="prod_routing" type="image/svg+xml" data="{{ page.base_url }}assets/img/prod_routing.svg">
+        Your Browser is garbage, please use Chrome or Firefox like the rest of the world <!-- fallback image in CSS -->
+        </object>
       </div>
     </div>
     <div class="row v_center">
-      <div class="col-md-6 img_col">
+      <div class="col-md-6 text-center img_col">
+        <object id="prod_annotation" type="image/svg+xml" data="{{ page.base_url }}assets/img/prod_annotation.svg">
+        Your Browser is garbage, please use Chrome or Firefox like the rest of the world <!-- fallback image in CSS -->
+        </object>
+
 
       </div>
       <div class="col-md-4 align-middle">
         <h2>Enhanced Incident Context</h2>
-        <p>Send remediation instructions, monitoring graphs, and other relevant information alongside alerts, so that responders can deal with the problem fast.<br /><br /><a href="">See our guide to Minimum Viable Runbooks</a>
+        <p>Send remediation instructions, monitoring graphs, and other relevant information alongside alerts, so that responders can deal with the problem fast.<br /><a href="">See our guide to Minimum Viable Runbooks</a>
         </p>
       </div>
     </div>
-    <div class="row v_center">
-      <div class="col-md-4 offset-md-2 align-middle">
+    <div class="row v_center" style="margin-bottom:-300px;">
+      <div class="col-md-4 offset-md-2 align-middle" style="margin-bottom:280px;">
         <h2>On-Call Mobility</h2>
         <p>The VictorOps full-featured mobile experience empowers your teams to live their lives while being on-call anywhere, anytime. All interfaces to the platform provide the same features and functionality across web, iOS, and Android.</p>
       </div>
-      <div class="col-md-6 img_col">
+      <div class="col-md-6 text-center img_col">
+        <object id="" type="image/svg+xml" data="{{ page.base_url }}assets/img/prod_mobile.svg">
+        Your Browser is garbage, please use Chrome or Firefox like the rest of the world <!-- fallback image in CSS -->
+        </object>
 
       </div>
     </div>
   </div>
 </section>
 
-<section class="grey">
+<section class="grey o_hidden">
   <div class="container-fluid">
-    <div class="col-md-6 offset-md-3 text-center trio_topics">
+    <div class="text-center trio_topics">
       <h2>Recover</h2>
     </div>
     <div class="row v_center">
       <div class="col-md-4 offset-md-2 align-middle">
         <h2>Integrated Communication Platform</h2>
-        <p>Platform integrations empower your team to interact with VictorOps using whichever communication or workflow systems they regularly work in. Slack, HipChat, JIRA, ServiceNow, Big Panda, Zendesk and more. <br /><br /><a href="">Our Latest ChatOps book, from O’Reilly Media, is now available!</a></p>
+        <p>Platform integrations empower your team to interact with VictorOps using whichever communication or workflow systems they regularly work in. Slack, HipChat, JIRA, ServiceNow, Big Panda, Zendesk and more. <br /><a href="">Our Latest ChatOps book, from O’Reilly Media, is now available!</a></p>
       </div>
       <div class="col-md-6 img_col">
       </div>
@@ -158,6 +168,7 @@ layout: default
         <p>Use VictorOps API calls to customize and extend functionality to meet your needs. Outbound webhooks extend platform data into other systems, allowing for everything from custom dashboarding to fixing standard recurring issues automatically.</p>
       </div>
       <div class="col-md-6 img_col">
+
 
       </div>
     </div>
