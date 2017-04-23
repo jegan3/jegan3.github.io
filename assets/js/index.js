@@ -4,6 +4,47 @@
  * Updated: 20170327
  */
 
+
+ // Sticky Nav
+ // Hide Header on on scroll down
+ var didScroll;
+ var lastScrollTop = 0;
+ var delta = 5;
+ var navbarHeight = $('header').outerHeight();
+
+ $(window).scroll(function(event){
+     didScroll = true;
+ });
+
+ setInterval(function() {
+     if (didScroll) {
+         hasScrolled();
+         didScroll = false;
+     }
+ }, 250);
+
+ function hasScrolled() {
+     var st = $(this).scrollTop();
+
+     // Make sure they scroll more than delta
+     if(Math.abs(lastScrollTop - st) <= delta)
+         return;
+
+     // If they scrolled down and are past the navbar, add class .nav-up.
+     // This is necessary so you never see what is "behind" the navbar.
+     if (st > lastScrollTop && st > navbarHeight){
+         // Scroll Down
+         $('header').removeClass('nav-down').addClass('nav-up');
+     } else {
+         // Scroll Up
+         if(st + $(window).height() < $(document).height()) {
+             $('header').removeClass('nav-up').addClass('nav-down');
+         }
+     }
+
+     lastScrollTop = st;
+ }
+
 /* Header Text Swap Animation */
 (function($) {
   var duration = 3000;  // change this to change rotation time in milliseconds
@@ -29,34 +70,6 @@
 $(document).ready(function() {
     $('a[href="' + this.location.pathname + '"]').parent().addClass('active');
 });
-
-function pathPrepare ($el) {
-		var lineLength = $el[0].getTotalLength();
-		$el.css("stroke-dasharray", lineLength);
-		$el.css("stroke-dashoffset", lineLength);
-	}
-
-	var $word = $("path#word");
-	var $dot = $("path#dot");
-
-	// prepare SVG
-	pathPrepare($word);
-	pathPrepare($dot);
-
-	// init controller
-	var controller = new ScrollMagic.Controller();
-
-	// build tween
-	var tween = new TimelineMax()
-		.add(TweenMax.to($word, 0.9, {strokeDashoffset: 0, ease:Linear.easeNone})) // draw word for 0.9
-		.add(TweenMax.to($dot, 0.1, {strokeDashoffset: 0, ease:Linear.easeNone}))  // draw dot for 0.1
-		.add(TweenMax.to("path", 1, {stroke: "#33629c", ease:Linear.easeNone}), 0);			// change color during the whole thing
-
-	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 200, tweenChanges: true})
-					.setTween(tween)
-					.addIndicators() // add indicators (requires plugin)
-					.addTo(controller);
 
 
 // Blur Up Img on load
@@ -114,4 +127,13 @@ window.onload = function loadStuff() {
   if (bigSrc) {
     img.src = bigSrc;
   }
+};
+
+// Inject Classes into svg
+
+window.onload = function(){
+
+        //apply embed css to the svg object
+        $("#prod_mobile-oval").setSVGStyle("margin-top:2000px;");
+
 };

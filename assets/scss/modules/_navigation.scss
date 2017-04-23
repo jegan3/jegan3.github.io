@@ -6,9 +6,12 @@
     color: $grey;
   }
 
+
+
   height:80px;
   line-height:80px;
   background: $white;
+
 
   .navbar-brand {
     img {
@@ -19,6 +22,11 @@
   }
 }
 
+.nav-up {
+    top: -80px;
+}
+
+
 .dropdown-menu {
 @include bradius_borda;
 color: #grey;
@@ -28,4 +36,13 @@ color: #grey;
 .active, &:active {
 background-color:$white-light;
 }
+}
+
+header {
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    z-index:1;
+    @include borda_bottom;
 }
