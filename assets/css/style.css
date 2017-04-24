@@ -6714,6 +6714,13 @@ h2 {
   color: #4d4d4d;
   font-size: 2.8rem; }
 
+.title_caps {
+  color: #B9B9B9;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-bottom: 0px; }
+
 p, ul.bulleted, ol.bulleted {
   line-height: 1.5;
   margin-bottom: 1.5em;
@@ -6946,18 +6953,18 @@ html {
 
 #prod_routing {
   max-width: 600px !important;
-  width: 80%;
+  width: 72%;
   padding-top: 40px;
   padding-bottom: 80px; }
 
 #prod_annotation {
   max-width: 600px !important;
-  width: 80%;
+  width: 72%;
   padding-top: 40px;
   padding-bottom: 80px; }
 
 #prod_mobile {
-  width: 80%;
+  width: 72%;
   max-width: 580px !important; }
 
 /*# sourceMappingURL=style.css.map */

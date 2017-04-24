@@ -30,6 +30,15 @@ h2 {
 font-size: 2.8rem;
 }
 
+.title_caps {
+  color: $grey-light;
+  text-transform:uppercase;
+  font-size:1.2rem;
+  font-weight: $fw_9;
+  margin-bottom: 0px;
+
+}
+
 //Paragraphs, Lists, etc
 
 p, ul.bulleted, ol.bulleted {
@@ -47,7 +56,7 @@ ul.bulleted { list-style-type:disc; }
   font-weight: $fw_7;
 }
 
-  //Custom Boostrap Classes
+//Custom Boostrap Classes
 
   .lead {
     font-weight: $fw_4;

@@ -9,14 +9,14 @@
             <feMorphology radius="1.31578947" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.725490196   0 0 0 0 0.725490196   0 0 0 0 0.725490196  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0.839215686   0 0 0 0 0.839215686   0 0 0 0 0.839215686  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
         <rect id="path-4" x="28.9473684" y="76.3418803" width="530.263158" height="50.017094" rx="5.26315789"></rect>
         <rect id="path-5" x="28.9473684" y="142.153846" width="530.263158" height="235.846154" rx="5.26315789"></rect>
         <filter x="-0.3%" y="-0.6%" width="100.6%" height="102.5%" filterUnits="objectBoundingBox" id="filter-6">
             <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.725490196   0 0 0 0 0.725490196   0 0 0 0 0.725490196  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+            <feColorMatrix values="0 0 0 0 0.839215686   0 0 0 0 0.839215686   0 0 0 0 0.839215686  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
     </defs>
     <g id="Product" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -29,7 +29,7 @@
                     <g id="Mask">
                         <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
                         <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                        <rect stroke="#D6D6D6" stroke-width="1.31578947" x="-0.657894737" y="-0.657894737" width="590.789474" height="198.751687" rx="5.26315789"></rect>
+                        <rect stroke="#EAEAEA" stroke-width="1.31578947" x="-0.657894737" y="-0.657894737" width="590.789474" height="198.751687" rx="5.26315789"></rect>
                     </g>
                     <rect fill="#F4F4F4" mask="url(#mask-2)" x="-14.4736842" y="-17.2936552" width="615.789474" height="69.174621"></rect>
                 </g>
@@ -40,7 +40,7 @@
                 <g id="Rectangle-14-Copy-2">
                     <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
                     <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
-                    <rect stroke="#D6D6D6" stroke-width="1.31578947" x="29.6052632" y="142.811741" width="528.947368" height="234.530364" rx="5.26315789"></rect>
+                    <rect stroke="#EAEAEA" stroke-width="1.31578947" x="29.6052632" y="142.811741" width="528.947368" height="234.530364" rx="5.26315789"></rect>
                 </g>
                 <text id="Users" font-family="Lato-Bold, Lato" font-size="18.4210526" font-weight="bold" fill="#7E7E7E">
                     <tspan x="135.769737" y="166.735043">Users</tspan>
