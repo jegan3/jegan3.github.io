@@ -6799,7 +6799,7 @@ a {
 
 .dropdown-menu {
   border-radius: 4px;
-  border: 1px solid #f4f4f4;
+  border: 1px solid #d6d6d6;
   color: #grey; }
 
 .dropdown-item .active, .dropdown-item:active {
@@ -6811,7 +6811,7 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
   z-index: 1;
-  border-bottom: 1px solid #f4f4f4; }
+  border-bottom: 1px solid #d6d6d6; }
 
 html {
   overflow-x: hidden; }
@@ -6877,7 +6877,7 @@ html {
   float: right; }
 
 .borda_bottom {
-  border-bottom: 1px solid #f4f4f4; }
+  border-bottom: 1px solid #d6d6d6; }
 
 .pill_container {
   padding: 16px 0; }
@@ -6893,7 +6893,7 @@ html {
 .trio_container {
   padding-top: 40px;
   padding-bottom: 40px;
-  border-top: 1px solid #f4f4f4;
+  border-top: 1px solid #d6d6d6;
   background: #fff; }
 
 .o_hidden {
