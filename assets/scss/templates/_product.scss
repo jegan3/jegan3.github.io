@@ -1,3 +1,10 @@
+#hero {
+  background-image: url(https://victorops.com/wp-content/uploads/2016/08/grey-patterntilev2.png);
+    background-size: 50%;
+    background-repeat: repeat-x;
+    background-color: $white-dark;
+}
+
 #prod_hero {
 
   padding:0px;
@@ -77,8 +84,8 @@ padding-top: 16px;
 }
 
 #prod_alert {
-max-width: 600px !important;
-width: 56%;
+max-width: 680px !important;
+width: 96%;
 @include padding_bot;
 }
 

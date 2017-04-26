@@ -6820,7 +6820,8 @@ header {
   top: 0;
   transition: top 0.2s ease-in-out;
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+  border-bottom: 1px solid #d6d6d6; }
 
 @media screen and (min-width: 960px) {
   .dropdown-item {
@@ -6831,7 +6832,6 @@ html {
 
 .jumbotron {
   width: 100%;
-  background: #fff;
   overflow: hidden;
   padding-bottom: 0px;
   margin-bottom: 0px; }
@@ -6921,8 +6921,8 @@ html {
 
 footer {
   background: #2d2d2d;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   color: #fff; }
   @media screen and (min-width: 960px) {
     footer .container {
@@ -6955,6 +6955,12 @@ footer {
     height: 120px;
     line-height: 120px;
     transition: margin-top .3s ease; }
+
+#hero {
+  background-image: url(https://victorops.com/wp-content/uploads/2016/08/grey-patterntilev2.png);
+  background-size: 50%;
+  background-repeat: repeat-x;
+  background-color: #f4f4f4; }
 
 #prod_hero {
   padding: 0px;
@@ -7015,8 +7021,8 @@ footer {
   max-width: 700px !important; }
 
 #prod_alert {
-  max-width: 600px !important;
-  width: 56%;
+  max-width: 680px !important;
+  width: 96%;
   padding-bottom: 40px; }
 
 #prod_api {

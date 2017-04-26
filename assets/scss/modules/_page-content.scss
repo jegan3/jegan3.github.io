@@ -4,7 +4,6 @@ html {
 
 .jumbotron {
   width:100%;
-  background: $white;
   overflow:hidden;
 
   @include hero_blank-nav;
@@ -125,7 +124,7 @@ html {
 
 footer {
   background:$grey-dark;
-  @include padding_tb_sm;
+  @include padding_tb-lg;
   color:$white;
 
   .container {

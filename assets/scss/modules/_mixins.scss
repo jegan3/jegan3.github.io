@@ -64,6 +64,12 @@ padding-bottom: $padding_sm;
 
 }
 
+@mixin padding_tb_lg {
+padding-top: $padding_lg;
+padding-bottom: $padding_lg;
+
+}
+
 @mixin z-index_1 {
   z-index:1;
 }
