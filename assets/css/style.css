@@ -6821,7 +6821,7 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
   z-index: 2;
-  border-bottom: 1px solid #d6d6d6; }
+  border-bottom: 1px solid #f4f4f4; }
 
 @media screen and (min-width: 960px) {
   .dropdown-item {
@@ -7017,7 +7017,7 @@ footer {
   max-width: 480px !important; }
 
 #prod_chat {
-  width: 90%;
+  width: 96%;
   max-width: 700px !important; }
 
 #prod_alert {
@@ -7027,6 +7027,10 @@ footer {
 
 #prod_api {
   padding-bottom: 40px; }
+
+#prod_postmortem {
+  width: 78%;
+  max-width: 600px !important; }
 
 .trio object {
   max-width: 88px !important;
