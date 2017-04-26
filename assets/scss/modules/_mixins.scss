@@ -44,9 +44,34 @@ padding-top: 160px;
 
 
 @mixin padding_tb {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: $padding;
+    padding-bottom: $padding;
 }
+
+@mixin padding_top {
+padding-top: $padding;
+
+}
+
+@mixin padding_bot {
+padding-bottom: $padding;
+
+}
+
+@mixin padding_tb_sm {
+padding-top: $padding_sm;
+padding-bottom: $padding_sm;
+
+}
+
+@mixin z-index_1 {
+  z-index:1;
+}
+
+@mixin z-index_2 {
+  z-index:2;
+}
+
 
 @mixin h_center {
   margin-left:auto;
@@ -54,7 +79,7 @@ padding-top: 160px;
   }
 
 @mixin white {
-  background: #fff;
+  background: $white;
 }
 
 @mixin overflow {

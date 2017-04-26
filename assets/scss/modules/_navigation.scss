@@ -7,11 +7,12 @@
   }
 
 
-
+@media screen and (min-width: $desktop) {
   height:80px;
   line-height:80px;
-  background: $white;
 
+}
+  background: $white;
 
   .navbar-brand {
     img {
@@ -43,6 +44,11 @@ header {
     top: 0;
     transition: top 0.2s ease-in-out;
     width: 100%;
-    z-index:1;
-    @include borda_bottom;
+    @include z-index_2;
+}
+
+.dropdown-item {
+@media screen and (min-width: $desktop) {
+    line-height: 1.6rem;
+  }
 }

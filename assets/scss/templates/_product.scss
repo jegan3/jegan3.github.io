@@ -1,7 +1,7 @@
 #prod_hero {
 
   padding:0px;
-  margin-top:-400px;
+  margin-top:-350px;
   margin-bottom:-80px;
 }
 
@@ -37,7 +37,7 @@ padding-top: 16px;
 
 #prod_hero-object {
   max-width: 1800px !important;
-  width: 96%;
+  width: 95%;
 }
 
 #prod_calendar {
@@ -67,5 +67,47 @@ padding-top: 16px;
 
 #prod_mobile {
   width: 72%;
-  max-width: 580px !important;
+  max-width: 480px !important;
+}
+
+#prod_chat {
+  width: 90%;
+  max-width: 700px !important;
+
+}
+
+#prod_alert {
+max-width: 600px !important;
+width: 56%;
+@include padding_bot;
+}
+
+#prod_api {
+  @include padding_bot;
+}
+
+.trio
+{
+  object {
+    max-width: 88px !important;
+padding-bottom: 16px;
+width: 80%;
+  }
+
+}
+
+.trio_topics {
+
+  padding-top: 40px;
+padding-bottom: 40px;
+border-top: 1px solid #eaeaea;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+  object {
+    max-width: 80px !important;
+    padding-bottom: 8px;
+  }
+
+
 }

@@ -36,6 +36,17 @@ padding: 12px 24px;
 
 }
 
+.btn-outline_white {
+  border:1px solid $white;
+  color:$white;
+
+  &:hover {
+    background:$white;
+    color:$yellow-dark;
+  }
+
+}
+
 
 .navbar-toggleable-md .navbar-collapse {
  @media screen and (min-width: $desktop) {

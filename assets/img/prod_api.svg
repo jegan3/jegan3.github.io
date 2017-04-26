@@ -137,31 +137,31 @@
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 0.992156863   0 0 0 0 0.811764706   0 0 0 0 0.549019608  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <filter x="-26.1%" y="-58.5%" width="152.1%" height="217.0%" filterUnits="objectBoundingBox" id="filter-39">
-            <feGaussianBlur stdDeviation="16.2834821" in="SourceGraphic"></feGaussianBlur>
+        <filter x="-13.6%" y="-30.6%" width="127.3%" height="161.2%" filterUnits="objectBoundingBox" id="filter-39">
+            <feGaussianBlur stdDeviation="8.15569196" in="SourceGraphic"></feGaussianBlur>
         </filter>
-        <path d="M127.376623,54.7763359 C127.376623,61.2555939 116.903896,66.5141221 104,66.5141221 C91.0883117,66.5141221 80.6233766,61.2555939 80.6233766,54.7763359 C80.6233766,48.2970779 91.0883117,43.0385496 104,43.0385496 C116.903896,43.0385496 127.376623,48.2970779 127.376623,54.7763359 L127.376623,54.7763359 Z" id="path-40"></path>
+        <path d="M115.376623,54.7763359 C115.376623,61.2555939 104.903896,66.5141221 92,66.5141221 C79.0883117,66.5141221 68.6233766,61.2555939 68.6233766,54.7763359 C68.6233766,48.2970779 79.0883117,43.0385496 92,43.0385496 C104.903896,43.0385496 115.376623,48.2970779 115.376623,54.7763359 L115.376623,54.7763359 Z" id="path-40"></path>
         <filter x="-4.3%" y="-8.5%" width="108.6%" height="129.8%" filterUnits="objectBoundingBox" id="filter-41">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 0.4   0 0 0 0 0.839215686   0 0 0 0 0.933333333  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <path d="M127.376623,11.7377863 C127.376623,18.2170443 116.903896,23.4755725 104,23.4755725 C91.0883117,23.4755725 80.6233766,18.2170443 80.6233766,11.7377863 C80.6233766,5.25852824 91.0883117,0 104,0 C116.903896,0 127.376623,5.25852824 127.376623,11.7377863 L127.376623,11.7377863 Z" id="path-42"></path>
+        <path d="M115.376623,11.7377863 C115.376623,18.2170443 104.903896,23.4755725 92,23.4755725 C79.0883117,23.4755725 68.6233766,18.2170443 68.6233766,11.7377863 C68.6233766,5.25852824 79.0883117,0 92,0 C104.903896,0 115.376623,5.25852824 115.376623,11.7377863 L115.376623,11.7377863 Z" id="path-42"></path>
         <filter x="-4.3%" y="-8.5%" width="108.6%" height="129.8%" filterUnits="objectBoundingBox" id="filter-43">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 0.4   0 0 0 0 0.839215686   0 0 0 0 0.933333333  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <path d="M181.922078,35.2133588 C181.922078,41.6926168 171.449351,46.951145 158.545455,46.951145 C145.633766,46.951145 135.168831,41.6926168 135.168831,35.2133588 C135.168831,28.7341008 145.633766,23.4755725 158.545455,23.4755725 C171.449351,23.4755725 181.922078,28.7341008 181.922078,35.2133588 L181.922078,35.2133588 Z" id="path-44"></path>
+        <path d="M169.922078,35.2133588 C169.922078,41.6926168 159.449351,46.951145 146.545455,46.951145 C133.633766,46.951145 123.168831,41.6926168 123.168831,35.2133588 C123.168831,28.7341008 133.633766,23.4755725 146.545455,23.4755725 C159.449351,23.4755725 169.922078,28.7341008 169.922078,35.2133588 L169.922078,35.2133588 Z" id="path-44"></path>
         <filter x="-4.3%" y="-8.5%" width="108.6%" height="129.8%" filterUnits="objectBoundingBox" id="filter-45">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 0.4   0 0 0 0 0.839215686   0 0 0 0 0.933333333  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <path d="M76.7272727,35.2133588 C76.7272727,41.6926168 66.2545455,46.951145 53.3506494,46.951145 C40.438961,46.951145 29.974026,41.6926168 29.974026,35.2133588 C29.974026,28.7341008 40.438961,23.4755725 53.3506494,23.4755725 C66.2545455,23.4755725 76.7272727,28.7341008 76.7272727,35.2133588 L76.7272727,35.2133588 Z" id="path-46"></path>
+        <path d="M64.7272727,35.2133588 C64.7272727,41.6926168 54.2545455,46.951145 41.3506494,46.951145 C28.438961,46.951145 17.974026,41.6926168 17.974026,35.2133588 C17.974026,28.7341008 28.438961,23.4755725 41.3506494,23.4755725 C54.2545455,23.4755725 64.7272727,28.7341008 64.7272727,35.2133588 L64.7272727,35.2133588 Z" id="path-46"></path>
         <filter x="-4.3%" y="-8.5%" width="108.6%" height="129.8%" filterUnits="objectBoundingBox" id="filter-47">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
@@ -171,8 +171,8 @@
     </defs>
     <g id="Product" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD" transform="translate(-834.000000, -5868.000000)">
-            <g id="Hero-Section" transform="translate(-23.000000, 48.000000)">
-                <g id="Group-36" transform="translate(858.000000, 5808.000000)">
+            <g id="Hero-Section" transform="translate(-14.000000, 48.000000)">
+                <g id="Group-36" transform="translate(849.000000, 5808.000000)">
                     <g id="Group-879-Copy-3" transform="translate(89.000000, 218.500000) scale(-1, 1) translate(-89.000000, -218.500000) translate(0.000000, 142.000000)">
                         <polygon id="Path-2-Copy" fill="#FEF7EB" points="175.512695 51.3037109 85.3369141 90.1474609 0 52.0673828 19.0664062 43.5595703 71.1572266 20.2158203 89.5595703 12"></polygon>
                         <g id="Stroke-190" stroke-linecap="round" stroke-linejoin="round">
@@ -279,11 +279,11 @@
                         <path d="M126.578961,27.7090008 L107.612727,19.4299489" id="Stroke-196" stroke="#FDCF8C" fill="#FDCF8C" stroke-linecap="round" stroke-linejoin="round"></path>
                         <path d="M179.61039,50.8637405 L161.688312,43.0385496" id="Stroke-197" stroke="#FBB040" fill="#FDCF8C" stroke-linecap="round" stroke-linejoin="round"></path>
                     </g>
-                    <g id="Group-879-Copy-4" transform="translate(83.000000, 13.000000)">
-                        <polygon id="Path-2-Copy-3" fill="#E5F8FC" points="194.509995 51.3037109 101.766676 90.1474609 14 52.0673828 33.609276 43.5595703 87.1832564 20.2158203 106.109562 12"></polygon>
-                        <polygon id="Path-2-Copy-5" fill-opacity="0.24000001" fill="#4D4D4D" filter="url(#filter-39)" points="187.509995 219.990345 91.1701815 261.489288 0 220.806218 20.3697045 211.716848 76.021231 186.777419 95.6814805 178"></polygon>
-                        <polygon id="Stroke-188" stroke="#66D6EE" fill="#66D6EE" stroke-linecap="round" stroke-linejoin="round" points="100.103896 89.9896947 14.3896104 50.8637405 14.3896104 113.465267 100.103896 152.591221"></polygon>
-                        <polygon id="Stroke-189" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round" points="193.61039 50.8637405 100.103896 89.9896947 100.103896 152.591221 193.61039 113.465267"></polygon>
+                    <g id="Group-879-Copy-4" transform="translate(95.000000, 13.000000)">
+                        <polygon id="Path-2-Copy-3" fill="#E5F8FC" points="182.509995 51.3037109 89.7666761 90.1474609 2 52.0673828 21.609276 43.5595703 75.1832564 20.2158203 94.1095623 12"></polygon>
+                        <polygon id="Path-2-Copy-5" fill-opacity="0.159999996" fill="#2D2D2D" filter="url(#filter-39)" points="179.509995 220.198852 87.2804611 259.927268 0 220.979917 19.5006434 212.278339 72.7778314 188.402936 91.5992883 180"></polygon>
+                        <polygon id="Stroke-188" stroke="#66D6EE" fill="#66D6EE" stroke-linecap="round" stroke-linejoin="round" points="88.1038961 89.9896947 2.38961039 50.8637405 2.38961039 113.465267 88.1038961 152.591221"></polygon>
+                        <polygon id="Stroke-189" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round" points="181.61039 50.8637405 88.1038961 89.9896947 88.1038961 152.591221 181.61039 113.465267"></polygon>
                         <g id="Stroke-190" stroke-linecap="round" stroke-linejoin="round">
                             <use fill="black" fill-opacity="1" filter="url(#filter-41)" xlink:href="#path-40"></use>
                             <use stroke="#66D6EE" stroke-width="1" fill="#E5F8FC" fill-rule="evenodd" xlink:href="#path-40"></use>
@@ -300,10 +300,10 @@
                             <use fill="black" fill-opacity="1" filter="url(#filter-47)" xlink:href="#path-46"></use>
                             <use stroke="#66D6EE" stroke-width="1" fill="#E5F8FC" fill-rule="evenodd" xlink:href="#path-46"></use>
                         </g>
-                        <path d="M34.4483117,42.1065694 L14.3911688,50.8629579" id="Stroke-194" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M86.3685714,19.4409041 L69.5763636,26.7731079" id="Stroke-195" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M140.578961,27.7090008 L121.612727,19.4299489" id="Stroke-196" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round"></path>
-                        <path d="M193.61039,50.8637405 L175.688312,43.0385496" id="Stroke-197" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M22.4483117,42.1065694 L2.39116883,50.8629579" id="Stroke-194" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M74.3685714,19.4409041 L57.5763636,26.7731079" id="Stroke-195" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M128.578961,27.7090008 L109.612727,19.4299489" id="Stroke-196" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M181.61039,50.8637405 L163.688312,43.0385496" id="Stroke-197" stroke="#66D6EE" fill="#E5F8FC" stroke-linecap="round" stroke-linejoin="round"></path>
                     </g>
                 </g>
             </g>

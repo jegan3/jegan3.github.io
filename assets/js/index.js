@@ -137,3 +137,15 @@ window.onload = function(){
         $("#prod_mobile-oval").setSVGStyle("margin-top:2000px;");
 
 };
+
+
+var targetOffset = $("#fix_it").offset().top;
+
+var $w = $(window).scroll(function(){
+    if ( $w.scrollTop() > targetOffset ) {
+        $('#fixed_it').css({"position":"fixed"});
+        
+    } else {
+      // ...
+    }
+});

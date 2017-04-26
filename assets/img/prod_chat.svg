@@ -1,106 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1399px" height="593px" viewBox="0 0 1399 593" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="481px" height="333px" viewBox="0 0 481 333" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 35</title>
+    <title>Browser Window</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="860" height="591" rx="4"></rect>
-        <rect id="path-3" x="16" y="54" width="214" height="522" rx="4"></rect>
-        <rect id="path-4" x="248" y="54" width="283" height="160" rx="4"></rect>
-        <rect id="path-5" x="248" y="235" width="283" height="206" rx="4"></rect>
-        <rect id="path-6" x="248" y="463" width="283" height="181" rx="4"></rect>
-        <rect id="path-7" x="0" y="0" width="481" height="330.547674" rx="4"></rect>
-        <path d="M15.9615686,7.94443179 C15.9615686,12.3319979 12.3882353,15.8887074 7.98062745,15.8887074 C3.57309804,15.8887074 0,12.3319979 0,7.94443179 C0,3.55686567 3.57309804,0 7.98062745,0 C12.3882353,0 15.9615686,3.55686567 15.9615686,7.94443179 Z" id="path-9"></path>
-        <polygon id="path-11" points="8.383 6.8147967 5.98123077 7.97204243 5.94315385 8.35776514 7.76361538 7.80875056 6.84861538 8.90251115 6.77207692 9.24966159 5.65638462 9.72711956 5.54169231 10.0550227 6.04169231 9.85408985 4.69292308 11.3470773 4.64553846 12.5820109 4.64553846 13.7150422 4.41330769 13.7150422 4.41330769 12.6264815 4.34615385 11.3470773 2.99761538 9.85408985 3.49761538 10.0550227 3.383 9.72711956 2.26738462 9.24966159 2.19092308 8.90251115 1.27561538 7.80875056 3.09623077 8.35776514 3.05792308 7.97204243 0.656307692 6.8147967 1.19276923 5.93415372 0.0613846154 4.40414618 3.18807692 5.84265129 3.25146154 5.4098968 2.33784615 3.99071663 2.46876923 3.7569547 2.047 2.08833534 3.68630769 3.73250749 3.78461538 2.82446811 3.29446154 1.46302993 3.94861538 1.67226704 4.51953846 0.00504466319 5.09069231 1.67226704 5.74484615 1.46302993 5.25476923 2.82446811 5.35315385 3.73250749 6.99223077 2.08833534 6.57046154 3.7569547 6.70146154 3.99071663 5.78784615 5.4098968 5.85138462 5.84265129 8.97792308 4.40414618 7.84676923 5.93415372"></polygon>
-        <rect id="path-13" x="-4" y="-15" width="129" height="351.955814" rx="4"></rect>
+        <filter x="-0.2%" y="-0.3%" width="100.6%" height="101.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.839215686   0 0 0 0 0.839215686   0 0 0 0 0.839215686  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="481" height="330.547674" rx="4"></rect>
+        <rect id="path-4" x="-4" y="-15" width="129" height="351.955814" rx="4"></rect>
+        <path d="M23.9423529,11.9166477 C23.9423529,18.4979969 18.5823529,23.8330612 11.9709412,23.8330612 C5.35964706,23.8330612 0,18.4979969 0,11.9166477 C0,5.33529851 5.35964706,0 11.9709412,0 C18.5823529,0 23.9423529,5.33529851 23.9423529,11.9166477 Z" id="path-5"></path>
+        <polygon id="path-7" points="12.5745 10.222195 8.97184615 11.9580636 8.91473077 12.5366477 11.6454231 11.7131258 10.2729231 13.3537667 10.1581154 13.8744924 8.48457692 14.5906793 8.31253846 15.082534 9.06253846 14.7811348 7.03938462 17.020616 6.96830769 18.8730163 6.96830769 20.5725633 6.61996154 20.5725633 6.61996154 18.9397223 6.51923077 17.020616 4.49642308 14.7811348 5.24642308 15.082534 5.0745 14.5906793 3.40107692 13.8744924 3.28638462 13.3537667 1.91342308 11.7131258 4.64434615 12.5366477 4.58688462 11.9580636 0.984461538 10.222195 1.78915385 8.90123059 0.0920769231 6.60621928 4.78211538 8.76397694 4.87719231 8.11484521 3.50676923 5.98607495 3.70315385 5.63543205 3.0705 3.13250301 5.52946154 5.59876123 5.67692308 4.23670217 4.94169231 2.1945449 5.92292308 2.50840056 6.77930769 0.00756699478 7.63603846 2.50840056 8.61726923 2.1945449 7.88215385 4.23670217 8.02973077 5.59876123 10.4883462 3.13250301 9.85569231 5.63543205 10.0521923 5.98607495 8.68176923 8.11484521 8.77707692 8.76397694 13.4668846 6.60621928 11.7701538 8.90123059"></polygon>
+        <path d="M23.9423529,11.9166477 C23.9423529,18.4979969 18.5823529,23.8330612 11.9709412,23.8330612 C5.35964706,23.8330612 0,18.4979969 0,11.9166477 C0,5.33529851 5.35964706,0 11.9709412,0 C18.5823529,0 23.9423529,5.33529851 23.9423529,11.9166477 Z" id="path-9"></path>
+        <polygon id="path-11" points="12.5745 10.222195 8.97184615 11.9580636 8.91473077 12.5366477 11.6454231 11.7131258 10.2729231 13.3537667 10.1581154 13.8744924 8.48457692 14.5906793 8.31253846 15.082534 9.06253846 14.7811348 7.03938462 17.020616 6.96830769 18.8730163 6.96830769 20.5725633 6.61996154 20.5725633 6.61996154 18.9397223 6.51923077 17.020616 4.49642308 14.7811348 5.24642308 15.082534 5.0745 14.5906793 3.40107692 13.8744924 3.28638462 13.3537667 1.91342308 11.7131258 4.64434615 12.5366477 4.58688462 11.9580636 0.984461538 10.222195 1.78915385 8.90123059 0.0920769231 6.60621928 4.78211538 8.76397694 4.87719231 8.11484521 3.50676923 5.98607495 3.70315385 5.63543205 3.0705 3.13250301 5.52946154 5.59876123 5.67692308 4.23670217 4.94169231 2.1945449 5.92292308 2.50840056 6.77930769 0.00756699478 7.63603846 2.50840056 8.61726923 2.1945449 7.88215385 4.23670217 8.02973077 5.59876123 10.4883462 3.13250301 9.85569231 5.63543205 10.0521923 5.98607495 8.68176923 8.11484521 8.77707692 8.76397694 13.4668846 6.60621928 11.7701538 8.90123059"></polygon>
     </defs>
     <g id="Product" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-41.000000, -4762.000000)">
+        <g id="Desktop-HD" transform="translate(-647.000000, -4949.000000)">
             <g id="Resolve-Copy" transform="translate(-123.000000, 4763.000000)">
                 <g id="P-Block" transform="translate(164.000000, 0.000000)">
                     <g id="Group-35">
-                        <text id="After-Action-Postmor" font-family="Lato-Bold, Lato" font-size="30" font-weight="bold" fill="#4D4D4D">
-                            <tspan x="0" y="216">After Action Postmortem, Metrics</tspan>
-                        </text>
-                        <text id="Effective-incident-m" font-family="Lato-Regular, Lato" font-size="23" font-weight="normal" line-spacing="32" fill="#4D4D4D">
-                            <tspan x="0" y="249">Effective incident management doesn’t stop at the </tspan>
-                            <tspan x="0" y="281">event itself, and neither should your solution. The </tspan>
-                            <tspan x="0" y="313">VictorOps Postmortem generator enables teams to </tspan>
-                            <tspan x="0" y="345">easily summarize after action discussions. Our rich </tspan>
-                            <tspan x="0" y="377">reporting tool enables you to track a variety of </tspan>
-                            <tspan x="0" y="409">incident metrics, MTTR, and team performance.</tspan>
-                        </text>
-                        <g id="Browser-Window" transform="translate(883.000000, 0.000000)">
-                            <mask id="mask-2" fill="white">
-                                <use xlink:href="#path-1"></use>
-                            </mask>
-                            <use id="Rectangle" stroke="#D6D6D6" fill="#FFFFFF" xlink:href="#path-1"></use>
-                            <circle id="Oval" stroke="#D84F2A" fill="#F1582F" mask="url(#mask-2)" cx="26" cy="20" r="6"></circle>
-                            <circle id="Oval-Copy" stroke="#E29E39" fill="#FBB040" mask="url(#mask-2)" cx="48" cy="20" r="6"></circle>
-                            <circle id="Oval-Copy-2" stroke="#87AD2E" fill="#97C133" mask="url(#mask-2)" cx="70" cy="20" r="6"></circle>
-                            <g id="Rectangle-4" mask="url(#mask-2)">
-                                <use fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-3"></use>
-                                <rect stroke="#F4F4F4" stroke-width="1" x="16.5" y="54.5" width="213" height="521" rx="4"></rect>
-                            </g>
-                            <g id="Rectangle-4-Copy-2" mask="url(#mask-2)">
-                                <use fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-4"></use>
-                                <rect stroke="#F4F4F4" stroke-width="1" x="248.5" y="54.5" width="282" height="159" rx="4"></rect>
-                            </g>
-                            <g id="Rectangle-4-Copy-4" mask="url(#mask-2)">
-                                <use fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-5"></use>
-                                <rect stroke="#F4F4F4" stroke-width="1" x="248.5" y="235.5" width="282" height="205" rx="4"></rect>
-                            </g>
-                            <g id="Rectangle-4-Copy-3" mask="url(#mask-2)">
-                                <use fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-6"></use>
-                                <rect stroke="#F4F4F4" stroke-width="1" x="248.5" y="463.5" width="282" height="180" rx="4"></rect>
-                            </g>
-                        </g>
-                        <g id="Browser-Window" transform="translate(606.000000, 186.000000)">
-                            <mask id="mask-8" fill="white">
-                                <use xlink:href="#path-7"></use>
-                            </mask>
-                            <g id="Rectangle">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
-                                <rect stroke="#D6D6D6" stroke-width="1" x="0.5" y="0.5" width="480" height="329.547674" rx="4"></rect>
-                            </g>
-                            <g id="Group-4" mask="url(#mask-8)">
-                                <g transform="translate(138.000000, 21.000000)">
+                        <g id="Group-37" transform="translate(606.000000, 0.000000)">
+                            <g id="Browser-Window" filter="url(#filter-1)" transform="translate(0.000000, 186.000000)">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <g id="Rectangle">
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                    <rect stroke="#D6D6D6" stroke-width="1" x="0.5" y="0.5" width="480" height="329.547674" rx="4"></rect>
+                                </g>
+                                <g id="Rectangle-4" mask="url(#mask-3)">
+                                    <use fill="#4E394B" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                    <rect stroke="#F4F4F4" stroke-width="1" x="-3.5" y="-14.5" width="128" height="350.955814" rx="4"></rect>
+                                </g>
+                                <text id="Walter-White-4:54-PM" mask="url(#mask-3)" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" letter-spacing="-0.071999982">
+                                    <tspan x="163" y="131" fill="#7E7E7E">Walter White</tspan>
+                                    <tspan x="235.6" y="131" fill="#4D4D4D">    </tspan>
+                                    <tspan x="244.576" y="131" font-size="10" fill="#D6D6D6">4:54 PM</tspan>
+                                    <tspan x="281.602" y="131" fill="#4D4D4D"></tspan>
+                                </text>
+                                <g id="Group-4" transform="translate(134.000000, 17.000000)">
+                                    <g id="Group-6">
+                                        <mask id="mask-6" fill="white">
+                                            <use xlink:href="#path-5"></use>
+                                        </mask>
+                                        <g id="Clip-5"></g>
+                                        <polygon id="Fill-4" fill="#FBB040" mask="url(#mask-6)" points="0 23.8365745 23.9435294 23.8365745 23.9435294 -0.0117110025 0 -0.0117110025"></polygon>
+                                    </g>
+                                    <g id="Group-9" transform="translate(5.100000, 2.090414)">
+                                        <mask id="mask-8" fill="white">
+                                            <use xlink:href="#path-7"></use>
+                                        </mask>
+                                        <g id="Clip-8"></g>
+                                        <polygon id="Fill-7" fill="#2D2D2D" mask="url(#mask-8)" points="0.0784615385 20.5845541 13.4676923 20.5845541 13.4676923 0.00698491826 0.0784615385 0.00698491826"></polygon>
+                                    </g>
+                                </g>
+                                <g id="Group-4-Copy-2" transform="translate(134.000000, 114.000000)">
                                     <g id="Group-6">
                                         <mask id="mask-10" fill="white">
                                             <use xlink:href="#path-9"></use>
                                         </mask>
                                         <g id="Clip-5"></g>
-                                        <polygon id="Fill-4" fill="#FBB040" mask="url(#mask-10)" points="0 15.8910496 15.9623529 15.8910496 15.9623529 -0.00780733499 0 -0.00780733499"></polygon>
+                                        <polygon id="Fill-4" fill="#FBB040" mask="url(#mask-10)" points="0 23.8365745 23.9435294 23.8365745 23.9435294 -0.0117110025 0 -0.0117110025"></polygon>
                                     </g>
-                                    <g id="Group-9" transform="translate(3.400000, 1.393609)">
+                                    <g id="Group-9" transform="translate(5.100000, 2.090414)">
                                         <mask id="mask-12" fill="white">
                                             <use xlink:href="#path-11"></use>
                                         </mask>
                                         <g id="Clip-8"></g>
-                                        <polygon id="Fill-7" fill="#2D2D2D" mask="url(#mask-12)" points="0.0523076923 13.7230361 8.97846154 13.7230361 8.97846154 0.00465661217 0.0523076923 0.00465661217"></polygon>
+                                        <polygon id="Fill-7" fill="#2D2D2D" mask="url(#mask-12)" points="0.0784615385 20.5845541 13.4676923 20.5845541 13.4676923 0.00698491826 0.0784615385 0.00698491826"></polygon>
                                     </g>
                                 </g>
+                                <text id="Notify:-Trying-to-co" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal" letter-spacing="-0.09605176" fill="#7E7E7E">
+                                    <tspan x="175" y="94">Notify: Trying to contact Saul Goodman for #3303</tspan>
+                                </text>
+                                <text id="Hey,-I-got-this-one" font-family="Lato-Regular, Lato" font-size="12" font-weight="normal" letter-spacing="-0.09605176" fill="#7E7E7E">
+                                    <tspan x="175" y="161">Hey, I got this one </tspan>
+                                </text>
+                                <path d="M165,79 L165,103" id="Line" stroke="#F1582F" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M165,45 L165,69" id="Line-Copy-14" stroke="#FBB040" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M165,145 L165,169" id="Line-Copy-15" stroke="#D6D6D6" stroke-width="4" stroke-linecap="square"></path>
+                                <text id="VictorOps-4:53-PM-Op" font-family="Lato-Bold, Lato" font-size="12" font-weight="bold" letter-spacing="-0.071999982">
+                                    <tspan x="163" y="33" fill="#7E7E7E">VictorOps</tspan>
+                                    <tspan x="217.84" y="33" font-family="Lato-Regular, Lato" font-weight="normal" fill="#4D4D4D">    </tspan>
+                                    <tspan x="226.816" y="33" font-family="Lato-Regular, Lato" font-size="10" font-weight="normal" fill="#B9B9B9">4:53 PM</tspan>
+                                    <tspan x="263.472" y="33" font-family="Lato-Regular, Lato" font-weight="normal" fill="#B9B9B9"></tspan>
+                                    <tspan x="163" y="48" font-family="Lato-Regular, Lato" font-weight="normal" fill="#B9B9B9"></tspan>
+                                    <tspan x="163" y="63" font-family="Lato-Regular, Lato" font-weight="normal" fill="#B9B9B9">     </tspan>
+                                    <tspan x="174.22" y="63" font-family="Lato-Regular, Lato" font-weight="normal" fill="#7E7E7E">Opened - Incident #3303 for Critical Incident</tspan>
+                                    <tspan x="406.336001" y="63" font-family="Lato-Regular, Lato" font-weight="normal" fill="#B9B9B9"></tspan>
+                                    <tspan x="163" y="78" font-family="Lato-Regular, Lato" font-weight="normal" fill="#B9B9B9">      </tspan>
+                                </text>
+                                <circle id="Oval" stroke="#D84F2A" fill="#F1582F" cx="10.6267442" cy="11.1860465" r="3.35581395"></circle>
+                                <circle id="Oval-Copy" stroke="#E29E39" fill="#FBB040" cx="22.9313953" cy="11.1860465" r="3.35581395"></circle>
+                                <circle id="Oval-Copy-2" stroke="#87AD2E" fill="#97C133" cx="35.2360465" cy="11.1860465" r="3.35581395"></circle>
                             </g>
-                            <text id="Notify:-Trying-to-co" mask="url(#mask-8)" font-family="Lato-Regular, Lato" font-size="8" font-weight="normal" letter-spacing="-0.06403451" fill="#4D4D4D">
-                                <tspan x="172" y="121">Notify: Trying to contact Saul Goodman for #3303</tspan>
-                            </text>
-                            <text id="VictorOps-4:53-PM-Op" mask="url(#mask-8)" font-family="Lato-Bold, Lato" font-size="10.6724198" font-weight="bold" letter-spacing="-0.06403451">
-                                <tspan x="163" y="33" fill="#4D4D4D">VictorOps</tspan>
-                                <tspan x="211.772958" y="33" font-family="Lato-Regular, Lato" font-weight="normal" fill="#4D4D4D">    </tspan>
-                                <tspan x="219.755928" y="33" font-family="Lato-Regular, Lato" font-size="8" font-weight="normal" fill="#B9B9B9">4:53 PM</tspan>
-                                <tspan x="163" y="46" font-family="Lato-Regular, Lato" font-size="8" font-weight="normal" fill="#B9B9B9"></tspan>
-                                <tspan x="163" y="56" font-family="Lato-Regular, Lato" font-size="8" font-weight="normal" fill="#B9B9B9">     </tspan>
-                                <tspan x="170.399827" y="56" font-family="Lato-Regular, Lato" font-size="8" font-weight="normal" fill="#4D4D4D">Opened - Incident #3303 for Critical Incident</tspan>
-                                <tspan x="324.422275" y="56" font-family="Lato-Regular, Lato" font-size="8" font-weight="normal" fill="#B9B9B9"></tspan>
-                                <tspan x="163" y="66" font-family="Lato-Regular, Lato" font-size="8" font-weight="normal" fill="#B9B9B9">      </tspan>
-                            </text>
-                            <g id="Rectangle-4" mask="url(#mask-8)">
-                                <use fill="#4E394B" fill-rule="evenodd" xlink:href="#path-13"></use>
-                                <rect stroke="#F4F4F4" stroke-width="1" x="-3.5" y="-14.5" width="128" height="350.955814" rx="4"></rect>
-                            </g>
-                            <circle id="Oval" stroke="#D84F2A" fill="#F1582F" mask="url(#mask-8)" cx="10.6267442" cy="11.1860465" r="3.35581395"></circle>
-                            <circle id="Oval-Copy" stroke="#E29E39" fill="#FBB040" mask="url(#mask-8)" cx="22.9313953" cy="11.1860465" r="3.35581395"></circle>
-                            <circle id="Oval-Copy-2" stroke="#87AD2E" fill="#97C133" mask="url(#mask-8)" cx="35.2360465" cy="11.1860465" r="3.35581395"></circle>
                         </g>
                     </g>
                 </g>

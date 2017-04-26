@@ -2,16 +2,10 @@ html {
   overflow-x:hidden;
 }
 
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1040px;
-  }
-
-}
-
 .jumbotron {
   width:100%;
-  background: $white-dark;
+  background: $white;
+  overflow:hidden;
 
   @include hero_blank-nav;
   padding-bottom:0px;
@@ -33,6 +27,8 @@ html {
 
 .v_center {
   @include v_center;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .img_col {
@@ -41,19 +37,13 @@ html {
 }
 }
 
-.trio {
-  font-size:1.2rem;
-  max-width:80%;
-}
-
 .trio_topics {
   @include padding_tb;
-  padding-left:0px;
-  h2 {
 
-  padding-bottom: 40px;
 
-  }
+
+
+
 }
 
 
@@ -111,4 +101,48 @@ html {
 
 .o_hidden {
   @include overflow;
+}
+
+.z-index_1 {
+  @include z-index_1;
+}
+
+#trial_foot {
+  background: url(../img/1440x500_ericShoulder@2x.png);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-size: cover;
+  background-position: center -40px;
+
+  h2 {
+    color:$white;
+  }
+
+  p {
+    color:$white-light;
+  }
+}
+
+footer {
+  background:$grey-dark;
+  @include padding_tb;
+  color:$white;
+
+  object {
+    padding-bottom:8px;
+  }
+
+  a {
+    color:$white;
+
+    &:focus, &:hover {
+        color: $white-dark;
+        text-decoration:underline;
+      }
+  }
+
+  h3 {
+    color:$yellow;
+    font-size:1.2rem;
+  }
 }

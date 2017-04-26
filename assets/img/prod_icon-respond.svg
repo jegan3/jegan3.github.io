@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="88px" height="79px" viewBox="0 0 88 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 692</title>
+<svg width="134px" height="134px" viewBox="0 0 134 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 39</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Product" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <g id="Desktop-HD-Copy" transform="translate(-679.000000, -962.000000)">
-            <g id="Group-692" transform="translate(722.500000, 1001.500000) rotate(-270.000000) translate(-722.500000, -1001.500000) translate(683.500000, 958.500000)">
-                <polyline id="Stroke-4406" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round" points="62.6363636 4.4375 77.1818182 4.4375 77.1818182 80.5625 48.0909091 80.5625"></polyline>
-                <polyline id="Stroke-4407" stroke="#FBB040" stroke-width="4" points="37.1818182 86 37.1818182 66.0625 22.6363636 66.0625 22.6363636 44.3125 33.5454545 44.3125 33.5454545 26.1875 44.4545455 26.1875 44.4545455 0.8125"></polyline>
-                <polyline id="Stroke-4408" stroke="#FBB040" stroke-width="4" stroke-linecap="round" points="33.5454545 11.6875 44.4545455 0.8125 55.2509091 11.6875"></polyline>
-                <path d="M11,4.4375 L11,22.5625" id="Stroke-4409" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round"></path>
-                <polyline id="Stroke-4410" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round" points="0.818181818 33.4375 22.6363636 33.4375 22.6363636 18.9375"></polyline>
-                <polyline id="Stroke-4411" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round" points="29.9090909 55.1875 48.0909091 55.1875 48.0909091 69.6875"></polyline>
-                <polyline id="Stroke-4412" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round" points="11.7272727 44.3125 11.7272727 73.3125 26.2727273 73.3125 26.2727273 80.5625 0.818181818 80.5625 0.818181818 4.4375 26.2727273 4.4375"></polyline>
-                <polyline id="Stroke-4413" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round" points="59 80.5625 59 47.9375 66.2727273 47.9375"></polyline>
-                <path d="M77.1818182,69 L69.9090909,69" id="Stroke-4414" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round"></path>
-                <path d="M77.1818182,58 L69.9090909,58" id="Stroke-4415" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round"></path>
-                <polyline id="Stroke-4416" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round" points="77.1818182 37.0625 44.4545455 37.0625 44.4545455 44.3125"></polyline>
-                <polyline id="Stroke-4417" stroke="#4D4D4D" stroke-width="2" stroke-linecap="round" points="55.3636364 37.0625 55.3636364 18.9375 66.2727273 18.9375 66.2727273 26.1875"></polyline>
+    <g id="Product" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-417.000000, -6267.000000)">
+            <g id="Group-39" transform="translate(384.000000, 6233.000000)">
+                <g id="Group-41">
+                    <rect id="Rectangle-22-Copy" x="0" y="0" width="200" height="200"></rect>
+                </g>
+                <g id="Group-1014" transform="translate(100.500000, 100.500000) scale(1, -1) translate(-100.500000, -100.500000) translate(35.000000, 35.000000)" stroke-width="2.707" stroke-linejoin="round">
+                    <polygon id="Stroke-3508" stroke="#E5F8FC" fill="#E5F8FC" points="121.51913 16.9842087 96.436 42.0791652 79.713913 25.3570783 104.797043 0.262121739"></polygon>
+                    <polygon id="Stroke-3509" stroke="#E5F8FC" fill="#E5F8FC" points="42.0803478 96.4294957 16.9913043 121.518539 0.269217391 104.790539 25.3582609 79.7133217"></polygon>
+                    <path d="M46.2608696,46.2608696 C35.8657391,56.656 35.8657391,73.4963478 46.2608696,83.8914783 L83.8914783,46.2608696 C73.4963478,35.8716522 56.656,35.8716522 46.2608696,46.2608696 L46.2608696,46.2608696 Z" id="Stroke-3510" stroke="#E5F8FC" fill="#E5F8FC"></path>
+                    <path d="M73.5336,56.6205217 C78.151687,61.2386087 78.4177739,69.1857391 73.8056,73.8038261 C69.1816,78.421913 61.3822957,77.9961739 56.7642087,73.389913" id="Stroke-3511" stroke="#E5F8FC" fill="#E5F8FC" stroke-linecap="round"></path>
+                    <path d="M94.6857391,61.0896 C97.5772174,80.6558609 80.8433043,97.5080348 61.2356522,94.7111652" id="Stroke-3512" stroke="#66D6EE" stroke-linecap="round"></path>
+                    <path d="M112.453252,60.2002783 C115.800035,90.3568 90.3621217,115.800626 60.1642087,112.453843" id="Stroke-3513" stroke="#66D6EE" stroke-linecap="round"></path>
+                    <path d="M129.494052,54.0968348 C137.287443,98.3559652 99.000487,136.997704 54.664487,129.594574" id="Stroke-3514" stroke="#66D6EE" stroke-linecap="round"></path>
+                </g>
             </g>
         </g>
     </g>
