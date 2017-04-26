@@ -6910,10 +6910,10 @@ html {
 
 #trial_foot {
   background: url(../img/1440x500_ericShoulder@2x.png);
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-size: cover;
-  background-position: center -40px; }
+  background-position: center -50px; }
   #trial_foot h2 {
     color: #fff; }
   #trial_foot p {
@@ -6921,11 +6921,18 @@ html {
 
 footer {
   background: #2d2d2d;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: #fff; }
+  @media screen and (min-width: 960px) {
+    footer .container {
+      width: 1280px; } }
   footer object {
-    padding-bottom: 8px; }
+    padding-bottom: 8px;
+    width: 80%;
+    max-width: 180px !important; }
+  footer .btn {
+    margin-top: 8px !important; }
   footer a {
     color: #fff; }
     footer a:focus, footer a:hover {

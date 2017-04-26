@@ -109,10 +109,10 @@ html {
 
 #trial_foot {
   background: url(../img/1440x500_ericShoulder@2x.png);
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-size: cover;
-  background-position: center -40px;
+  background-position: center -50px;
 
   h2 {
     color:$white;
@@ -125,11 +125,23 @@ html {
 
 footer {
   background:$grey-dark;
-  @include padding_tb;
+  @include padding_tb_sm;
   color:$white;
+
+  .container {
+    @media screen and (min-width: $desktop) {
+    width: 1280px;
+  }
+}
 
   object {
     padding-bottom:8px;
+    width: 80%;
+    max-width: 180px !important;
+  }
+
+  .btn {
+    margin-top: 8px !important;
   }
 
   a {
