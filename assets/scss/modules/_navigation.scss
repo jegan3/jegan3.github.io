@@ -45,7 +45,8 @@ header {
     transition: top 0.2s ease-in-out;
     width: 100%;
     @include z-index_2;
-    border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid $white-dark;
+    display:inline-table;
 }
 
 .dropdown-item {
@@ -53,3 +54,12 @@ header {
     line-height: 1.6rem;
   }
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #4d4d4d;
+
+    &:hover {
+      color: #2d2d2d;
+
+    }
+  }

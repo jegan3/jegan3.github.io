@@ -29,6 +29,10 @@ h2 {
 .display-1 {
   color: $grey;
 font-size: 2.8rem;
+
+  @media screen and (max-width: $desktop) {
+    font-size:2rem;
+  }
 }
 
 .title_caps {

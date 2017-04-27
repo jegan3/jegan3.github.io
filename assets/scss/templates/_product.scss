@@ -1,15 +1,18 @@
 #hero {
   background-image: url(https://victorops.com/wp-content/uploads/2016/08/grey-patterntilev2.png);
-    background-size: 50%;
+    background-size: 32%;
     background-repeat: repeat-x;
-    background-color: $white-dark;
+    background-color: $white-light;
+
 }
 
 #prod_hero {
 
   padding:0px;
-  margin-top:-350px;
+  margin-top:-340px;
   margin-bottom:-80px;
+  @include mob_no;
+
 }
 
 #prod_calendar {
@@ -45,6 +48,8 @@ padding-top: 16px;
 #prod_hero-object {
   max-width: 1800px !important;
   width: 95%;
+
+
 }
 
 #prod_calendar {
@@ -116,6 +121,7 @@ border-top: 1px solid #eaeaea;
 width: 80%;
 margin-left: auto;
 margin-right: auto;
+
   object {
     max-width: 80px !important;
     padding-bottom: 8px;

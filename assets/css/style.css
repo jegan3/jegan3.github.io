@@ -6714,6 +6714,9 @@ h2 {
 .display-1 {
   color: #4d4d4d;
   font-size: 2.8rem; }
+  @media screen and (max-width: 960px) {
+    .display-1 {
+      font-size: 2rem; } }
 
 .title_caps {
   color: #B9B9B9;
@@ -6809,7 +6812,7 @@ a {
 
 .dropdown-menu {
   border-radius: 4px;
-  border: 1px solid #d6d6d6;
+  border: 1px solid #f4f4f4;
   color: #grey; }
 
 .dropdown-item .active, .dropdown-item:active {
@@ -6821,11 +6824,17 @@ header {
   transition: top 0.2s ease-in-out;
   width: 100%;
   z-index: 2;
-  border-bottom: 1px solid #f4f4f4; }
+  border-bottom: 1px solid #f4f4f4;
+  display: inline-table; }
 
 @media screen and (min-width: 960px) {
   .dropdown-item {
     line-height: 1.6rem; } }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #4d4d4d; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #2d2d2d; }
 
 html {
   overflow-x: hidden; }
@@ -6838,6 +6847,9 @@ html {
   @media screen and (min-width: 960px) {
     .jumbotron {
       padding-top: 160px; } }
+  @media screen and (max-width: 960px) {
+    .jumbotron {
+      padding-top: 80px; } }
 
 .p_left-0 {
   padding-left: 0px; }
@@ -6856,17 +6868,18 @@ html {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-@media screen and (min-width: 960px) {
-  .img_col {
-    padding: 0px; } }
+.img_col {
+  padding: 0px; }
+
+.img_col-left {
+  padding: 0px; }
+  @media screen and (max-width: 768px) {
+    .img_col-left {
+      order: 2; } }
 
 .trio_topics {
   padding-top: 40px;
   padding-bottom: 40px; }
-
-@media screen and (max-width: 960px) {
-  .offset-md-2 {
-    margin-left: 0; } }
 
 @media screen and (max-width: 960px) {
   .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
@@ -6883,7 +6896,7 @@ html {
   float: right; }
 
 .borda_bottom {
-  border-bottom: 1px solid #d6d6d6; }
+  border-bottom: 1px solid #f4f4f4; }
 
 .pill_container {
   padding: 16px 0; }
@@ -6899,7 +6912,7 @@ html {
 .trio_container {
   padding-top: 40px;
   padding-bottom: 40px;
-  border-top: 1px solid #d6d6d6;
+  border-top: 1px solid #f4f4f4;
   background: #fff; }
 
 .o_hidden {
@@ -6910,14 +6923,18 @@ html {
 
 #trial_foot {
   background: url(../img/1440x500_ericShoulder@2x.png);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-size: cover;
-  background-position: center -50px; }
+  background-position: center; }
   #trial_foot h2 {
     color: #fff; }
   #trial_foot p {
     color: #fafafa; }
+  @media screen and (max-width: 960px) {
+    #trial_foot .row {
+      margin-left: 0px;
+      margin-right: 0px; } }
 
 footer {
   background: #2d2d2d;
@@ -6942,6 +6959,10 @@ footer {
     color: #fbb040;
     font-size: 1.2rem; }
 
+@media screen and (max-width: 960px) {
+  .mob_no {
+    display: none; } }
+
 .js-loading *,
 .js-loading *:before,
 .js-loading *:after {
@@ -6958,14 +6979,17 @@ footer {
 
 #hero {
   background-image: url(https://victorops.com/wp-content/uploads/2016/08/grey-patterntilev2.png);
-  background-size: 50%;
+  background-size: 32%;
   background-repeat: repeat-x;
-  background-color: #f4f4f4; }
+  background-color: #fafafa; }
 
 #prod_hero {
   padding: 0px;
-  margin-top: -350px;
+  margin-top: -340px;
   margin-bottom: -80px; }
+  @media screen and (max-width: 960px) {
+    #prod_hero {
+      display: none; } }
 
 #prod_calendar {
   max-width: 620px;

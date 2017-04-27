@@ -34,10 +34,14 @@
 padding-top: 160px;
 }
 
+@media screen and (max-width: $desktop) {
+padding-top: 80px;
 }
 
-@mixin mobile-no {
-  @media screen and (min-width: $desktop) {
+}
+
+@mixin mob_no {
+  @media screen and (max-width: $desktop) {
     display:none;
   }
 }
