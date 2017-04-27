@@ -7013,39 +7013,31 @@ footer {
   float: left; }
 
 #prod_hero-object {
-  max-width: 1800px !important;
   width: 95%; }
 
 #prod_calendar {
-  max-width: 600px !important;
   width: 90%; }
 
 #prod_integrations {
-  max-width: 760px !important;
   width: 90%; }
 
 #prod_routing {
-  max-width: 600px !important;
   width: 72%;
   padding-top: 40px;
   padding-bottom: 80px; }
 
 #prod_annotation {
-  max-width: 600px !important;
   width: 72%;
   padding-top: 40px;
   padding-bottom: 80px; }
 
 #prod_mobile {
-  width: 72%;
-  max-width: 480px !important; }
+  width: 72%; }
 
 #prod_chat {
-  width: 96%;
-  max-width: 700px !important; }
+  width: 96%; }
 
 #prod_alert {
-  max-width: 680px !important;
   width: 96%;
   padding-bottom: 40px; }
 
@@ -7053,8 +7045,7 @@ footer {
   padding-bottom: 40px; }
 
 #prod_postmortem {
-  width: 78%;
-  max-width: 600px !important; }
+  width: 78%; }
 
 .trio object {
   max-width: 88px !important;
