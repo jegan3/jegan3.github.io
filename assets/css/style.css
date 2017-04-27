@@ -6867,6 +6867,10 @@ html {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px; }
+  @media screen and (max-width: 768px) {
+    .v_center {
+      padding-top: 40px;
+      padding-bottom: 40px; } }
 
 .img_col {
   padding: 0px; }
@@ -7016,7 +7020,7 @@ footer {
   width: 95%; }
 
 #prod_calendar {
-  width: 90%; }
+  width: 80%; }
 
 #prod_integrations {
   width: 90%; }
@@ -7032,13 +7036,13 @@ footer {
   padding-bottom: 80px; }
 
 #prod_mobile {
-  width: 72%; }
+  width: 60%; }
 
 #prod_chat {
-  width: 96%; }
+  width: 78%; }
 
 #prod_alert {
-  width: 96%;
+  width: 88%;
   padding-bottom: 40px; }
 
 #prod_api {

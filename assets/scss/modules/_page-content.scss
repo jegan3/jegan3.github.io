@@ -28,6 +28,11 @@ html {
   @include v_center;
   padding-top:20px;
   padding-bottom:20px;
+  @media screen and (max-width: $tabby) {
+    padding-top:40px;
+    padding-bottom:40px;
+
+  }
 }
 
 .img_col {
