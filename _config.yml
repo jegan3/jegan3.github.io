@@ -32,3 +32,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+
+#Custom Variables
