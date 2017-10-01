@@ -1,13 +1,10 @@
-{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
-{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
-
 <!doctype html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product | VictorOps</title>
+    <title>JOHN EGAN | DESIGN + DEVELOPMENT</title>
 
     {{ page.cannonical_url }}
 
@@ -17,8 +14,7 @@
     <meta name="author" content="{{ site.author.name }}" />
     <meta name="copyright" content="{{ site.copyright }}"/>
 
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
-    <link rel="shortcut icon" type="image/png" href="https://explore.victorops.com/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href=""/>
 
     <!-- 404 Redirect -->
     {% if page.url == "/404.html" %}
@@ -26,24 +22,25 @@
     {% endif %}
     <!-- /404 Redirect -->
 
-    <!-- JS to delay animations until page fully loads -->
-    <script>
-    document.body.className += " js-loading";
-window.addEventListener("load", removeLoadingClass, false);
-function removeLoadingClass() {
-  document.body.className = document.body.className.replace("js-loading","");
-}
-</script>
 
 
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:900" rel="stylesheet">
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
     <link rel="stylesheet" href="{{ page.base_url }}assets/css/animate.css" />
     <link rel="stylesheet" href="{{ page.base_url }}assets/css/style.css" />
-    <script src="https://use.fontawesome.com/c26e54a765.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+
+    <script src="js/wow.min.js"></script>
+                 <script>
+                 new WOW().init();
+                 </script>
 
 </head>
 <body class="fade-in">
