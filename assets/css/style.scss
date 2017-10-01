@@ -132,7 +132,7 @@ html, body {
 }
 
 .card {
-  background:#00bce4;
+  background:$blue;
   @include padding;
 }
 
@@ -215,6 +215,14 @@ a {
 
 
 // Forms
+
+input {
+  @include padding(8px, 4px);
+  margin: 16px;
+  border: none;
+  border-bottom: 1px solid $blue;
+  width:100%;
+}
 
 // Images
 
