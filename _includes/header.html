@@ -39,10 +39,8 @@
 
     <link rel="stylesheet" href="{{ page.base_url }}assets/css/animate.css" />
     <link rel="stylesheet" href="{{ page.base_url }}assets/css/style.css" />
-    {% if page.name == index %}
-    <style>
-    @import url('{{ page.base_url }}assets/css/index.css');
-    </style>
+    {% if page.permalink == / %}
+    <link rel="stylesheet" href="{{ page.base_url }}assets/css/index.css" />
     {% endif %}
 
 </head>
