@@ -1,0 +1,78 @@
+// Mixins
+
+@mixin h_center {
+    margin:0 auto;
+}
+
+@mixin border {
+  border: $border;
+}
+
+@mixin border_bottom {
+  border-bottom: $border;
+}
+
+@mixin border_top {
+  border-top: $border;
+}
+
+@mixin mob_no {
+  @media screen and (max-width: $desktop) {
+    display:none;
+  }
+}
+
+
+@mixin padding($pad_h: 80px, $pad_w: 0) {
+    padding: $pad_h $pad_w;
+}
+
+@mixin flex($h_pos: center, $v_pos: center, $flex_d: row) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:flex;
+
+
+  flex-direction:column;
+
+  @media screen and (min-width: $desktop) {
+    flex-direction:row;
+  }
+
+  align-items: $v_pos;
+  justify-content: $h_pos;
+  align-content: $h_pos;
+  flex-direction:$flex_d;
+}
+
+@mixin z-index_1 {
+  z-index:1;
+}
+
+@mixin z-index_2 {
+  z-index:2;
+}
+
+@mixin white {
+  background: $white;
+}
+
+@mixin blue {
+  background: $blue;
+}
+
+@mixin overflow {
+  overflow: hidden;
+}
+
+@mixin shadow {
+  box-shadow: $shadow;
+}
+
+@mixin v_center {
+  -ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+  align-items: center;
+}

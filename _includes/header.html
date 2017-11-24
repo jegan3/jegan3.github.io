@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-      
+
     <title>JOHN EGAN | DESIGN + DEVELOPMENT</title>
 
     <meta name="google-site-verification" content="AXsTAb9wZHd9-TnJQlwhRtOl3lhHvurG30U8Jq5xbSU" />
@@ -38,7 +38,12 @@
 
 
     <link rel="stylesheet" href="{{ page.base_url }}assets/css/animate.css" />
-    <link rel="stylesheet" href="{{ page.base_url }}assets/css/style.css" />
+    <style>
+    	@import '{{ page.base_url }}assets/css/style.css';
+      {% if page.name == index %}
+      @import url('{{ page.base_url }}assets/css/index.css');
+      {% endif %}
+    </style>
 
 </head>
 <body class="fade-in">
