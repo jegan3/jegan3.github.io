@@ -38,12 +38,12 @@
 
 
     <link rel="stylesheet" href="{{ page.base_url }}assets/css/animate.css" />
+    <link rel="stylesheet" href="{{ page.base_url }}assets/css/style.css" />
+    {% if page.name == index %}
     <style>
-    	@import '{{ page.base_url }}assets/css/style.css';
-      {% if page.name == index %}
-      @import url('{{ page.base_url }}assets/css/index.css');
-      {% endif %}
+    @import url('{{ page.base_url }}assets/css/index.css');
     </style>
+    {% endif %}
 
 </head>
 <body class="fade-in">
