@@ -6,12 +6,12 @@ html, body {
 
 .jumbotron {
 
-  background:$white;
+  background: transparent;
+
+}
 
   .display-3 {
   font-size:3.48rem;
-}
-
 }
 
 .card {
@@ -20,5 +20,6 @@ html, body {
 }
 
 section {
-  @include padding;
+  padding: 0;
+  height: 100vh;
 }
