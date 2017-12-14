@@ -1,11 +1,22 @@
 // Nav
-
+.container-fluid {
+  width:100%;
+  padding:0;
+}
 header {
-  background:$white;
-  height:80px;
+  width:100%;
 
   .container {
     width: 100%;
+  }
+
+  .navbar {
+    padding: 1rem;
+  }
+
+  .nav-item {
+    padding: 0 8px;
+    font-weight: 300;
   }
 
 
@@ -15,10 +26,10 @@ header {
 }
 
 .navbar-inverse .navbar-nav .nav-link {
-  color:$blue;
+  color:$white;
 
   &:hover {
-    color:$blue;
+    color: $white;
     text-decoration:underline;
   }
 }

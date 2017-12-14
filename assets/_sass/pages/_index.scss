@@ -7,6 +7,7 @@
 
 
 #victorops {
+  flex-direction:column;
 
   background: $blue;
 
@@ -35,6 +36,10 @@
   p {
 
     color:$white;
+  }
+
+  .container {
+    height: calc(100% - 160px);
   }
 }
 
