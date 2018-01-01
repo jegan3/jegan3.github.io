@@ -10,17 +10,32 @@ a {
 }
 
 .btn {
+
   padding:12px 28px;
   border-radius:4px;
-  background:$white;
-  border: 1px solid $blue;
-  color:$blue;
+  background:$blue-light;
+  border: 1px solid $blue-light;
+  color:$white;
 
   &:hover {
     background: $blue;
     border: 1px solid $blue;
     color:$white;
   }
+
+  &-outline {
+  padding:12px 28px;
+  border-radius:4px;
+  background:transparent;
+  border: 1px solid $blue;
+  color:$blue;
+
+  &:hover {
+    background: $blue-light;
+    border: 1px solid $blue-light;
+    color:$white;
+  }
+}
 
 }
 

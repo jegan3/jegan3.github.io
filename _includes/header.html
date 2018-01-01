@@ -5,7 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+
     <meta name="robots" content="NOINDEX, NOFOLLOW">
+
 
     <title>JOHN EGAN | DESIGN + DEVELOPMENT</title>
 
@@ -44,11 +46,9 @@
 
 
     <script src="https://use.fontawesome.com/98fc17ae4a.js"></script>
-    <link rel="stylesheet" href="{{ page.base_url }}assets/css/animate.css?v=20171213" />
-    <link rel="stylesheet" href="{{ page.base_url }}assets/css/style.css" />
-    {% if page.permalink == / %}
-    <link rel="stylesheet" href="{{ page.base_url }}assets/css/index.css" />
-    {% endif %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/animate.css?v=20171213" />
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css" />
+
 
 </head>
-<body>
+<body class="{{ page.class }}">

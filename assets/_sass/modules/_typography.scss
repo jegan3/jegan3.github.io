@@ -4,16 +4,21 @@ body, button, form, input {
   font-family: 'Roboto Mono', monospace;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
   color:$blue;
   font-weight: 900;
+  font-size:4rem;
 
 }
 
-p {
+h2 {
+  font-size:4rem;
+}
 
-  color:$blue;
+p {
+  font-size: 18px;
+  color:$black;
   margin-bottom: 1.5rem;
 
 }

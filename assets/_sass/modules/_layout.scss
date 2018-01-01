@@ -4,6 +4,10 @@ html, body {
   overflow-x:hidden;
 }
 
+section {
+  padding: 80px 0;
+}
+
 .jumbotron {
 
   background: transparent;
@@ -20,9 +24,36 @@ html, body {
   @include padding;
 }
 
-section {
-  padding: 0;
-  height: 100vh;
+.hero {
+    flex-direction:column;
+}
+
+.column {
+  flex-direction:column;
+}
+
+  .fh-100 {
+    padding: 0;
+    height: 100vh;
+    }
+
+.p-0 {
+  padding:0;
+}
+
+.white {
+  background: $white;
+}
+
+.quote {
+  margin-top: -280px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 32%, 100% 0, 100% 100%, 0 100%);
+  padding: 160px 0 0 0;
+}
+
+.z-2 {
+  z-index: 2;
 }
 
 
