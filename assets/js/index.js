@@ -34,3 +34,4 @@ $('.img-parallax').each(function(){
     }
   });
 });
+
