@@ -5,8 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-
     <title>JOHN EGAN | DESIGN + DEVELOPMENT</title>
 
     <meta name="google-site-verification" content="AXsTAb9wZHd9-TnJQlwhRtOl3lhHvurG30U8Jq5xbSU" />
@@ -17,7 +15,6 @@
     <meta name="author" content="{{ site.author.name }}" />
     <meta name="copyright" content="{{ site.copyright }}"/>
 
-    <link rel="shortcut icon" type="image/png" href=""/>
 
     <!-- 404 Redirect -->
     {% if page.url == "/404.html" %}
@@ -38,11 +35,9 @@
 
 
     <script src="https://use.fontawesome.com/98fc17ae4a.js"></script>
-    <link rel="stylesheet" href="{{ page.base_url }}assets/css/animate.css?v=20171213" />
-    <link rel="stylesheet" href="{{ page.base_url }}assets/css/style.css" />
-    {% if page.permalink == / %}
-    <link rel="stylesheet" href="{{ page.base_url }}assets/css/index.css" />
-    {% endif %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/animate.css?v=20171213" />
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css" />
+
 
 </head>
-<body>
+<body class="{{ page.class }}">

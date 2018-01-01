@@ -1,9 +1,14 @@
+$black: #010914;
+
 $blue: #0C2340;
-$grey: #A2AAAD;
+$blue-light: #344F73;
+$blue-lighter: #546C8D;
+$blue-lightest: #7E90A9;
+
+$grey: #DDE2E9;
 $red-light: hsla(0%, 75%, 60%, 1);
 $white: hsla(0%, 0%, 100%, 1);
 $red: #C8102E;
-$green: hsla(108%, 66%, 63%, 1);
 
 $border: 1px solid $grey;
 
@@ -11,11 +16,3 @@ $padding:80px;
 
 $desktop:960px;
 $yuge:1920px;
-
-$p: padding;
-$pb: padding-bottom;
-$pt: padding-top;
-
-$m: margin;
-$mb: margin-bottom;
-$mt: margin-top;
