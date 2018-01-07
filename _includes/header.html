@@ -26,6 +26,8 @@
     {% endif %}
     <!-- /404 Redirect -->
 
+
+
     <script src="{{ site.url }}/assets/js/wow.js"></script>
                  <script>
                  new WOW().init();
@@ -48,4 +50,14 @@
 
 
 </head>
+
+<script>
+
+$(document).ready(function () {
+setTimeout( function(){
+    $('#blue').css("display", "none");
+},25);
+});
+
+</script>
 <body class="{{ page.class }}">

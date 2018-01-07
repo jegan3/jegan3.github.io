@@ -1,24 +1,9 @@
 // Preloader
 
-.preloader {
+.blue {
 
   width:100vw;
   height:100vh;
-
-  .container {
-    height:100vh;
-  }
-
-@keyframes logoAnimation-tri {
-  0% {
-    width:10vw;
-  }
-  70% {
-    width:10vw;
-  }
-  100% {
-    width:110vw;
-  }
-}
-
+  background:$blue;
+  z-index:99999;
 }
