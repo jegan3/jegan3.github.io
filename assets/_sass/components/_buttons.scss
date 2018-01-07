@@ -1,56 +1,53 @@
 // Buttons and Links
+
 a {
-  color: #0C2340;
-  text-decoration:none;
+  color: $blue;
+  text-decoration: none;
 
   &:hover {
-    font-weight:700;
-    text-decoration:underline;
+    font-weight: 700;
+    text-decoration: underline;
   }
 }
 
 .btn {
-
-  padding:12px 28px;
-  border-radius:4px;
-  background:$blue-light;
+  background: $blue-light;
   border: 1px solid $blue-light;
-  color:$white;
+  border-radius: 4px;
+  color: $white;
+  padding: 12px 28px;
 
   &:hover {
     background: $blue;
     border: 1px solid $blue;
-    color:$white;
+    color: $white;
   }
 
   &-outline {
-  padding:12px 28px;
-  border-radius:4px;
-  background:transparent;
-  border: 1px solid $blue;
-  color:$blue;
+    background: transparent;
+    border: 1px solid $blue;
+    border-radius: 4px;
+    color: $blue;
+    padding: 12px 28px;
 
-  &:hover {
-    background: $blue-light;
-    border: 1px solid $blue-light;
-    color:$white;
+    &:hover {
+      background: $blue-light;
+      border: 1px solid $blue-light;
+      color: $white;
+    }
   }
-}
-
 }
 
 #victorops {
   .btn {
+    background: transparent;
     border: 1px solid $white;
-    color:$white;
-    background:transparent;
-
+    color: $white;
 
     &:hover {
       background: $white;
       border: 1px solid $white;
-      color:$blue;
+      color: $blue;
     }
-
   }
 }

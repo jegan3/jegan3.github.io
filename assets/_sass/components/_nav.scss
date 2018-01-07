@@ -1,12 +1,13 @@
 // Nav
+
 .container-fluid {
-  width:100%;
-  padding:0;
-  position:fixed;
-  z-index:2;
+  padding: 0;
+  width: 100%;
+  z-index: 2;
 }
+
 header {
-  width:100%;
+  width: 100%;
 
   .container {
     width: 100%;
@@ -17,28 +18,39 @@ header {
   }
 
   .nav-item {
-    padding: 0 8px;
     font-weight: 300;
+    padding: 0 8px;
   }
-
 
   img {
     width: 120px;
   }
 }
 
-.navbar-inverse .navbar-nav .nav-link {
-  color:$white;
+.navbar-inverse {
 
-  &:hover {
-    color: $white;
-    text-decoration:underline;
+  .navbar-nav {
+
+    .nav-link {
+      color: $white;
+
+      &:hover {
+        color: $white;
+        text-decoration: underline;
+      }
+    }
   }
 }
 
-.navbar-toggleable-sm .navbar-nav .nav-link {
-  padding: .5em 8px;
-}
+.navbar-toggleable-sm {
+
+  .navbar-nav {
+
+     .nav-link {
+       padding: .5em 8px;
+     }
+   }
+ }
 
 .navbar-inverse .navbar-nav .active>.nav-link, .navbar-inverse .navbar-nav .nav-link.active, .navbar-inverse .navbar-nav .nav-link.open, .navbar-inverse .navbar-nav .open>.nav-link {
   color:$blue;
@@ -46,4 +58,9 @@ header {
     color:$blue;
     text-decoration:underline;
   }
+}
+
+.navbar-inverse .navbar-toggler {
+  border: 0;
+  outline: none;
 }
