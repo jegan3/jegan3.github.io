@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-<section class="hero d-flex">
+<section class="hero d-flex wow fadeInUp">
 
 
 		<div class="container-fluid wow fadeInUp">
@@ -18,24 +18,24 @@ layout: default
 
 		<div class="col-md-8 text-center">
 
-			<h1 class="display-3 wow fadeInUp">Making On-Call Suck Less</h1>
-				<p class="lead wow fadeInUp">Development, Strategy &amp; Design @ VictorOps</p>
+			<h1 class="display-3 wow fadeIn">{{ page.header }}</h1>
+				<p class="lead wow fadeInUp">{{ page.subheader }}</p>
 			</div>
 
 	</div>
 </section>
 <div class="container">
-<section>
+<section class="wow fadeIn">
 
     <div class="row">
 
 
     <div class="col-md-6">
-      <p>The primary goal of VictorOps.com is to drive potential customers into both free trials and personalized demos of the VictorOps product. With this goal in mind, I lead data driven design &amp; development. My</p>
+      <p>{{ page.intro }}</p>
 
     </div>
     <div class="col-md-6">
-  <p>Lorem ipsum dolor amet unicorn heirloom chambray XOXO bitters godard. Knausgaard raw denim tumeric, pok pok kombucha poutine salvia. Flexitarian craft beer bitters, tattooed direct trade waistcoat plaid chia bespoke. Bitters shoreditch single-origin coffee yr small batch umami. Forage hot chicken roof.</p>
+  <p>{{ page.intro2 }}</p>
     </div>
   </div>
 
@@ -46,8 +46,8 @@ layout: default
 		<img class="wow fadeIn img-parallax" data-speed="0.25" width="380" src="{{ site.url }}/assets/img/420x888-mobile@2x.png" />
 	</div>
 	<div class="align-items-center col-md-6">
-				<h2 class="wow fadeIn" data-wow-delay=".25s">VictorOps.com</h2>
-				<p class="wow fadeIn" data-wow-delay=".25s">Manage Development, Strategy &amp; Design. Lead site rebuild in Fall of 2017.</p>
+				<h2 class="wow fadeIn" data-wow-delay=".25s">{{ page.right-header }}</h2>
+				<p class="wow fadeIn" data-wow-delay=".25s">{{ page.right-text }}</p>
 				<p class="wow fadeInUp"><a href="https://explore.victorops.com/product/" target="_blank"><button type="button" class="btn btn-primary btn-lg">Product <i class="fa fa-angle-right" aria-hidden="true"></i>
 </button></a> <a href="https://victorops.com/chatops/" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-outline">ChatOps <i class="fa fa-angle-right" aria-hidden="true"></i>
 </button></a> </p>

@@ -1,19 +1,22 @@
 // Buttons and Links
 
 a {
-  color: $blue;
+  color: $blue-light;
   text-decoration: none;
 
-  &:hover {
-    font-weight: 700;
-    text-decoration: underline;
+  &:hover, &:active, &:visited, &:focus {
+    color: $blue-light;
+    text-decoration: none;
   }
+
+
 }
 
 .btn {
   background: $blue-light;
   border: 1px solid $blue-light;
   border-radius: 4px;
+  font-weight: 300;
   color: $white;
   padding: 12px 28px;
 

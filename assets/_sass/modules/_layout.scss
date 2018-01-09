@@ -63,13 +63,37 @@ section {
     }
   }
 
+
+  .email {
+
+  a {
+    color: $blue-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $blue;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+}
+
+
 .social {
   font-size:16px;
   font-weight:900;
+  font-family: 'Roboto', sans-serif;
   color: $blue-light;
+
+  .fa {
+    font-size:22px;
+    margin-right: 2px;
+
+  }
 }
 
 footer {
   padding: 40px 0;
-  background: $blue;
+  background: $grey;
+  color: $blue-light;
 }
