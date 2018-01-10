@@ -3,7 +3,11 @@
 // Images
 
 .ring {
-  width:100%;
+  width:80%;
+
+  @media (min-width: $desktop) {
+    width: 100%;
+  }
 }
 
 
@@ -19,6 +23,10 @@
     width:100vw;
     background:url(../img/1440x900-larper@2x.jpg);
     background-size:cover;
+
+    @media (max-width: 1440px) {
+      background-position: right;
+    }
 
 
 

@@ -6,16 +6,21 @@
 
     background:url(../img/1440x480-larp-city.jpg);
     background-size:cover;
-    height:33.52vw;
+    background-position: center;
     padding:0;
+
 
     .container {
       height:100%;
+        padding: 120px 0;
+
     }
+
 
     h1 {
       color:$white;
-      font-size:6rem;
+      font-size:5rem;
+
     }
 
     p {

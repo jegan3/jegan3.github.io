@@ -90,6 +90,10 @@ section {
     margin-right: 2px;
 
   }
+
+@media (max-width: $desktop) {
+  display: none;
+}
 }
 
 footer {
