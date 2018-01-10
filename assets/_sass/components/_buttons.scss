@@ -41,6 +41,18 @@ a {
   }
 }
 
+.link {
+  color: $blue-light;
+  text-decoration: none;
+  font-weight: 500;
+
+  &:hover, &:active, &:visited, &:focus {
+    color: $blue-light;
+    text-decoration: underline;
+  }
+
+}
+
 #victorops, nav {
   .btn {
     background: transparent;
