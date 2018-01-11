@@ -6,7 +6,9 @@
 
     background:url(../img/1440x480-goat@2x.jpg);
     background-size:cover;
+    @media (min-width: $desktop) {
     background-position: center;
+  }
     padding:0;
 
 
