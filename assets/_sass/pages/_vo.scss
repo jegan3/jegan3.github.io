@@ -1,6 +1,13 @@
 .v-ops {
   background: $grey;
 
+  @media (max-width: $desktop) {
+  .btn {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  }
+
 
 .hero {
 
@@ -45,10 +52,9 @@ footer {
   max-width: 380px;
 }
 
-.btn {
-  width: 100%;
-  margin-bottom: 16px;
+.slack-email {
+  width:100%;
+  max-width: 600px;
 }
-
 
 }
