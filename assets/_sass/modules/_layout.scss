@@ -45,13 +45,21 @@ section {
   background: $white;
 }
 
-.quote {
+.grey {
+  background: $grey;
+}
+
+.blue {
+  background: $blue;
+}
+
+.slice {
   @media (min-width: $desktop) {
   margin-top: -220px;
-}
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
   clip-path: polygon(0 32%, 100% 0, 100% 100%, 0 100%);
   padding: 160px 0 0 0;
+}
 }
 
 .z-2 {
@@ -106,7 +114,6 @@ section {
 
 footer {
   padding: 40px 0;
-  background: $grey;
   color: $blue-light;
 }
 
