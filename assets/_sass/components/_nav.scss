@@ -25,7 +25,15 @@ header {
   img {
     width: 120px;
   }
+
+  .nav-item {
+    @media (max-width: $desktop) {
+    padding: 0;
+  }
+  }
 }
+
+
 
 .navbar-inverse {
 

@@ -18,7 +18,7 @@ a {
   border-radius: 4px;
   font-weight: 300;
   color: $white;
-  padding: 12px 28px;
+  padding: 12px 48px 12px 27px;
 
   &:hover {
     background: $blue;
@@ -26,12 +26,27 @@ a {
     color: $white;
   }
 
+  &:hover > .fa-angle-right {
+    animation-name: carat-nudge;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes carat-nudge {
+    0%   {margin-left:12px;}
+    25%  {margin-left: 13px}
+    50%  {margin-left: 14px}
+    75%  {margin-left: 13px}
+    100% {margin-left: 12px}
+}
+
   &-outline {
     background: transparent;
     border: 1px solid $blue;
     border-radius: 4px;
     color: $blue;
-    padding: 12px 28px;
+    padding: 12px 48px 12px 27px;
 
     &:hover {
       background: $blue-light;
@@ -39,6 +54,12 @@ a {
       color: $white;
     }
   }
+}
+
+.fa-angle-right {
+  position: absolute;
+  margin-left: 12px;
+  margin-top:3px;
 }
 
 .link {
@@ -64,5 +85,9 @@ a {
       border: 1px solid $white;
       color: $blue;
     }
+
+  .fa-angle-right {
+    margin-top:2px;
+  }
   }
 }

@@ -26,7 +26,10 @@
 
     h1 {
       color:$white;
+      font-size: 3rem;
+        @media (min-width: $desktop) {
       font-size:5rem;
+    }
 
     }
 
