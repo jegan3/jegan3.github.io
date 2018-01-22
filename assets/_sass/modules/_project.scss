@@ -12,7 +12,7 @@
 
 
 .p-80 {
-  @include padding;
+  padding: 80px 0 0 0;
 }
 
 .main {
@@ -68,8 +68,20 @@
   padding: 80px 0;
 }
 
+@media (min-width: $desktop) {
+
 #pats-social-project1 {
   max-width: 640px;
+
+}
+
+#pats-email-project {
+  max-width: 616px;
+}
+
+#chatops {
+  max-width: 620px;
+}
 
 }
 
