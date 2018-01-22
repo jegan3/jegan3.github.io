@@ -26,6 +26,12 @@ a {
     color: $white;
   }
 
+  .fa-angle-right {
+    position: absolute;
+    margin-left: 12px;
+    margin-top:3px;
+  }
+
   &:hover > .fa-angle-right {
     animation-name: carat-nudge;
     animation-duration: .8s;
@@ -56,11 +62,7 @@ a {
   }
 }
 
-.fa-angle-right {
-  position: absolute;
-  margin-left: 12px;
-  margin-top:3px;
-}
+
 
 .link {
   color: $blue-light;
