@@ -1,0 +1,78 @@
+.project {
+
+.navbar-brand {
+  padding:22px 0;
+
+  img {
+    width: 120px;
+
+  }
+}
+
+
+
+.p-80 {
+  @include padding;
+}
+
+.main {
+  border-bottom: 1px solid $grey;
+
+  a {
+    &:hover {
+      text-decoration:underline;
+    }
+  }
+}
+
+#contact {
+  background: $grey;
+}
+
+.prev-next {
+  font-family: 'Roboto', sans-serif;
+
+  .inactive {
+    color: $blue-lighter;
+    opacity: .6;
+  }
+
+  .fa-angle-left {
+    margin-right: 4px;
+  }
+
+  .fa-angle-right {
+    margin-left: 8px;
+  }
+}
+
+
+.p-160 {
+  padding: 160px 0 80px 0;
+}
+
+
+.navbar-inverse {
+  .navbar-nav {
+    .nav-link{
+      color: $blue-light;
+
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+}
+
+.featured-img {
+  padding: 80px 0;
+}
+
+#pats-social-project1 {
+  max-width: 640px;
+
+}
+
+
+
+}
