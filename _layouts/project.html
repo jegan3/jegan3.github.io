@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<section id="hero" class="main white">
+	<div class="row">
+
+
+	<div class="container-fluid wow fadeIn" data-wow-delay=".5s">
+	{% include nav-inverse.html %}
+	</div>
+	</div>
+
+		<div class="container">
+
+<div class="row d-flex align-items-center">
+			<div class="col-md-5 white wow fadeIn">
+					<h1 class="display-3 mt-1" data-wow-delay=".6s">{{ page.project }}</h1>
+					<p class="mt-4 mb-0">Site: {{ page.found }}</p>
+					<p class="mt-1">Year: {{ page.year }}</p>
+					<p class="mt-5">{{ page.desc }}</p>
+
+			</div>
+
+
+			<div class=" col-md-7 white d-flex align-middle align-items-center text-center">
+				<img class="wow fadeInUp featured-img img-fluid mx-auto" id="{{ page.img-id }}" src="{{ site.url }}{{ page.img-url }}" />
+			</div>
+		</div>
+	</div>
+</section>
+
+{% include contact.html %}
