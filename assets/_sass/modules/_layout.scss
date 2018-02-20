@@ -5,6 +5,20 @@ html, body {
   background: $blue;
 }
 
+#hero {
+
+  .row {
+
+      margin: 0;
+
+  }
+
+  .container-fluid {
+    width: 100vw;
+
+  }
+}
+
 
 .card {
   background:$blue;

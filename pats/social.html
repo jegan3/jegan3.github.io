@@ -3,41 +3,41 @@ layout: default
 class: project
 permalink: patriots/social
 ---
-<section class="main">
+
+<section id="hero" class="main white">
 	<div class="row">
 
 
-<div class="col-md-5 white wow fadeIn a
-lign-content-between">
-	<div class="mx-auto col-md-9">
-		<a class="navbar-brand" href="/"><img src="{{ page.base_url }}/assets/img/180x53-logo.svg" /></a>
-			<div class="p-80">
-				<div class="pill" data-wow-delay=".4s">New England Patriots</div>
-				<h1 class="display-3 mt-1" data-wow-delay=".6s">Stay Connected</h1>
-				<p class="mt-4 mb-0">Site: <a href="https://patriots.com">Patriots.com</a></p>
-				<p class="mt-1">Year: 2013</p>
-				<p class="mt-5">Patriots Social Media accounts had grown significantly, surpassing a million followers on both Facebook and Twitter, and their social media directory was in need of an overhaul. I redesigned the page, following brand standards, and built it on the NFL CMS.</p>
+	<div class="container-fluid wow fadeIn" data-wow-delay=".5s">
+	{% include nav-inverse.html %}
+	</div>
 	</div>
 
-<div class="prev-next py-4">
-	<ul class="pagination d-flex justify-content-around">
-		<li class="mr-auto align-self-start inactive"><i class="fa fa-angle-left" aria-hidden="true"></i> Previous Project</li>
-		<li class="ml-auto align-self-end"> <a class="" href="/patriots/email/">Next Project<i class="fa fa-angle-right" aria-hidden="true"></i> </a></li> </ul>
-</div>
+		<div class="container">
+
+<div class="row d-flex align-items-center">
+			<div class="col-md-5 white wow fadeIn">
+					<h1 class="display-3 mt-1" data-wow-delay=".6s">Stay Connected</h1>
+					<p class="mt-4 mb-0">Site: <a href="https://patriots.com">Patriots.com</a></p>
+					<p class="mt-1">Year: 2013</p>
+					<p class="mt-5">Patriots Social Media accounts had grown significantly, surpassing a million followers on both Facebook and Twitter, and their social media directory was in need of an overhaul. I redesigned the page, following brand standards, and built it on the
+						NFL CMS.</p>
 
 
+				<div class="prev-next py-4">
+					<ul class="pagination d-flex justify-content-around">
+						<li class="mr-auto align-self-start inactive"><i class="fa fa-angle-left" aria-hidden="true"></i> Previous Project</li>
+						<li class="ml-auto align-self-end"> <a class="" href="/patriots/email/">Next Project<i class="fa fa-angle-right" aria-hidden="true"></i> </a></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class=" col-md-7 white d-flex align-middle align-items-center text-center">
+				<img class="wow fadeInUp featured-img img-fluid mx-auto" id="pats-social-project1" src="{{ site.url }}/assets/img/640x615-pats-social@2x.png" />
+			</div>
+		</div>
 	</div>
-</div>
-
-<div class=" col-md-7 d-flex align-middle align-items-center text-center">
-	<div class="col-md-10 mx-auto">
-
-
-	<img class="wow fadeInUp featured-img img-fluid mx-auto" id="pats-social-project1" src="{{ site.url }}/assets/img/640x615-pats-social@2x.png" />
-</div>
-</div>
-</div>
-</div>
 </section>
 
 {% include contact.html %}

@@ -11,19 +11,40 @@
 }
 
 
+
+
 #hero {
+
+  .row {
+
+      margin: 0;
+    
+  }
 
   overflow:hidden;
 
+
   .main-content {
+
+    text-align: left;
+
+    padding: 80px 15px;
+
+    @media (min-width: $mobile) {
+      text-align: center;
+
+    }
+
     @media (min-width: $desktop) {
       padding: 8vh 0;
+
     }
 
   }
 
   .container-fluid {
-    padding: 0 15px;
+    width: 100vw;
+
   }
 
   background: linear-gradient(#1C4974, $blue);
@@ -33,28 +54,15 @@
     color: #fff;
   }
 
-  .emoji {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-animation: shake 0.5s;
-/* When the animation is finished, start again */
-animation-iteration-count: infinite;
-  }
-
 }
 
+.landscape {
+  width: 100%;
 
-  @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  background: url(../img/1440x340-hero-landscape.svg);
+  background-size: cover;
+  background-position:center;
+  height: 24.24vw;
 }
 
 

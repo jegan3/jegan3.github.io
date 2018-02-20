@@ -66,9 +66,30 @@ header {
     color:$blue;
     text-decoration:underline;
   }
+
+
 }
 
 .navbar-inverse .navbar-toggler {
   border: 0;
   outline: none;
+}
+
+.inverse-nav {
+  .btn {
+    background: $blue-light !important;
+    border: 1px solid $blue-light !important;
+    border-radius: 4px;
+    font-weight: 300;
+    color: $white;
+    padding: 12px 48px 12px 27px;
+
+
+    &:hover {
+      background: $blue !important;
+      border: 1px solid $blue !important;
+      color: $white;
+      text-decoration: none !important;
+    }
+  }
 }
