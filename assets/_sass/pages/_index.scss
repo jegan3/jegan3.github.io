@@ -93,12 +93,68 @@
   }
 }
 
+#broncos {
 
-#contact {
-  background: $grey;
+    background:url(../img/1440x900-broncos-hero@2x.jpg);
+    background-size:cover;
+
+    @media (max-width: 1440px) {
+      background-position: right;
+    }
 
 
 
+  h1 {
+    color:$white;
+  }
+
+  p {
+
+    color:$white;
+  }
+
+  .container {
+    height: 100%;
+  }
 }
+
+
+#kapost {
+
+    background:url(../img/1440x900-kapost-hero@2x.jpg);
+    background-size:cover;
+
+    @media (max-width: 1440px) {
+      background-position: right;
+    }
+
+
+
+  h1 {
+    color:$white;
+  }
+
+  p {
+
+    color:$white;
+  }
+
+  .container {
+    height: 100%;
+  }
+}
+
+#more-work {
+  @include padding;
+
+  .container-fluid {
+    padding: 30px;
+  }
+}
+
+.link {
+  margin-bottom: 0;
+}
+
 
 }

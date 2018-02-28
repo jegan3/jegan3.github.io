@@ -21,8 +21,24 @@ html, body {
 
 
 .card {
-  background:$blue;
-  @include padding;
+  @include shadow;
+  z-index: 2;
+  border: 0;
+  border-radius: 2px;
+
+  .card-block {
+  padding: 30px 1.25rem;
+  }
+
+  .logo {
+    width: auto;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card-img-top {
+    width: 100%;
+  }
 }
 
 .hero {
@@ -122,8 +138,12 @@ html, body {
 }
 
 footer {
-  padding: 40px 0;
+  padding: 24px 0;
   color: $blue-light;
+  font-size:16px;
+  font-weight:300;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .wow {
