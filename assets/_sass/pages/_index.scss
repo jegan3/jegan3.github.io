@@ -154,6 +154,16 @@
 
 .link {
   margin-bottom: 0;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 
