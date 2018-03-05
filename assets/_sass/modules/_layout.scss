@@ -237,6 +237,11 @@ transition: all .2s ease-in-out;
   }
   }
 }
+
+@media (max-width: 1200px) {
+  margin-bottom: -20vh;
+  padding-bottom: 80px;
+}
 }
 
 @keyframes lolol {
