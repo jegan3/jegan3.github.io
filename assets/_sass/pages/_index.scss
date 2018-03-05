@@ -69,6 +69,9 @@
 
 
 #victorops {
+    @media (min-width: $desktop) {
+    padding: 101px 0;
+  }
 
     background:url(../img/1440x900-larper@2x.jpg);
     background-size:cover;
@@ -167,4 +170,8 @@
 }
 
 
+}
+
+.emoji {
+  display: inline-block;
 }

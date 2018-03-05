@@ -21,9 +21,9 @@ html, body {
 
 
 .card {
-  @include shadow;
-  z-index: 2;
   border: 0;
+  // border: 1px solid darken($grey, 2%);
+  z-index: 2;
   border-radius: 2px;
 
   .card-block {
@@ -72,6 +72,14 @@ html, body {
 
 .blue {
   background: $blue;
+}
+
+.black {
+  background: $black;
+}
+
+.blue-black {
+  background: linear-gradient($blue, $black);
 }
 
 .padding {
@@ -158,10 +166,9 @@ footer {
 @media (min-width: $desktop) {
 
 .intro {
-  -webkit-clip-path: polygon(0 0, 100% 1%, 100% 68%, 0% 100%);
-clip-path: polygon(0 0, 100% 1%, 100% 68%, 0% 100%);
-padding-bottom:40px;
-margin-bottom: -80px;
+ p {
+   column-count: 2;
+ }
 }
 
 }
@@ -177,4 +184,86 @@ margin-bottom: -80px;
 background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f8f9fa 100%);
 background: linear-gradient(120deg, #ffffff 0%,#f8f9fa 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f9fa',GradientType=1 );
+}
+
+.screen {
+  @include padding;
+}
+
+.pics {
+  .container-fluid {
+
+    .row {
+
+      padding: 0 7.5px;
+      margin:0;
+
+    div {
+      padding: 15px 7.5px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+  }
+}
+
+.slider {
+  @include padding;
+}
+
+.down {
+
+margin-bottom: -28vh;
+    padding-top: 22vh;
+
+p {
+  font-size: 24px;
+
+  a {
+    color: #fff !important;
+  }
+
+  .fa-angle-down {
+    padding: 24px 28px;
+  border-radius: 50%;
+  background: rgba($white, .3);
+  transition: all .2s ease-in-out;
+
+  &:hover {
+background: rgba($white, .4);
+transition: all .2s ease-in-out;
+  }
+  }
+}
+}
+
+@keyframes lolol {
+  0%   {padding: 24px 28px 24px 28px}
+  25%  {padding: 25px 28px 23px 28px}
+  50%  {padding: 26px 28px 22px 28px}
+  75%  {padding: 25px 28px 23px 28px}
+  100% {padding: 24px 28px 24px 28px}
+}
+
+.carousel-indicators {
+  bottom: -60px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  color: $blue;
+  opacity: 1;
+
+  &:hover, &:visited, &:active, &:focus {
+    color: $blue;
+  }
+}
+
+.carousel-indicators {
+
+  li { background-color: $grey-darker}
+  .active {
+  background-color: $blue;
+}
 }

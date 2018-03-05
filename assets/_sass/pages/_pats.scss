@@ -4,12 +4,35 @@
 
 .hero {
 
-    background:url(../img/1440x480-goat@2x.jpg);
-    background-size:cover;
-    @media (min-width: $desktop) {
-    background-position: center;
-  }
     padding:0;
+    overflow: hidden;
+    @media (min-width: $desktop) {
+    min-height: 700px;
+  }
+
+    .vid-bg {
+      position: absolute;
+      overflow: hidden;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      width:100%;
+      @media (min-width: $desktop) {
+      min-height: 700px;
+    }
+
+      video {
+        opacity: .1;
+
+        @media (min-width: 1280px) {
+          width:100%;
+        }
+
+
+      }
+    }
 
 
     .container {
@@ -44,6 +67,9 @@ footer {
   background: $white;
   border-top: 1px solid $grey;
 }
+
+
+
 
 
 }

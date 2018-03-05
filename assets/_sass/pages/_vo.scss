@@ -1,5 +1,5 @@
 .v-ops {
-  background: $grey;
+  background: $blue;
 
   @media (max-width: $desktop) {
   .btn {
@@ -11,10 +11,22 @@
 
 .hero {
 
-    background:url(../img/1440x480-larp-city.jpg);
-    background-size:cover;
-    background-position: center;
+
     padding:0;
+
+    .vid-bg {
+      background:url(../img/1440x900-larper@2x.jpg);
+      background-size:cover;
+      background-position: center;
+      position: absolute;
+      overflow: hidden;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      width:100%;
+    }
 
 
     .container {

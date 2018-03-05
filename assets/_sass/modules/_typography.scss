@@ -23,7 +23,6 @@ h2 {
 
 
 p {
-  font-size: 18px;
   color:$black;
   margin-bottom: 1.5rem;
 
@@ -40,4 +39,11 @@ p {
 
 .pink {
   color: $pink;
+}
+
+.quote {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: $black;
+
 }

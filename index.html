@@ -14,8 +14,8 @@ class: index
 	</div>
 	<div class="row">
 <div class="col-lg-6 main-content mx-auto ">
-			<h1 class="display-3 wow fadeInUp mt-2" data-wow-delay="2s">Hey, I'm John <span class="emoji">👋</span></h1>
-			<p class="lead wow fadeIn" data-wow-delay="2.5s">From professional sports dynasties to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
+			<h1 class="display-3 wow fadeIn mt-2" data-wow-delay="2s">Hey, I'm John <span class="emoji wow wobble" data-wow-delay="10s">👋</span></h1>
+			<p class="lead wow fadeInDown" data-wow-delay="2s">From professional sports dynasties to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
 
 		</div>
 
@@ -28,17 +28,17 @@ class: index
 
 </section>
 
-<section id="patriots" class="fh-100 d-flex align-items-center white">
+<section id="patriots" class="d-flex align-items-center white">
 	<div class="container d-flex align-items-center padding">
 		<div class="row d-flex align-items-center">
 			<div class="col-lg-6 text-center">
-				<img class="ring wow fadeInDown" data-wow-duration="1.6s" src="assets/img/410x562-ring@2x.jpg" />
+				<img class="ring" src="assets/img/410x562-ring@2x.jpg" />
 			</div>
 			<div class="col-lg-6">
-				<div class="pill wow fadeInUp" data-wow-duration="1s">Featured Work</div>
-				<h1 class="display-3 wow fadeInUp mt-2" data-wow-duration="1s">New England Patriots</h1>
-				<p class="lead wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">Digital Media for the NFL Super Bowl champions.</p>
-				<p class="wow fadeInUp mt-4" data-wow-delay=".75s" data-wow-duration="1s"><a href="/patriots.html"><button type="button" class="btn btn-primary btn-lg btn-outline">View Work <i class="fa fa-angle-right" aria-hidden="true"></i>
+				<div class="pill  fadeInUp" data-wow-duration="1s">Featured Work</div>
+				<h1 class="display-3  fadeInUp mt-2" data-wow-duration="1s">New England Patriots</h1>
+				<p class="lead  fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">Digital Media for the NFL Super Bowl champions.</p>
+				<p class=" fadeInUp mt-4" data-wow-delay=".75s" data-wow-duration="1s"><a href="/patriots.html"><button type="button" class="btn btn-primary btn-lg btn-outline">View Work <i class="fa fa-angle-right" aria-hidden="true"></i>
 				</button></a></p>
 				</div>
 			</div>
@@ -47,24 +47,24 @@ class: index
 
 
 
-<section id="victorops" class="d-flex fh-100 column blue wow fadeIn" data-wow-delay=".1s">
+<section id="victorops" class="d-flex column blue  fadeIn" data-wow-delay=".1s">
 <div class="container d-flex align-middle align-items-center padding">
 		<div class="col-lg-7">
-			<div class="pill wow fadeInUp" data-wow-delay=".4s">Featured Work</div>
-			<h1 class="display-3 wow fadeInUp mt-2" data-wow-delay=".6s">Building The Future Faster</h1>
-			<p class="lead wow fadeInUp" data-wow-delay=".8s">Development, Strategy & Design @ VictorOps</p>
-			<p class="wow fadeIn mt-4" data-wow-delay="1.2s"><a href="/victorops.html"><button type="button" class="btn btn-primary btn-lg">View Work <i class="fa fa-angle-right" aria-hidden="true"></i>
+			<div class="pill  fadeInUp" data-wow-delay=".4s">Featured Work</div>
+			<h1 class="display-3  fadeInUp mt-2" data-wow-delay=".6s">Building The Future Faster</h1>
+			<p class="lead  fadeInUp" data-wow-delay=".8s">Development, Strategy & Design @ VictorOps</p>
+			<p class=" fadeIn mt-4" data-wow-delay="1.2s"><a href="/victorops.html"><button type="button" class="btn btn-primary btn-lg">View Work <i class="fa fa-angle-right" aria-hidden="true"></i>
 </button></a></p>
 		</div>
 	</div>
 </section>
-<section id="more-work" class="d-flex column grey wow fadeIn" data-wow-delay=".1s">
+<section id="more-work" class="d-flex column grey  fadeIn" data-wow-delay=".1s">
 	<div class="container">
 		<div class="row col-lg-12 mx-auto">
 
 
 	  <div class="col-lg-6 mx-auto">
-			<div class="card white wow fadeInUp">
+			<div class="card white fadeInUp">
   <img class="card-img-top" src="../assets/img/675x338-broncos-card.jpg" srcset="../assets/img/675x338-broncos-card@2x.jpg 2x" alt="Denver Broncos">
   <div class="card-block">
 		<img class="logo" src="../assets/img/broncos-logo.svg" />
@@ -76,7 +76,7 @@ class: index
 </div>
 	  </div>
 		<div class="col-lg-6 mx-auto">
-			<div class="card white wow fadeInUp">
+			<div class="card white fadeInUp">
 	<img class="card-img-top" src="../assets/img/675x338-kapost-card.jpg" srcset="../assets/img/675x338-kapost-card@2x.jpg 2x" alt="Kapost">
 	<div class="card-block">
 		<img class="logo" src="../assets/img/kapost-logo.svg" />
@@ -97,3 +97,31 @@ class: index
 
 
 	{% include contact.html %}
+
+	<script>
+	$(document).ready(function(){
+
+
+	  // Add smooth scrolling on all links inside the navbar
+	  $("#nav a").on('click', function(event) {
+	    // Make sure this.hash has a value before overriding default behavior
+	    if (this.hash !== "") {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+
+	      // Store hash
+	      var hash = this.hash;
+
+	      // Using jQuery's animate() method to add smooth page scroll
+	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 600, function(){
+
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	      });
+	    }  // End if
+	  });
+	});
+	</script>
