@@ -9,12 +9,14 @@
 header {
   width: 100%;
 
+
   .container {
     width: 100%;
   }
 
   .navbar {
     padding: 1rem;
+    z-index: 9999;
   }
 
   .nav-item {
@@ -40,6 +42,22 @@ header {
   .navbar-nav {
 
     .nav-link {
+      color: $blue;
+
+      &:hover {
+        color: $blue;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+#nav {
+.navbar-inverse {
+
+  .navbar-nav {
+
+    .nav-link {
       color: $white;
 
       &:hover {
@@ -48,6 +66,7 @@ header {
       }
     }
   }
+}
 }
 
 .navbar-toggleable-sm {
@@ -68,6 +87,7 @@ header {
   }
 
 
+
 }
 
 .navbar-inverse .navbar-toggler {
@@ -76,20 +96,29 @@ header {
 }
 
 .inverse-nav {
+
+
   .btn {
-    background: $blue-light !important;
-    border: 1px solid $blue-light !important;
-    border-radius: 4px;
+    background: transparent !important;
+    border: 1px solid $white !important;
+    border-radius: 8px;
     font-weight: 300;
     color: $white;
     padding: 12px 48px 12px 27px;
 
 
     &:hover {
-      background: $blue !important;
-      border: 1px solid $blue !important;
-      color: $white;
+      background: $white !important;
+      border: 1px solid $white !important;
+      color: $blue;
       text-decoration: none !important;
     }
   }
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: $white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#0C2340' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }

@@ -5,6 +5,9 @@ html, body {
   background: $blue;
 }
 
+
+
+
 #hero {
 
   .row {
@@ -24,7 +27,8 @@ html, body {
   border: 0;
   // border: 1px solid darken($grey, 2%);
   z-index: 2;
-  border-radius: 2px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 30px rgba($black, .2);
 
   .card-block {
   padding: 30px 1.25rem;
@@ -38,6 +42,10 @@ html, body {
 
   .card-img-top {
     width: 100%;
+  }
+
+  .link {
+    padding-top: 16px;
   }
 }
 

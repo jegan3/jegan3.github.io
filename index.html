@@ -3,7 +3,43 @@ layout: default
 class: index
 ---
 
-<section id="hero" class="blue d-flex column wow fadeInDown" data-wow-delay="1s">
+<section id="hero" class="white d-flex column wow fadeIn">
+
+
+
+
+	<div class="container-fluid">
+		<div class="row wow fadeInUp" data-wow-delay=".25s">
+
+	{% include nav-inverse.html %}
+
+</div>
+
+<div class="row">
+
+
+<div class="col-lg-6 d-flex align-items-center main-content-cont">
+	<div class="col-lg-10 offset-lg-2">
+
+
+			<h1 class="display-3 wow fadeInUp mt-2" data-wow-delay=".5s">Hey! I'm John <span class="emoji wow wobble" data-wow-delay="3s">👋</span></h1>
+			<p class="lead wow fadeIn" data-wow-delay=".75s">From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
+			<p class="main-cta" ><a href="#patriots"><button type="button" class="btn btn-primary btn-lg wow fadeIn" data-wow-delay="1s">View Work <i class="fa fa-angle-right" aria-hidden="true"></i>
+			</button></a></p>
+		</div>
+		</div>
+		<div class="col-lg-6 mob-no fadeIn" style="padding-right:0;">
+		<img class="img-fluid hero-img" src="../assets/img/hero-test.svg" />
+
+				</div>
+				</div>
+
+
+		</div>
+
+</section>
+
+<!--<section id="hero" class="blue d-flex column wow fadeInDown" data-wow-delay="1s">
 
 	<div class="row nav-row">
 
@@ -26,7 +62,7 @@ class: index
 
 		</div>
 
-</section>
+</section> -->
 
 <section id="patriots" class="d-flex align-items-center white">
 	<div class="container d-flex align-items-center padding">
@@ -36,9 +72,9 @@ class: index
 			</div>
 			<div class="col-lg-6">
 				<div class="pill  fadeInUp" data-wow-duration="1s">Featured Work</div>
-				<h1 class="display-3  fadeInUp mt-2" data-wow-duration="1s">New England Patriots</h1>
-				<p class="lead  fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">Digital Media for the NFL Super Bowl champions.</p>
-				<p class=" fadeInUp mt-4" data-wow-delay=".75s" data-wow-duration="1s"><a href="/patriots.html"><button type="button" class="btn btn-primary btn-lg btn-outline">View Work <i class="fa fa-angle-right" aria-hidden="true"></i>
+				<h2 class="fadeInUp mt-2" data-wow-duration="1s">New England Patriots</h2>
+				<p class="lead  fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">Digital Media for the NFL dynasty</p>
+				<p class="main-cta" data-wow-delay=".75s" data-wow-duration="1s"><a href="/patriots.html"><button type="button" class="btn btn-primary btn-lg">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
 				</button></a></p>
 				</div>
 			</div>
@@ -49,16 +85,18 @@ class: index
 
 <section id="victorops" class="d-flex column blue  fadeIn" data-wow-delay=".1s">
 <div class="container d-flex align-middle align-items-center padding">
-		<div class="col-lg-7">
+		<div class="col-lg-8">
 			<div class="pill  fadeInUp" data-wow-delay=".4s">Featured Work</div>
-			<h1 class="display-3  fadeInUp mt-2" data-wow-delay=".6s">Building The Future Faster</h1>
+			<h2 class=" fadeInUp mt-2" data-wow-delay=".6s">Building The Future Faster</h2>
 			<p class="lead  fadeInUp" data-wow-delay=".8s">Development, Strategy & Design @ VictorOps</p>
-			<p class=" fadeIn mt-4" data-wow-delay="1.2s"><a href="/victorops.html"><button type="button" class="btn btn-primary btn-lg">View Work <i class="fa fa-angle-right" aria-hidden="true"></i>
+			<p class=" fadeIn mt-4" data-wow-delay="1.2s"><a href="/victorops.html"><button type="button" class="btn btn-primary btn-lg btn-outline">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
 </button></a></p>
 		</div>
 	</div>
 </section>
-<section id="more-work" class="column grey fadeIn mob-no" data-wow-delay=".1s">
+
+<!--
+<section id="more-work" class="white column fadeIn mob-no" data-wow-delay=".1s">
 	<div class="container">
 		<div class="row mx-auto">
 
@@ -71,7 +109,7 @@ class: index
 		<img class="logo" src="../assets/img/kapost-logo.svg" />
 		<h3>Kapost Case Study</h3>
 		<p>Designed and built a new and improved case studies page for Kapost.</p>
-		<p class="link"><a href="https://wonderful-shockley-0ee619.netlify.com/case-studies/phunware" >View Project <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+		<p class="link"><a href="https://wonderful-shockley-0ee619.netlify.com/case-studies/phunware" ><button type="button" class="btn btn-primary">View Project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a></p>
 
 	</div>
 </div>
@@ -83,7 +121,7 @@ class: index
 		<img class="logo" src="../assets/img/broncos-logo.svg" />
 		<h3>Denver Broncos Email Revamp</h3>
 		<p>Redesigned the Denver Broncos "In Case You Missed It" Newsletter</p>
-		<p class="link"><a href="/broncos-email" >View Project <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+		<p class="link"><a href="/broncos-email" ><button type="button" class="btn btn-primary">View Project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a></p>
 
 	</div>
 </div>
@@ -95,18 +133,34 @@ class: index
 </section>
 
 
+-->
 
 
 
 
-	{% include contact.html %}
+<section class="white" id="contact">
+			<div class="container mx-auto text-center padding">
+				<h2 class="fadeIn">Contact Me</h2>
+				<div class="col-md-7 mx-auto text-center">
+				<p class="email fadeIn">I'd love to turn your next idea into reality. Please email <a href="mailto:john@johnegan.io" target="_blank"><b>john@johnegan.io</b></a> to get the ball rolling.</p>
+
+
+				<p class="fadeInUp social text-center mx-auto mt-5">
+				<span class="mx-4"><a href="https://www.linkedin.com/in/j0hnegan/" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> LinkedIn</a></span> <span class="mx-4"><a href="https://github.com/j0hnegan" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a></span> <span class="mx-4"><a href="https://angel.co/johnegan3" target="_blank"><i class="fa fa-angellist fa-lg" aria-hidden="true"></i> AngelList</a></span>  <span class="mx-4"><a href="https://www.instagram.com/j0hnegan/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i> Instagram</a></span>
+			</p>
+
+
+			</div>
+			</div>
+</section>
+
 
 	<script>
 	$(document).ready(function(){
 
 
 	  // Add smooth scrolling on all links inside the navbar
-	  $("#nav a").on('click', function(event) {
+	  $("#hero a").on('click', function(event) {
 	    // Make sure this.hash has a value before overriding default behavior
 	    if (this.hash !== "") {
 	      // Prevent default anchor click behavior

@@ -1,6 +1,11 @@
 .index {
 
-// Images
+
+  .container {
+    @media (min-width: 1200px) {
+      width: 1215px;
+  }
+  }
 
 .ring {
   width:80%;
@@ -24,47 +29,35 @@
   overflow:hidden;
 
 
-  .main-content {
+.main-content-cont {
 
-    text-align: left;
-
-    padding: 80px 15px;
-
-    @media (min-width: $mobile) {
-      text-align: center;
-
-    }
-
-    @media (min-width: $desktop) {
-      padding: 12.5vh 0;
-
-    }
-
+  @media (max-width: $desktop) {
+    padding: 0;
   }
 
-  .container-fluid {
-    width: 100vw;
+  .emoji {
+    @media (min-width: 992px) and (max-width: 1400px) {
+      display: none;
+  }
+}
 
+
+  .main-cta {
+    padding-top: 24px;
   }
 
-  background: url(../img/gradient-bg.svg);
-  background-size: cover;
-
-
-  h1, p {
-    color: #fff;
-  }
 
 }
 
-.landscape {
-  width: 100%;
+.hero-img {
 
-  background: url(../img/1440x340-hero-landscape.svg);
-  background-size: cover;
-  background-position:center;
-  height: 24.24vw;
+  margin-top: -80px;
 }
+
+
+}
+
+
 
 
 
@@ -82,7 +75,7 @@
 
 
 
-  h1 {
+  h2 {
     color:$white;
   }
 
