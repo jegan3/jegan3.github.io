@@ -280,3 +280,26 @@ transition: all .2s ease-in-out;
   background-color: $blue;
 }
 }
+
+.full {
+  padding: 24px 0;
+  background: $pink;
+
+  p {
+    margin-bottom: 0;
+
+
+    a {
+      color: $white;
+
+      &:hover {
+        color: $white;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+#contact {
+  padding: 160px 0;
+}
