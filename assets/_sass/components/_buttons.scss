@@ -92,3 +92,26 @@ a {
   }
   }
 }
+
+.full-p {
+.fa-angle-double-right {
+  position: absolute;
+  margin-left: 12px;
+  margin-top:3px;
+}
+
+&:hover > .fa-angle-double-right {
+  animation-name: carat-nudge-ii;
+  animation-duration: .8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+}
+
+@keyframes carat-nudge-ii {
+  0%   {margin-left:12px;}
+  25%  {margin-left: 13px}
+  50%  {margin-left: 14px}
+  75%  {margin-left: 13px}
+  100% {margin-left: 12px}
+}
