@@ -23,11 +23,9 @@
   .row {
 
       margin: 0;
+    }
 
-  }
-
-  overflow:hidden;
-
+overflow:hidden;
 
 .main-content-cont {
 
@@ -41,17 +39,13 @@
   }
 }
 
-
-
-
-
 }
 
-.hero-img {
-
-  margin-top: -80px;
+.nav-cont {
+  @media (min-width: $desktop) {
+  margin-bottom: -80px;
 }
-
+}
 
 }
 
@@ -167,10 +161,15 @@
 
 .customers {
 
-.padding {
+.first-row {
+  padding:40px 0;
   @media (max-width: $desktop) {
     padding-bottom: 0px;
 }
+}
+
+.second-row {
+  padding-bottom:40px;
 }
 
 .align-items-center {
