@@ -58,6 +58,18 @@ a {
       border: 1px solid $blue-light;
       color: $white;
     }
+
+    &-pink {
+      background:transparent;
+      border: 1px solid $pink;
+      color: $pink;
+
+      &:hover {
+        background: $pink;
+        border: 1px solid $pink;
+        color: $white;
+      }
+    }
   }
 }
 
