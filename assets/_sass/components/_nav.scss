@@ -97,7 +97,6 @@ header {
 
 .inverse-nav {
 
-
   .btn {
     background: transparent !important;
     border: 1px solid $white !important;
@@ -113,7 +112,21 @@ header {
       color: $blue;
       text-decoration: none !important;
     }
+
+
   }
+
+  .btn-outline-pink {
+    background:transparent;
+    border: 1px solid $pink !important;
+    color: $pink;
+
+  &:hover {
+    background: $pink !important;
+    border: 1px solid $pink;
+    color: $white;
+  }
+}
 }
 
 .custom-toggler.navbar-toggler {
@@ -131,4 +144,12 @@ header {
 
 .navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover {
   color: $blue;
+}
+
+#sticky-nav {
+  z-index: 2;
+  position:fixed;
+  background: $white;
+  box-shadow: $shadow;
+  transition: top .45s;
 }

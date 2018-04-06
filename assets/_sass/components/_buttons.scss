@@ -127,3 +127,16 @@ a {
   75%  {margin-left: 13px}
   100% {margin-left: 12px}
 }
+
+button, a, .btn {
+  &:active {
+    outline: none !important;
+  }
+  &:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+&:focus-within {
+  outline: none !important;
+}
+}
