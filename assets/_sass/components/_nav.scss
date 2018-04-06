@@ -152,4 +152,8 @@ header {
   background: $white;
   box-shadow: $shadow;
   transition: top .45s;
+
+  .navbar {
+    height: 80px;
+  }
 }
