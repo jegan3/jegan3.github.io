@@ -46,6 +46,7 @@ header {
       text-transform: uppercase;
       letter-spacing: .25px;
       font-family: 'Roboto', sans-serif;
+      font-weight: 700;
 
       &:hover {
         color: $blue;
@@ -103,7 +104,7 @@ header {
   .btn {
     background: transparent !important;
     border: 1px solid $white !important;
-    border-radius: 8px;
+    border-radius: 4px;
     font-weight: 300;
     color: $white;
     padding: 12px 48px 12px 27px;
@@ -111,7 +112,7 @@ header {
 
     &:hover {
       background: $white !important;
-      border: 1px solid $white !important;
+      border: 1px solid $pink !important;
       color: $blue;
       text-decoration: none !important;
     }

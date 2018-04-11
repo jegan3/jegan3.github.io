@@ -15,7 +15,7 @@ a {
 .btn {
   background: $pink;
   border: 1px solid $pink;
-  border-radius: 8px;
+  border-radius: 4px;
   font-weight: 300;
   color: $white;
   padding: 12px 48px 12px 27px;
@@ -49,7 +49,7 @@ a {
   &-outline {
     background: transparent;
     border: 1px solid $blue;
-    border-radius: 8px;
+    border-radius: 4px;
     color: $blue;
     padding: 12px 48px 12px 27px;
 
