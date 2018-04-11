@@ -16,6 +16,23 @@
 
 #hero {
 
+  .display-3 {
+
+    font-size: 4rem;
+
+    @media (max-width: 1260px) {
+      font-size: 3.75rem;
+    }
+
+    @media (max-width: 1080px) {
+      font-size: 3.3rem;
+    }
+
+
+
+
+  }
+
   .row {
 
       margin: 0;
@@ -48,6 +65,10 @@ overflow:hidden;
   color: $pink;
   font-size: 18px;
   font-weight: 500;
+
+  @media (max-width: 1170px) {
+    display: none;
+  }
 
   &:hover {
     text-decoration:underline;

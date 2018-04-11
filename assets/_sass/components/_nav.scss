@@ -160,4 +160,8 @@ header {
   .navbar {
     height: 80px;
   }
+
+  @media (max-width: 1275px) {
+    display: none;
+  }
 }
