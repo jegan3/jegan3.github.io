@@ -18,20 +18,37 @@
 
   .display-3 {
 
-    font-size: 4rem;
-
-    @media (max-width: 1260px) {
-      font-size: 3.75rem;
-    }
-
-    @media (max-width: 1080px) {
-      font-size: 3.3rem;
-    }
-
-
-
-
+    font-size: 5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: type 4s steps(60, end);
+    padding-bottom: 40px;
   }
+
+  .display-3:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+
+
+  .typer{
+    animation: blink 1s infinite;
+  }
+
+  @keyframes type{
+    from { width: 0; }
+  }
+
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; }
+  }
+
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+
 
   .row {
 
@@ -227,6 +244,23 @@ overflow:hidden;
     padding-bottom: 0px;
 }
 }
+}
+
+
+.down {
+  p {
+    .fa-angle-down {
+      background: transparent;
+      border: 1px solid $pink;
+      color: $pink;
+
+      &:hover {
+        background: $pink;
+        color: $white;
+      }
+    }
+  }
+
 }
 
 }

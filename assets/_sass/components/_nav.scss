@@ -103,17 +103,17 @@ header {
 
   .btn {
     background: transparent !important;
-    border: 1px solid $white !important;
+    border: 1px solid $pink !important;
     border-radius: 4px;
     font-weight: 300;
-    color: $white;
+    color: $pink;
     padding: 12px 48px 12px 27px;
 
 
     &:hover {
-      background: $white !important;
+      background: $pink !important;
       border: 1px solid $pink !important;
-      color: $blue;
+      color: $white;
       text-decoration: none !important;
     }
 
@@ -154,7 +154,6 @@ header {
   z-index: 2;
   position:fixed;
   background: $white;
-  box-shadow: $shadow;
   transition: top .45s;
 
   .navbar {

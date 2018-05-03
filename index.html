@@ -5,41 +5,40 @@ class: index
 
 <body class="white {{ page.class }}  wow fadeIn">
 
-<section id="hero" class="white d-flex column hero wow fadeIn">
+	<section id="hero" class="white d-flex fh-100 column hero wow fadeIn">
+
+		<div class="container-fluid nav-cont wow fadeInUp ">
+
+
+		{% include nav-inverse.html %}
+
+	</div>
 
 
 
 
-	<div class="container-fluid">
-		<div class="nav-cont row wow fadeInUp" data-wow-delay=".25s">
 
-	{% include nav-inverse.html %}
-
-</div>
-
-<div class="row">
+		<div class="container d-flex fh-100 align-middle align-items-center justify-content-center hero-cont">
 
 
-<div class="col-lg-5 d-flex align-items-center main-content-cont">
-	<div class="col-lg-10 offset-lg-2">
+			<div class="col-md-12 text-center">
 
-
-			<h1 class="display-3 mt-2  wow fadeInUp" data-wow-delay=".5s">Hi! I'm John <span class="emoji wow wobble" data-wow-delay="10s">👋</span></h1>
-			<p class="wow fadeIn" data-wow-delay=".75s">From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
-			<p class="main-cta"><a href="#patriots"><button type="button" class="btn btn-primary btn-lg btn-outline-pink wow fadeIn" data-wow-delay="1s">View Work <i class="fa fa-angle-right" aria-hidden="true"></i>
-			</button></a><a class="contact-anchor wow fadeIn" data-wow-delay="1.25s" href="#contact">Contact Me <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
-		</div>
-		</div>
-		<div class="col-lg-7 mob-no" style="padding-right:0;">
-		<img class="img-fluid hero-img wow fadeIn" data-wow-delay="1.5s" src="../assets/img/hero-test.svg" />
-
+				<h1 class="display-3 col-lg-12 text-center mx-auto"><span class="emoji wow wobble" data-wow-delay="10s">👋</span> Hey, I'm John!<span class="typer">|</span></h1>
+				<p class="wow fadeInUp lead" data-wow-delay="2.5s">From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
+					<div id="down" class="mx-auto text-center down mob-no" >
+							<p><a href="#patriots"><i style="padding: 24px 28px;" class="fa fa-angle-down wow bounceIn" data-wow-delay="3s" aria-hidden="true"></i></a></p>
 				</div>
 				</div>
+			</div>
+
+
+
+
 
 
 		</div>
 
-</section>
+	</section>
 
 {% include sticky-nav.html %}
 
