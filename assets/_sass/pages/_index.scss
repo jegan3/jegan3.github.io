@@ -19,10 +19,13 @@
   .display-3 {
 
     font-size: 5rem;
+  @media (min-width: $desktop) {
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
+
     animation: type 4s steps(60, end);
+  }
     padding-bottom: 40px;
   }
 
@@ -49,6 +52,12 @@
     to{opacity: .0;}
   }
 
+  .emoji {
+    @media (max-width: 960px) {
+      display: none;
+  }
+}
+
 
   .row {
 
@@ -63,11 +72,7 @@ overflow:hidden;
     padding: 0;
   }
 
-  .emoji {
-    @media (min-width: 992px) and (max-width: 1400px) {
-      display: none;
-  }
-}
+
 
 }
 
