@@ -16,6 +16,10 @@
 
 #hero {
 
+  .container {
+    padding-top: 78px;
+  }
+
   .display-3 {
 
     font-size: 5rem;
@@ -266,6 +270,13 @@ overflow:hidden;
     }
   }
 
+}
+
+nav {
+  position: fixed;
+width: 100%;
+background: #fff;
+top: 0;
 }
 
 }
