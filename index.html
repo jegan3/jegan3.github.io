@@ -4,66 +4,21 @@ class: index
 ---
 
 <body class="white {{ page.class }}  wow fadeIn">
-
 	<section id="hero" class="white d-flex justify-content-center fh-100 column hero wow fadeIn">
-
 		<div class="container-fluid nav-cont fadeInUp ">
-
-
-		{% include nav-inverse.html %}
-
-	</div>
-
-
-
-
-
+			{% include nav-inverse.html %}
+		</div>
 		<div class="container d-flex fh-100 align-middle align-items-center justify-content-center hero-cont">
-
-
 			<div class="col-md-10 text-center">
-
 				<h1 class="display-3 col-lg-12 text-center mx-auto"><span class="mob-no emoji wow wobble " data-wow-delay="10s">👋</span> Hey, I'm John!<span class="typer mob-no">|</span></h1>
 				<p class="wow fadeIn lead" data-wow-delay="2.9s">From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
-					<div id="down" class="mx-auto text-center down mob-no" >
-							<p><a href="#patriots"><i style="padding: 24px 28px;" class="fa fa-angle-down wow bounceIn" data-wow-delay="3.35s" aria-hidden="true"></i></a></p>
-				</div>
+				<div id="down" class="mx-auto text-center down mob-no">
+					<p><a href="#patriots"><i style="padding: 24px 28px;" class="fa fa-angle-down wow bounceIn" data-wow-delay="3.35s" aria-hidden="true"></i></a></p>
 				</div>
 			</div>
-
-
-
-
-
-
 		</div>
-
+		</div>
 	</section>
-
-<!--<section id="hero" class="blue d-flex column wow fadeInDown" data-wow-delay="1s">
-
-	<div class="row nav-row">
-
-
-	<div class="container-fluid wow fadeIn" data-wow-delay="1.5s">
-	{% include nav.html %}
-	</div>
-	</div>
-	<div class="row">
-<div class="col-lg-6 main-content mx-auto ">
-			<h1 class="display-3 wow fadeIn mt-2" data-wow-delay="2s">Hey, I'm John <span class="emoji wow wobble" data-wow-delay="10s">👋</span></h1>
-			<p class="lead wow fadeInDown" data-wow-delay="2s">From professional sports dynasties to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
-
-		</div>
-
-		</div>
-		<div class="row wow fadeInUp" data-wow-delay="1.25s">
-			<div class="landscape"></div>
-
-
-		</div>
-
-</section> -->
 
 <section id="patriots" class="fh-100 d-flex align-items-center white">
 	<div class="container d-flex align-items-center padding">
@@ -75,161 +30,113 @@ class: index
 				<div class="pill  fadeInUp" data-wow-delay=".5s">Featured Work</div>
 				<h2 class=" fadeInUp mt-2" data-wow-delay=".75s">New England Patriots</h2>
 				<p class=" fadeIn" data-wow-delay="1s">Digital Media for the NFL Football Dynasty</p>
-				<p class="main-cta  fadeIn" data-wow-delay="1.25s"><a href="/patriots.html"><button type="button" class="btn btn-primary btn-lg btn-outline-pink">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-				</button></a></p>
-				</div>
+				<p class="main-cta  fadeIn" data-wow-delay="1.25s">
+					<a href="/patriots.html">
+							<button type="button" class="btn btn-primary btn-lg btn-outline-pink">
+								Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
+							</button>
+					</a>
+				</p>
 			</div>
 		</div>
-	</section>
-
-
-
-
+	</div>
+</section>
 
 <section id="victorops" class="fh-100 d-flex column blue wow fadeIn">
-<div class="container d-flex align-middle align-items-center padding">
+	<div class="container d-flex align-middle align-items-center padding">
 		<div class="col-lg-8">
 			<div class="pill  fadeInUp" data-wow-delay=".25s">Featured Work</div>
 			<h2 class=" fadeInUp mt-2" data-wow-delay=".5s">Building The Future Faster</h2>
 			<p class=" fadeIn" data-wow-delay=".75s">Development, Strategy & Design @ VictorOps</p>
-			<p class="main-cta  fadeIn mt-4" data-wow-delay="1.25s"><a href="/victorops.html"><button type="button" class="btn btn-primary btn-lg btn-outline">Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-</button></a></p>
-		</div>
-	</div>
-</section>
-
-<!--
-<section id="more-work" class="white column fadeIn mob-no" data-wow-delay=".1s">
-	<div class="container">
-		<div class="row mx-auto">
-
-
-
-		<div class="col-lg-6 mx-auto">
-			<div class="card white fadeInUp">
-	<img class="card-img-top" src="../assets/img/675x338-kapost-card.jpg" srcset="../assets/img/675x338-kapost-card@2x.jpg 2x" alt="Kapost">
-	<div class="card-block">
-		<img class="logo" src="../assets/img/kapost-logo.svg" />
-		<h3>Kapost Case Study</h3>
-		<p>Designed and built a new and improved case studies page for Kapost.</p>
-		<p class="link"><a href="https://wonderful-shockley-0ee619.netlify.com/case-studies/phunware" ><button type="button" class="btn btn-primary">View Project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a></p>
-
-	</div>
-</div>
-		</div>
-		<div class="col-lg-6 mx-auto">
-			<div class="card white fadeInUp">
-	<img class="card-img-top" src="../assets/img/675x338-broncos-card.jpg" srcset="../assets/img/675x338-broncos-card@2x.jpg 2x" alt="Denver Broncos">
-	<div class="card-block">
-		<img class="logo" src="../assets/img/broncos-logo.svg" />
-		<h3>Denver Broncos Email Revamp</h3>
-		<p>Redesigned the Denver Broncos "In Case You Missed It" Newsletter</p>
-		<p class="link"><a href="/broncos-email" ><button type="button" class="btn btn-primary">View Project <i class="fa fa-angle-right" aria-hidden="true"></i></button></a></p>
-
-	</div>
-</div>
-		</div>
-
-	</div>
-
-	</div>
-</section>
-
-
--->
-
-<section class="white padding customers">
-	<div class="container">
-		<div class="row">
-<div class="col-lg-7 mx-auto text-center">
-  <h3 class=" fadeInUp" data-wow-delay=".25s">A Few of The Amazing Brands I've Worked With</h3>
-</div>
-
-
-	</div>
-
-	<div class="row first-row fadeInUp" data-wow-delay=".5s">
-	  <div class="col-lg-2 mx-auto">
-	  </div>
-		<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-			<img class="img-fluid" src="../assets/img/165x72-pats.svg" />
-	  </div>
-		<div class="col-lg-1 mx-auto">
-	  </div>
-		<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-			<img class="img-fluid" src="../assets/img/165x36-loyola.svg" />
-	  </div>
-		<div class="col-lg-1 mx-auto">
-	  </div>
-		<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-			<img class="img-fluid" src="../assets/img/165x105-neonvibe.png" srcset="../assets/img/165x105-neonvibe@2x.png 2x" />
-	  </div>
-		<div class="col-lg-2 mx-auto">
-	  </div>
-	</div>
-	<div class="row second-row fadeInUp" data-wow-delay=".5s">
-		<div class="col-lg-2 mx-auto">
-		</div>
-		<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-				<img class="img-fluid" src="../assets/img/165x60-townsquare.png" srcset="../assets/img/165x60-townsquare@2x.png 2x" />
-		</div>
-		<div class="col-lg-1 mx-auto">
-		</div>
-		<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-			<img class="img-fluid" src="../assets/img/130x137-gillette-logo.svg" />
-		</div>
-		<div class="col-lg-1 mx-auto">
-		</div>
-		<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-			<img class="img-fluid" src="../assets/img/165x39-vo.svg" />
-		</div>
-		<div class="col-lg-2 mx-auto">
-		</div>
-	</div>
-	<div class="row mx-auto">
-		<p class="main-cta mx-auto  fadeIn" data-wow-delay=".5s"><a href="/EganJohn-Resume.pdf" target="_blank"><button type="button" class="btn btn-lg btn-outline-pink">View Full Resume <i class="fa fa-angle-right" aria-hidden="true"></i>
-		</button></a></p>
-	</div>
-</div>
-</section>
-
-
-
-
-<section class="white" id="contact">
-			<div class="container mx-auto text-center">
-				<h3 class=" fadeInUp" data-wow-delay=".25s">Let's Work Together</h3>
-				<div class="col-md-7 mx-auto text-center">
-				<p class="email  fadeIn" data-wow-delay=".5s">I'd love to turn your next idea into reality. Please email <a href="mailto:john@johnegan.io" target="_blank"><b>john@johnegan.io</b></a> to get the ball rolling.</p>
-
-
-				<p class="fadeInUp social text-center mx-auto mt-5 fadeIn" data-wow-delay=".75s">
-				<span class="mx-4"><a href="https://www.linkedin.com/in/j0hnegan/" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> LinkedIn</a></span> <span class="mx-4"><a href="https://github.com/j0hnegan" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a></span> <span class="mx-4"><a href="https://angel.co/johnegan3" target="_blank"><i class="fa fa-angellist fa-lg" aria-hidden="true"></i> AngelList</a></span>  <span class="mx-4"><a href="https://www.instagram.com/j0hnegan/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i> Instagram</a></span>
+			<p class="main-cta  fadeIn mt-4" data-wow-delay="1.25s">
+				<a href="/victorops.html">
+					<button type="button" class="btn btn-primary btn-lg btn-outline">
+						Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
+					</button>
+				</a>
 			</p>
-
-
-			</div>
-			</div>
+		</div>
+	</div>
 </section>
-<footer class="white">
-  <div class="container">
 
+	<section class="white padding customers">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 mx-auto text-center">
+					<h3 class=" fadeInUp" data-wow-delay=".25s">A Few of The Amazing Brands I've Worked With</h3>
+				</div>
+			</div>
+			<div class="row first-row fadeInUp" data-wow-delay=".5s">
+				<div class="col-lg-2 mx-auto">
+				</div>
+				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
+					<img class="img-fluid" src="../assets/img/165x72-pats.svg" />
+				</div>
+				<div class="col-lg-1 mx-auto">
+				</div>
+				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
+					<img class="img-fluid" src="../assets/img/165x36-loyola.svg" />
+				</div>
+				<div class="col-lg-1 mx-auto">
+				</div>
+				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
+					<img class="img-fluid" src="../assets/img/165x105-neonvibe.png" srcset="../assets/img/165x105-neonvibe@2x.png 2x" />
+				</div>
+				<div class="col-lg-2 mx-auto">
+				</div>
+			</div>
+			<div class="row second-row fadeInUp" data-wow-delay=".5s">
+				<div class="col-lg-2 mx-auto">
+				</div>
+				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
+					<img class="img-fluid" src="../assets/img/165x60-townsquare.png" srcset="../assets/img/165x60-townsquare@2x.png 2x" />
+				</div>
+				<div class="col-lg-1 mx-auto">
+				</div>
+				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
+					<img class="img-fluid" src="../assets/img/130x137-gillette-logo.svg" />
+				</div>
+				<div class="col-lg-1 mx-auto">
+				</div>
+				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
+					<img class="img-fluid" src="../assets/img/165x39-vo.svg" />
+				</div>
+				<div class="col-lg-2 mx-auto">
+				</div>
+			</div>
+			<div class="row mx-auto">
+				<p class="main-cta mx-auto  fadeIn" data-wow-delay=".5s">
+					<a href="/EganJohn-Resume.pdf" target="_blank">
+						<button type="button" class="btn btn-lg btn-outline-pink">View Full Resume <i class="fa fa-angle-right" aria-hidden="true"></i>
+		</button>
+	</a></p>
+			</div>
+		</div>
+	</section>
 
+	<section class="white" id="contact">
+		<div class="container mx-auto text-center">
+			<h3 class=" fadeInUp" data-wow-delay=".25s">Let's Work Together</h3>
+			<div class="col-md-7 mx-auto text-center">
+				<p class="email  fadeIn" data-wow-delay=".5s">I'd love to turn your next idea into reality. Please email <a href="mailto:john@johnegan.io" target="_blank"><b>john@johnegan.io</b></a> to get the ball rolling.</p>
+				<p class="fadeInUp social text-center mx-auto mt-5 fadeIn" data-wow-delay=".75s">
+					<span class="mx-4"><a href="https://www.linkedin.com/in/j0hnegan/" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> LinkedIn</a></span> <span class="mx-4"><a href="https://github.com/j0hnegan" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a></span>					<span class="mx-4"><a href="https://angel.co/johnegan3" target="_blank"><i class="fa fa-angellist fa-lg" aria-hidden="true"></i> AngelList</a></span> <span class="mx-4"><a href="https://www.instagram.com/j0hnegan/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i> Instagram</a></span>
+				</p>
+			</div>
+		</div>
+	</section>
 
-    <div class="col-md-4 mx-auto text-center fadeIn" data-wow-delay="1s">
-      <i class="fa fa-copyright" aria-hidden="true"></i> 2018 John Egan
-    </div>
+	<footer class="white">
+		<div class="container">
+			<div class="col-md-4 mx-auto text-center fadeIn" data-wow-delay="1s">
+				<i class="fa fa-copyright" aria-hidden="true"></i> 2018 John Egan
+			</div>
+		</div>
+	</footer>
 
-</div>
-
-</footer>
-
-
-	<script>
+<script>
 	$(document).ready(function(){
-
-
-	  // Add smooth scrolling on all links inside the navbar
+  // Add smooth scrolling on all links inside the navbar
 	  $("#hero a").on('click', function(event) {
 	    // Make sure this.hash has a value before overriding default behavior
 	    if (this.hash !== "") {
@@ -250,32 +157,5 @@ class: index
 	      });
 	    }  // End if
 	  });
-	});
-	</script>
-	<script>
-	$(document).ready(function(){
-
-
-		// Add smooth scrolling on all links inside the navbar
-		$("#sticky-nav a").on('click', function(event) {
-			// Make sure this.hash has a value before overriding default behavior
-			if (this.hash !== "") {
-				// Prevent default anchor click behavior
-				event.preventDefault();
-
-				// Store hash
-				var hash = this.hash;
-
-				// Using jQuery's animate() method to add smooth page scroll
-				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-				$('html, body').animate({
-					scrollTop: $(hash).offset().top
-				}, 600, function(){
-
-					// Add hash (#) to URL when done scrolling (default click behavior)
-					window.location.hash = hash;
-				});
-			}  // End if
-		});
 	});
 	</script>
