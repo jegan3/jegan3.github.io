@@ -125,6 +125,16 @@ class: index
 			</div>
 		</div>
 	</section>
+	<section>
+		<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiajBobiIsImEiOiJjamhwcW1jMW4wcTc2MzZtcHVzM3cyOGhrIn0.VbhwURkaMxve4-cyh1Umcw';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v10'
+});
+</script>
+	</section>
 
 	<footer class="white">
 		<div class="container">
