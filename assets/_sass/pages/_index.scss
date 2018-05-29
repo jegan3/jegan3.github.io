@@ -16,9 +16,16 @@
 
 #hero {
 
-  .container {
-    padding-top: 78px;
+  .hero-cont {
+    @media (max-width: $desktop) {
+      padding-top: 160px;
   }
+}
+
+.lead {
+  margin-bottom: 0;
+}
+
 
   .display-3 {
 
@@ -29,11 +36,13 @@
     width: 100%;
 
     animation: type 4s steps(60, end);
+    animation-delay: 1s;
   }
     padding-bottom: 40px;
   }
 
   .display-3:nth-child(2){
+
     animation: type2 8s steps(60, end);
   }
 
@@ -62,10 +71,8 @@
   }
 }
 
-
-  .row {
-
-      margin: 0;
+.row {
+  margin: 0;
     }
 
 overflow:hidden;
@@ -75,15 +82,6 @@ overflow:hidden;
   @media (max-width: $desktop) {
     padding: 0;
   }
-
-
-
-}
-
-.nav-cont {
-  @media (min-width: $desktop) {
-  margin-bottom: -80px;
-}
 }
 
 .contact-anchor {
@@ -262,6 +260,9 @@ overflow:hidden;
       background: transparent;
       border: 1px solid $pink;
       color: $pink;
+      width: 73.44px;
+height: 74px;
+      padding: 0;
 
       &:hover {
         background: $pink;

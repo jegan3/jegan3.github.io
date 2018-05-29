@@ -4,23 +4,25 @@ class: index
 ---
 
 <body class="white {{ page.class }}  wow fadeIn">
-	<section id="hero" class="white d-flex justify-content-center fh-100 column hero wow fadeIn">
+	<section id="hero" class="white d-flex justify-content-between fh-100 column hero">
 		<div class="container-fluid nav-cont fadeInUp ">
 			{% include nav-inverse.html %}
 		</div>
-		<div class="container d-flex fh-100 align-middle align-items-center justify-content-center hero-cont">
+		<div class="container d-flex align-middle align-items-center justify-content-center hero-cont wow fadeIn" data-wow-delay="1s">
 			<div class="col-md-10 text-center">
 				<h1 class="display-3 col-lg-12 text-center mx-auto"><span class="mob-no emoji wow wobble " data-wow-delay="10s">👋</span> Hey, I'm John!<span class="typer mob-no">|</span></h1>
-				<p class="wow fadeIn lead" data-wow-delay="2.9s">From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
-				<div id="down" class="mx-auto text-center down mob-no">
-					<p><a href="#patriots"><i style="padding: 24px 28px;" class="fa fa-angle-down wow bounceIn" data-wow-delay="3.35s" aria-hidden="true"></i></a></p>
-				</div>
+				<p class="wow fadeIn lead" data-wow-delay="3.9s">From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
+			</div>
+		</div>
+		<div class="container">
+			<div id="down" class="mx-auto text-center down mob-no">
+				<p><a href="#patriots"><i style="padding: 24px 28px;" class="fa fa-angle-down wow bounceIn d-flex justify-content-center align-items-center mx-auto" data-wow-delay="4.35s" aria-hidden="true"></i></a></p>
 			</div>
 		</div>
 		</div>
 	</section>
 
-<section id="patriots" class="fh-100 d-flex align-items-center white">
+<section id="patriots" class="d-flex align-items-center white">
 	<div class="container d-flex align-items-center padding">
 		<div class="row d-flex align-items-center">
 			<div class="col-lg-6 text-center">
@@ -42,7 +44,7 @@ class: index
 	</div>
 </section>
 
-<section id="victorops" class="fh-100 d-flex column blue wow fadeIn">
+<section id="victorops" class="d-flex column blue wow fadeIn">
 	<div class="container d-flex align-middle align-items-center padding">
 		<div class="col-lg-8">
 			<div class="pill  fadeInUp" data-wow-delay=".25s">Featured Work</div>
