@@ -17,6 +17,7 @@
 #hero {
 
   .hero-cont {
+    padding-top: 78px;
     @media (max-width: $desktop) {
       padding-top: 160px;
   }
