@@ -1,0 +1,85 @@
+// Typography
+
+body, form, input, p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-text-stroke: 0.45px;
+// or
+-webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+// or
+text-shadow: #fff 0px 1px 1px;
+
+}
+
+button {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ -webkit-text-stroke: 0.45px;
+// or
+-webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+// or
+
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Rubik', sans-serif;
+  color:$black;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+  -webkit-text-stroke: 0.45px;
+// or
+-webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+// or
+text-shadow: #fff 0px 1px 1px;
+}
+
+
+
+h1 {
+  font-size: 38px;
+      @include desktop {
+  font-size: 90px;
+}
+margin: 0 0 40px 0;
+line-height: 1.2;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0;
+      @include desktop {
+  font-size: 56px;
+    margin: 0 0 64px 0;
+}
+
+
+}
+
+h3 {
+  font-size: 24px;
+  @include no-marge;
+}
+
+p {
+  line-height: 1.5;
+  color: $black-light;
+  font-size: 20px;
+}
+
+.lead {
+  font-size: 18px;
+      @include desktop {
+  font-size: 28px;
+}
+  color: $black;
+
+  span {
+    color: #4e9ddf;
+    font-weight: 700;
+  }
+}

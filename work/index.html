@@ -1,0 +1,163 @@
+---
+layout: default
+class: pats
+permalink: /patriots
+---
+
+<body class="{{ page.class }}">
+
+<section class="blue-black fh-100 hero d-flex wow fadeIn">
+	<div class="vid-bg mob-no wow fadeIn" data-wow-delay="1s">
+		<video autoplay playsinline loop>
+		<source src="../assets/img/bg-vid.mp4" type="video/mp4">
+
+		</video>
+	</div>
+
+
+		<div class="container-fluid wow fadeInUp" data-wow-delay=".25s">
+
+				{% include nav.html %}
+
+		</div>
+
+
+
+
+
+	<div class="container d-flex align-middle align-items-center justify-content-center hero-cont">
+
+
+		<div class="col-md-12 text-center">
+
+			<h1 class="display-3 wow fadeInUp" data-wow-delay=".5s">New England Patriots</h1>
+				<p class="lead wow fadeIn" data-wow-delay=".75s">Digital Media for the NFL Football Dynasty</p>
+				<div id="down" class="mx-auto text-center down mob-no">
+						<p class="wow bounceIn" data-wow-delay="1s"><a href="#more"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+			</div>
+			</div>
+		</div>
+
+
+
+
+
+
+	</div>
+</section>
+
+<section id="more" class="white wow fadeInUp intro" data-wow-delay="1s">
+<div class="container">
+    <div class="row padding col-lg-9 mx-auto">
+
+
+
+      <p>From the first sports team to have a website in 1995, to the first NFL team to reach a million followers on twitter, the New England Patriots have consistently been on the forefront of technology.<br /><br />As a member of the Patriots Digital Media team, I specialized in front-end design and development for Kraft Sports sites such as Patriots.com, GilletteStadium.com and the New England Patriots ProShop.<br /><br />In addition, I created graphics for the Patriots social channels, photographed and edited images from press conferences and locker room interviews, as well as built marketing emails which were sent to hundreds of thousands of inboxes on a weekly basis.</p>
+
+  </div>
+</div>
+</section>
+<section class="grey slider mob-no">
+	<div class="container">
+
+
+		<div id="carouselExampleIndicators" class="carousel" data-ride="carousel" data-interval="false">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active mx-auto">
+
+      <img class="d-block mx-auto img-fluid" src="../assets/img/450x217-travel.png" srcset="../assets/img/450x217-travel@2x.png 2x" alt="First slide">
+
+	</div>
+		<div class="carousel-item mx-auto text-center">
+      <img class="d-block mx-auto img-fluid" src="../assets/img/506x435-proshop.png" srcset="../assets/img/506x435-proshop@2x.png 2x" alt="First slide">
+    </div>
+		<div class="carousel-item mx-auto text-center">
+      <img class="d-block mx-auto img-fluid" src="../assets/img/435x435-afc.png" srcset="../assets/img/435x435-afc@2x.png 2x" alt="First slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+
+		<i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+	</div>
+</section>
+<section class="white pics">
+	<div class="container-fluid">
+	  <div class="row">
+	    <div class="col-lg-4">
+	      <img class="img-fluid" src="../assets/img/460x400-tb121-pic.jpg" srcset="../assets/img/460x400-tb121-pic@2x.jpg 2x" />
+	    </div>
+			<div class="col-lg-4">
+	      <img class="img-fluid" src="../assets/img/460x400-bill-pic.jpg" srcset="../assets/img/460x400-bill-pic@2x.jpg 2x" />
+	    </div>
+			<div class="col-lg-4">
+	      <img class="img-fluid" src="../assets/img/460x400-tb122-pic.jpg" srcset="../assets/img/460x400-tb122-pic@2x.jpg 2x" />
+	    </div>
+	  </div>
+	</div>
+</section>
+<section class="blue-black screen">
+	<div class="container">
+
+
+
+	<div class="col-lg-9 mx-auto text-center">
+			<img class="img-fluid" src="../assets/img/1920x1080-social.png" srcset="../assets/img/1920x1080-social@2x.png 2x" />
+	</div>
+		</div>
+</section>
+
+
+
+<footer class="white">
+  <div class="container">
+
+
+
+    <div class="col-md-4 mx-auto text-center">
+      <i class="fa fa-copyright" aria-hidden="true"></i> 2018 John Egan
+    </div>
+
+</div>
+
+</footer>
+
+<script>
+$(document).ready(function(){
+
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#down a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 600, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>

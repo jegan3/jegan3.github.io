@@ -1,0 +1,80 @@
+.index {
+
+section {
+  padding: 60px 0;
+}
+
+#hero {
+    @include desktop {
+  align-items: center;
+  display: grid;
+}
+
+  .container {
+    align-items: center;
+  }
+
+  .chat {
+
+    display:none;
+
+  }
+}
+  .hero-text {
+
+    @include desktop {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row: 1;
+    z-index: 2;
+  }
+
+    h1 {
+      margin: 0;
+      padding: 0 0 20px 0;
+    }
+
+    p {
+      margin: 0;
+      padding:20px 0 40px 0;
+      // width: 85%;
+    }
+  }
+
+  .hero-img {
+      @include desktop {
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row: 1;
+  }
+    display: none;
+  }
+  img {
+    width: 100%;
+
+  }
+
+  .chat {
+    padding: 40px 0;
+
+
+
+    img {
+      max-width: 62px;
+      float: left;
+    }
+
+    p {
+      float: left;
+      margin-left: 24px;
+    }
+  }
+
+  @include mobile {
+  #work {
+    padding-bottom: 0;
+  }
+}
+
+
+}

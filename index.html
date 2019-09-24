@@ -3,138 +3,123 @@ layout: default
 class: index
 ---
 
-<body class="white {{ page.class }}  wow fadeIn">
-	<section id="hero" class="white d-flex justify-content-between fh-100 column hero">
-		<div class="container-fluid nav-cont fadeInUp ">
-			{% include nav-inverse.html %}
-		</div>
-		<div class="container d-flex align-middle align-items-center justify-content-center hero-cont wow fadeIn" data-wow-delay="1s">
-			<div class="col-md-10 text-center">
-				<h1 class="display-3 col-lg-12 text-center mx-auto"><span class="mob-no emoji wow wobble " data-wow-delay="10s">👋</span> Hey, I'm John!<span class="typer mob-no">|</span></h1>
-				<p class="wow fadeIn lead" data-wow-delay="3.9s">From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital presence one line of code at a time.</p>
-			</div>
-		</div>
-		<div class="container">
-			<div id="down" class="mx-auto text-center down mob-no">
-				<p><a href="#patriots"><i style="padding: 24px 28px;" class="fa fa-angle-down wow bounceIn d-flex justify-content-center align-items-center mx-auto" data-wow-delay="4.35s" aria-hidden="true"></i></a></p>
-			</div>
-		</div>
-		</div>
-	</section>
+<body class="white {{ page.class }} ">
+	{% include nav.html %}
+	<section id="hero" class="">
+	<div class="container">
+		<div class="row">
+		<div class="hero-text">
+			<h1>Product Design &amp; Digital Strategy</h1>
+			<p class="lead"><span>Hey, I'm John!</span> From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital experience one pixel at a time. </p>
 
-<section id="patriots" class="d-flex align-items-center white">
-	<div class="container d-flex align-items-center padding">
-		<div class="row d-flex align-items-center">
-			<div class="col-lg-6 text-center">
-				<img class="ring fadeInDown" data-wow-delay=".25s" src="assets/img/410x562-ring@2x.jpg" />
+				<a href="#contact"><button class="main-cta">Contact Me</button></a>
+
+			<div class="chat">
+			<img src="../assets/img/62x62-chat-icon.png" srcset="../assets/img/62x62-chat-icon@2x.png" alt="">
+<p><b>Reply Time:</b> within 1-2 working days</p>
+
+
+		</div>
+		</div>
+		<div class="hero-img">
+			<img src="../assets/img/458x610-ring@2x.png" alt="">
+		</div>
+	</div>
+</div>
+</section>
+<section id="work">
+	<div class="container">
+			<h2>Featured Work</h2>
+		<div class="row">
+			<div class="col-4 card">
+
+						<img class="job-tile" src="../assets/img/360x300-techstars.jpg" srcset="../assets/img/360x300-techstars@2x.jpg" alt="">
+			 <div class="job-title">
+				 <h3>Techstars</h3>
+				 </div>
+ 				<p class="years">2018 - Present</p>
+
+
+				<p>Product Design, Digital Strategy, User Research, Product Management</p>
+		</div>
+		<div class="col-4 card">
+
+					<img class="job-tile" src="../assets/img/360x300-techstars.jpg" srcset="../assets/img/360x300-victorops@2x.png" alt="">
+		 <div class="job-title">
+			 <h3>VictorOps</h3>
+
+		 </div>
+	<p class="years">2015 - 2018</p>
+			<p>User Experience, Digital Strategy, Visual Design, Creative Direction</p>
+	</div>
+	<div class="col-4 card">
+
+				<img class="job-tile" src="../assets/img/360x300-techstars.jpg" srcset="../assets/img/360x300-patriots@2x.png" alt="">
+	 <div class="job-title">
+		 <h3>New England Patriots</h3>
+
+	 </div>
+<p class="years">2013 - 2014</p>
+		<p>Visual Design, Digital Media Production, Brand Strategy</p>
+</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="quote">
+				<h4>"John has upleveled our web presence dramatically. He brings a fresh approach and pushed the brand to another level, while still very much keeping it true to itself. His work has truly moved the needle for process and revenue."</h4>
+				<div class="chat">
+					<img class="" src="../assets/img/62x62-lauren.png" srcset="../assets/img/62x62-lauren@2x.png" alt="">
+					<p><b>Lauren Bocci</b><br /> VP of Marketing, VictorOps</p>
+				</div>
 			</div>
-			<div class="col-lg-6">
-				<div class="pill  fadeInUp" data-wow-delay=".5s">Featured Work</div>
-				<h2 class=" fadeInUp mt-2" data-wow-delay=".75s">New England Patriots</h2>
-				<p class=" fadeIn" data-wow-delay="1s">Digital Media for the NFL Football Dynasty</p>
-				<p class="main-cta  fadeIn" data-wow-delay="1.25s">
-					<a href="/patriots.html">
-							<button type="button" class="btn btn-primary btn-lg btn-outline-pink">
-								Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-							</button>
-					</a>
-				</p>
+		</div>
+
+	</div>
+</section>
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact">
+				<h2>Let's Work Together</h2>
+				<p>I'm currently at Techstars, leading the user and brand experience for web products. If you have a project in mind or you just want to chat, please email <a href="mailto:john@johnegan.io">john@johnegan.io</a> to get the ball rolling.</p>
+				<a href="mailto:john@johnegan.io"><button class="main-cta">john@johnegan.io</button></a>
+
+			<div class="chat-wrapper">
+
+
+			<div class="chat">
+			<img src="../assets/img/62x62-chat-icon.png" srcset="../assets/img/62x62-chat-icon@2x.png" alt="">
+<p><b>Reply Time:</b> within 1-2 working days</p>
+</div>
+
+
+		</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section id="victorops" class="d-flex column blue wow fadeIn">
-	<div class="container d-flex align-middle align-items-center padding">
-		<div class="col-lg-8">
-			<div class="pill  fadeInUp" data-wow-delay=".25s">Featured Work</div>
-			<h2 class=" fadeInUp mt-2" data-wow-delay=".5s">Building The Future Faster</h2>
-			<p class=" fadeIn" data-wow-delay=".75s">Development, Strategy & Design @ VictorOps</p>
-			<p class="main-cta  fadeIn mt-4" data-wow-delay="1.25s">
-				<a href="/victorops.html">
-					<button type="button" class="btn btn-primary btn-lg btn-outline">
-						Learn More <i class="fa fa-angle-right" aria-hidden="true"></i>
-					</button>
-				</a>
-			</p>
+<footer>
+<div class="container">
+	<div class="footer">
+		<div class="social">
+			<img target="_blank" src="../assets/img/linkedin.svg" alt="">
+			<img target="_blank" src="../assets/img/github.svg" alt="">
+			<img target="_blank" src="../assets/img/angellist.svg" alt="">
+			<img target="_blank" src="../assets/img/instagram.svg" alt="">
 		</div>
+		<div class="small-talk">
+			<p>© 2019 Designed and Developed by <a href="mailto:john@johnegan.io">Me!</a></p>
+		</div>
+
 	</div>
-</section>
 
-	<section class="white padding customers">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7 mx-auto text-center">
-					<h3 class=" fadeInUp" data-wow-delay=".25s">A Few of The Amazing Brands I've Worked With</h3>
-				</div>
-			</div>
-			<div class="row first-row fadeInUp" data-wow-delay=".5s">
-				<div class="col-lg-2 mx-auto">
-				</div>
-				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-					<img class="img-fluid" src="../assets/img/165x72-pats.svg" />
-				</div>
-				<div class="col-lg-1 mx-auto">
-				</div>
-				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-					<img class="img-fluid" src="../assets/img/165x36-loyola.svg" />
-				</div>
-				<div class="col-lg-1 mx-auto">
-				</div>
-				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-					<img class="img-fluid" src="../assets/img/165x105-neonvibe.png" srcset="../assets/img/165x105-neonvibe@2x.png 2x" />
-				</div>
-				<div class="col-lg-2 mx-auto">
-				</div>
-			</div>
-			<div class="row second-row fadeInUp" data-wow-delay=".5s">
-				<div class="col-lg-2 mx-auto">
-				</div>
-				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-					<img class="img-fluid" src="../assets/img/165x60-townsquare.png" srcset="../assets/img/165x60-townsquare@2x.png 2x" />
-				</div>
-				<div class="col-lg-1 mx-auto">
-				</div>
-				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-					<img class="img-fluid" src="../assets/img/130x137-gillette-logo.svg" />
-				</div>
-				<div class="col-lg-1 mx-auto">
-				</div>
-				<div class="col-lg-2 mx-auto d-flex justify-content-center align-items-center">
-					<img class="img-fluid" src="../assets/img/165x39-vo.svg" />
-				</div>
-				<div class="col-lg-2 mx-auto">
-				</div>
-			</div>
-			<div class="row mx-auto">
-				<p class="main-cta mx-auto  fadeIn" data-wow-delay=".5s">
-					<a href="/EganJohn-Resume.pdf" target="_blank">
-						<button type="button" class="btn btn-lg btn-outline-pink">View Full Resume <i class="fa fa-angle-right" aria-hidden="true"></i>
-		</button>
-	</a></p>
-			</div>
-		</div>
-	</section>
+</div>
+</footer>
 
-	<section class="white" id="contact">
-		<div class="container mx-auto text-center">
-			<h3 class=" fadeInUp" data-wow-delay=".25s">Let's Work Together</h3>
-			<div class="col-md-7 mx-auto text-center">
-				<p class="email  fadeIn" data-wow-delay=".5s">I'd love to turn your next idea into reality. Please email <a href="mailto:john@johnegan.io" target="_blank"><b>john@johnegan.io</b></a> to get the ball rolling.</p>
-				<p class="fadeInUp social text-center mx-auto mt-5 fadeIn" data-wow-delay=".75s">
-					<span class="mx-4"><a href="https://www.linkedin.com/in/j0hnegan/" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> LinkedIn</a></span> <span class="mx-4"><a href="https://github.com/j0hnegan" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a></span>					<span class="mx-4"><a href="https://angel.co/johnegan3" target="_blank"><i class="fa fa-angellist fa-lg" aria-hidden="true"></i> AngelList</a></span> <span class="mx-4"><a href="https://www.instagram.com/j0hnegan/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i> Instagram</a></span>
-				</p>
-			</div>
-		</div>
-	</section>
-
-	<footer class="white">
-		<div class="container">
-			<div class="col-md-4 mx-auto text-center fadeIn" data-wow-delay="1s">
-				<i class="fa fa-copyright" aria-hidden="true"></i> 2018 John Egan
-			</div>
-		</div>
-	</footer>
 
 <script>
 	$(document).ready(function(){
