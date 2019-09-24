@@ -1,0 +1,26 @@
+// Cards
+
+.card {
+
+@include mobile {
+  padding: 32px 0;
+}
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .years {
+    @include no-marge;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 0 16px 0;
+  }
+}
+
+
+.job-title {
+  margin: 0;
+  padding: 32px 0 8px 0;
+
+}

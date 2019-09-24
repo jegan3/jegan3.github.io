@@ -1,0 +1,36 @@
+// Buttons and Links
+
+button {
+  background: $blue;
+  border: 1px solid $blue;
+  border-radius: 4px;
+  padding: 16px 32px;
+  font-size: 20px;
+  color: $white;
+  font-weight: 500;
+  -webkit-transition: background .5s; /* Safari prior 6.1 */
+transition: background .5s;
+cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background: $blue-light;
+    border: 1px solid $blue-light;
+    -webkit-transition: background .15s; /* Safari prior 6.1 */
+  transition: background .15s;
+  }
+}
+
+
+a {
+  font-weight: 500;
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

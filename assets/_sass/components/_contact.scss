@@ -1,0 +1,46 @@
+// contact
+
+.contact {
+  grid-column-start: 3;
+    grid-column-end: 11;
+      @include desktop {
+    text-align:center;
+  }
+
+
+  h2 {
+    font-size: 32px;
+    @include desktop {
+    font-size: 40px;
+  }
+    margin: 0;
+    font-weight: 500;
+  }
+
+  p {
+      @include mobile {
+    font-size: 18px;
+  }
+  }
+
+  button {
+    margin: 24px 0;
+  }
+
+  .chat-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .chat {
+    padding: 24px 0 !important;
+
+      @include mobile {
+        display: none;
+      }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}

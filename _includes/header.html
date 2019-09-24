@@ -5,50 +5,37 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
-    <meta name="robots" content="NOINDEX, NOFOLLOW">
-
-
-    <title>JOHN EGAN | DESIGN + DEVELOPMENT</title>
+    <title>John Egan | Product Designer</title>
 
     <meta name="google-site-verification" content="AXsTAb9wZHd9-TnJQlwhRtOl3lhHvurG30U8Jq5xbSU" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119935096-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119935096-1');
+    </script>
 
 
-    <meta name="description" content="{{ site.site_description }}" />
-    <meta name="author" content="{{ site.author.name }}" />
-    <meta name="copyright" content="{{ site.copyright }}"/>
+    <meta name="description" content="From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital experience one pixel at a time." />
+    <meta name="author" content="John Egan" />
+    <meta name="copyright" content="2019"/>
 
+    <meta property='og:title' content="John Egan | Design & Development"/>
+    <meta property='og:image' content=""/>
+    <meta property='og:description' content="From Super Bowl champions to tech startups, from Boston to Boulder, I’ve helped companies shape their digital experience one pixel at a time."/>
+    <meta property='og:url' content="https://johnegan.io" />
 
-    <!-- 404 Redirect -->
-    {% if page.url == "/404.html" %}
-      <meta http-equiv="refresh" content="5; url=/">
-    {% endif %}
-    <!-- /404 Redirect -->
-
-
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300|Roboto:900" rel="stylesheet">
+    <script src="https://use.fontawesome.com/98fc17ae4a.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&display=swap" rel="stylesheet">
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-
-    <link rel="stylesheet" type="text/css" href="{{ page.base_url }}assets/css/jquery.fullPage.min.css" />
-    <script src="{{ page.base_url }}assets/js/jquery.easings.min.js"></script>
-<script type="text/javascript" src="{{ page.base_url }}assets/js/scrolloverflow.min.js"></script>
-
-<script type="text/javascript" src="{{ page.base_url }}assets/js/jquery.fullPage.min.js"></script>
-
-
-    <script src="https://use.fontawesome.com/98fc17ae4a.js"></script>
     <link rel="stylesheet" href="{{ site.url }}/assets/css/animate.css?v=20171213" />
     <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css" />
 
 
 </head>
-<body class="{{ page.class }}">

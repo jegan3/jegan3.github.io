@@ -1,0 +1,307 @@
+html, body {
+  padding:0;
+  margin:0;
+  overflow-x:hidden;
+  background: $blue;
+}
+
+
+
+
+#hero {
+
+  .row {
+
+      margin: 0;
+
+  }
+
+  .container-fluid {
+    width: 100vw;
+
+  }
+}
+
+
+.card {
+  border: 0;
+  // border: 1px solid darken($grey, 2%);
+  z-index: 2;
+  border-radius: 4px;
+  box-shadow: 1px 1px 30px rgba($black, .2);
+
+  .card-block {
+  padding: 30px 1.25rem;
+  }
+
+  .logo {
+    width: auto;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card-img-top {
+    width: 100%;
+  }
+
+  .link {
+    padding-top: 16px;
+  }
+}
+
+.hero {
+    flex-direction:column;
+
+
+}
+
+.column {
+  flex-direction:column;
+}
+
+  .fh-100 {
+      @media (min-width: $desktop) {
+    padding: 0;
+    height: 100vh;
+  }
+    }
+
+.p-0 {
+  padding:0;
+}
+
+.white {
+  background: $white;
+}
+
+.grey {
+  background: $grey;
+}
+
+.blue {
+  background: $blue;
+}
+
+.black {
+  background: $black;
+}
+
+.blue-black {
+  background: linear-gradient($blue, $black);
+}
+
+.padding {
+  padding: 80px 15px;
+}
+
+.slice {
+  @media (min-width: $desktop) {
+  margin-top: -220px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 32%, 100% 0, 100% 100%, 0 100%);
+  padding: 160px 0 0 0;
+}
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+
+  @media (min-width: $desktop) {
+    .mob-yes {
+      display:none
+    }
+  }
+
+  @media (max-width: $desktop) {
+    .mob-no {
+      display:none
+    }
+  }
+
+
+  .email {
+
+  a {
+    color: $blue-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $blue;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+}
+
+
+.social {
+  font-size:16px;
+  font-weight:900;
+  font-family: 'Roboto', sans-serif;
+  color: $blue-light;
+
+  .fa {
+    font-size:22px;
+    margin-right: 2px;
+
+  }
+
+@media (max-width: $desktop) {
+  display: none;
+}
+}
+
+footer {
+  padding: 24px 0;
+  color: $blue-light;
+  font-size:16px;
+  font-weight:300;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.wow {
+  visibility: hidden;
+}
+
+.icon {
+  width: 48px;
+  padding: 1rem 0;
+}
+
+@media (min-width: $desktop) {
+
+.intro {
+ p {
+   column-count: 2;
+ }
+}
+
+}
+
+.gradient-bg {
+  background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f8f9fa 50%,#f8f9fa 100%);
+  background: linear-gradient(135deg, #ffffff 0%,#f8f9fa 50%,#f8f9fa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f9fa',GradientType=1 )
+}
+
+.gradient-bg-2 {
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #f8f9fa 100%);
+background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f8f9fa 100%);
+background: linear-gradient(120deg, #ffffff 0%,#f8f9fa 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8f9fa',GradientType=1 );
+}
+
+.screen {
+  @include padding;
+}
+
+.pics {
+  .container-fluid {
+
+    .row {
+
+      padding: 0 7.5px;
+      margin:0;
+
+    div {
+      padding: 15px 7.5px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+  }
+}
+
+.slider {
+  @include padding;
+}
+
+.down {
+
+
+
+p {
+  font-size: 24px;
+
+  a {
+    color: #fff !important;
+  }
+
+  .fa-angle-down {
+    padding: 24px 28px;
+  border-radius: 50%;
+  background: rgba($white, .3);
+  transition: all .2s ease-in-out;
+
+  &:hover {
+background: rgba($white, .4);
+transition: all .2s ease-in-out;
+  }
+  }
+}
+
+@media (max-width: 1200px) {
+  margin-bottom: -20vh;
+  padding-bottom: 80px;
+}
+}
+
+@keyframes lolol {
+  0%   {padding: 24px 28px 24px 28px}
+  25%  {padding: 25px 28px 23px 28px}
+  50%  {padding: 26px 28px 22px 28px}
+  75%  {padding: 25px 28px 23px 28px}
+  100% {padding: 24px 28px 24px 28px}
+}
+
+.carousel-indicators {
+  bottom: -60px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  color: $blue;
+  opacity: 1;
+
+  &:hover, &:visited, &:active, &:focus {
+    color: $blue;
+  }
+}
+
+.carousel-indicators {
+
+  li { background-color: $grey-darker}
+  .active {
+  background-color: $blue;
+}
+}
+
+.full {
+  padding: 24px 0;
+  border-bottom: 1px solid $grey-darker;
+
+  p {
+    margin-bottom: 0;
+
+  a {
+
+    font-family: 'Roboto', sans-serif;
+
+    &:hover {
+      text-decoration:underline;
+    }
+  }
+  }
+}
+
+#contact {
+  padding: 160px 0;
+}
+
+.main-cta {
+  padding-top: 24px;
+}
